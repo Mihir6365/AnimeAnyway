@@ -106,7 +106,7 @@
 
   .lastImage {
     height: 38%;
-    background-image: url("./channels4_banner(1).jpg");
+    background-image: url("./channels4_banner(1).webp");
     background-color: rgba(255, 255, 255, 0.1);
     background-blend-mode: lighten;
     background-repeat: no-repeat;
@@ -181,7 +181,7 @@
 
   .lastImage {
     height: 38%;
-    background-image: url("./channels4_banner(1).jpg");
+    background-image: url("./channels4_banner(1).webp");
     background-color: rgba(255, 255, 255, 0.1);
     background-blend-mode: lighten;
     background-repeat: no-repeat;
@@ -333,7 +333,7 @@
     /* display: block; */
     height: 200px;
     width: 100%;
-    background-image: url("./channels4_banner(1).jpg");
+    background-image: url("./channels4_banner(1).webp");
     background-color: rgba(255, 255, 255, 0.1);
     /* background-blend-mode: lighten; */
     background-repeat: no-repeat;

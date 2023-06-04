@@ -33,7 +33,7 @@
         rgba(0, 0, 0, 0.2) 97%,
         rgba(255, 255, 255, 0) 100%
       ),
-      url("../../cl2-header.jpg");
+      url("../../cl2-header.webp");
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
@@ -80,7 +80,7 @@
         rgba(0, 0, 0, 0.2) 97%,
         rgba(255, 255, 255, 0) 100%
       ),
-      url("../../cl2-header.jpg");
+      url("../../cl2-header.webp");
     background-size: auto 100%;
     background-position: 10% 0%;
   }
@@ -140,7 +140,7 @@
         rgba(0, 0, 0, 0.2) 97%,
         rgba(255, 255, 255, 0) 100%
       ),
-      url("../../cl2-header.jpg");
+      url("../../cl2-header.webp");
   }
   .homebtn {
     margin-top: 484px;

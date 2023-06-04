@@ -36,7 +36,11 @@ export default function Content() {
               <br /><br />
               Year 2 Volume 9.5 will be out in June, and translation will take few weeks.
               <br /><br />
-              <a href="https://www.youtube.com/@ANIMEANYWAY" target="_blank" rel="noreferrer">Subscribe to the youtube channel to stay updated to the latest Classroom of the Elite news.</a>
+              <a href="https://www.youtube.com/@ANIMEANYWAY" target="_blank" rel="noreferrer">Subscribe to my youtube channel to stay updated to the latest Classroom of the Elite news.</a>
+              <br /><br />
+              Note that the translations are not official and are done by me and my team.
+              <br /><br />
+              You can read, download and stay updated on the latest Classroom Of The Elite news by bookmarking this website
             </strong>
           </div>
         </div>
