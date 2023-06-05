@@ -118,6 +118,7 @@
 }
 
 .pdf-viewer-container {
+  user-select: none;
   height: 90%;
   width: 90%;
   position: relative;
