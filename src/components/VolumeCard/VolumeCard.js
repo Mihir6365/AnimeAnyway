@@ -1,9 +1,15 @@
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import React from "react";
+import { useState ,useEffect} from "react";
 import { Link } from "react-router-dom";
 import '../VolumeCard/VolumeCardStyle.css';
 
+
 export default function VolumeCard({ card, index }) {
+
+  
+  
+
   return (
     <>
       <div className="center">

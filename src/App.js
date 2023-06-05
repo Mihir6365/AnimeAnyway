@@ -5,6 +5,7 @@ import BuyMeCoffee from './components/BuyMeCoffee/BuyMeCoffee';
 import Header from './components/ChannelHeader/Header.js';
 import Content from './components/Content/Content.js';
 import Footer from './components/Footer/Footer.js';
+import ReadingPage from './components/ReadingPage/ReadingPage';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Content />} />
+          <Route path="/read" element={<ReadingPage />} />
         </Routes>
         <BuyMeCoffee />
         <Footer />
