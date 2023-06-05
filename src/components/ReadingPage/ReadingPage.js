@@ -5,18 +5,6 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import axios from "axios";
-// import { ProgressBar, SpecialZoomLevel, ThemeContext, Viewer, ViewMode, Worker } from "@react-pdf-viewer/core";
-// import "@react-pdf-viewer/core/lib/styles/index.css";
-// import "@react-pdf-viewer/default-layout/lib/styles/index.css";
-// import {
-//   fullScreenPlugin
-// } from "@react-pdf-viewer/full-screen";
-// import "@react-pdf-viewer/full-screen/lib/styles/index.css";
-// import {
-//   pageNavigationPlugin, RenderCurrentPageLabelProps
-// } from "@react-pdf-viewer/page-navigation";
-// import "@react-pdf-viewer/page-navigation/lib/styles/index.css";
-// import { themePlugin } from "@react-pdf-viewer/theme";
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { translatedVolume } from "../../constants/volumeObj.js";
@@ -36,20 +24,7 @@ export default function ReadingPage() {
   var volume_index = 0, theme = "light";
   volume_index = new URLSearchParams(search).get("volume");
   theme = new URLSearchParams(search).get("theme");
-  // const pageNavigationPluginInstance = pageNavigationPlugin();
-  // const { jumpToPage, CurrentPageInput, CurrentPageLabel } =
-  //   pageNavigationPluginInstance;
-  // const fullScreenPluginInstance = fullScreenPlugin({
-  //   onEnterFullScreen: (zoom) => {
-  //     zoom(SpecialZoomLevel.zoom = zoomIndex);
-  //   },
-  //   onExitFullScreen: (zoom) => {
-  //     zoom(SpecialZoomLevel.PageFit);
-  //   },
-  // },);
-  // const { EnterFullScreen } = fullScreenPluginInstance;
-  // const themePluginInstance = themePlugin();
-  // const { SwitchThemeButton } = themePluginInstance;
+
   const [pageNumber, setPageNumber] = useState(0);
   const [chapters, setChapters] = useState([])
   const [totalPage, setTotalPage] = useState()
@@ -57,32 +32,39 @@ export default function ReadingPage() {
   const [currentTheme, setCurrentTheme] = React.useState(theme);
   const [pdfTheme, setpdfTheme] = React.useState(theme);
   const [name, setname] = useState('')
+  const [folderName,setFolderName] = useState('')
   const themeContext = { currentTheme, setCurrentTheme };
-
-
   const [htmlData,setHtmlData] = useState()
 
   const link = "../../assets/html/Year 2 Volume 9/Chapter 1/index.html"
 
+  // Displaying html 
   useEffect(()=>{
-    fetch('../../assets/html/Year 2 Volume 9/Chapter 1/index.html').then(e=>{
-      console.log(e.url)
-      getHtml(e.url)
-    })
+    getHtml("Year 2 Volume 9","Chapter 1")
   },[])
 
-  async function getHtml(url){
+  function getHtml(folderName,chapterName){
+    fetch(`../../assets/html/${folderName}/${chapterName}/index.html`).then(e=>{
+      console.log(e.url)
+      getHtmlData(e.url)
+    })
+  }
+
+  async function getHtmlData(url){ 
     await axios.get(url).then(e=>{console.log(e.data)
     setHtmlData(e.data)})
   }
 
-  function renderHtmlData(){
-    Document.getElementById('renderHtml')
+  function changeChap(chapterName){
+    console.log("folderName",folderName)
+    getHtml(folderName,chapterName)
   }
+
 
 
   useEffect(() => {
     setChapters(translatedVolume[volume_index].chapter);
+    setFolderName(translatedVolume[volume_index].folderName)
     setChapterName(translatedVolume[volume_index].chapter[0].name);
     setTotalPage(translatedVolume[volume_index].totalPage);
     setPageNumber(translatedVolume[volume_index].chapter[0].pageNo);
@@ -113,11 +95,6 @@ export default function ReadingPage() {
 
   return (
     <div className="maindiv">
-      {/* <CurrentPageLabel>
-        {(props: RenderCurrentPageLabelProps) => (
-          <span id='currpage' className="hidden">{`${props.currentPage}`}</span>
-        )}
-      </CurrentPageLabel> */}
       <h1 className="heading">Classroom Of The Elite {name}</h1>
       <div className="reading-container">
         <div className="label-tab">
@@ -135,39 +112,15 @@ export default function ReadingPage() {
           <div className="theme-btn" onClick={() => {
             changePDF()
           }}>
-            {/* <ThemeContext.Provider value={themeContext}>
-              <div className="switchthemebtn">
-                <div className="bt1">
-                  <SwitchThemeButton />
-                </div>
-                <div className="bt2">
-                  <SwitchThemeButton />
-                </div>
-              </div>
-            </ThemeContext.Provider> */}
           </div>
 
           <div
             className="fullscreeen-btn"
           >
-            {/* <EnterFullScreen>
-              {(props) => (
-                <>
-                  <button
-                    className="ful-btn"
-
-                    onClick={props.onClick}
-                  >
-                    <img src="https://img.icons8.com/windows/32/null/fit-to-width--v1.png" alt="full screen" />
-                  </button>
-                </>
-              )}
-            </EnterFullScreen> */}
           </div>
           <div
             className="pageInput"
           >
-            {/* <CurrentPageInput /> */}
             <div className="pageno">
               /{totalPage}</div>
           </div>
@@ -192,6 +145,7 @@ export default function ReadingPage() {
                         onClick={() => {
                           setPageNumber(e.pageNo);
                           setChapterName(e.name);
+                          changeChap(e.name)
                           // jumpToPage(e.pageNo);
                         }}
                       >
@@ -207,34 +161,6 @@ export default function ReadingPage() {
   
 
         <div className="pdf-viewer-container" id="renderHtml" dangerouslySetInnerHTML={{ __html: htmlData }}>
-          {/* <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.2.146/build/pdf.worker.min.js">
-            <Viewer
-              fileUrl={path}
-              className="viewer"
-              width="100%"
-              initialPage={pageNumber}
-              scrollMode=""
-              defaultScale={SpecialZoomLevel.PageFit}
-              theme={currentTheme}
-              plugins={
-                (
-                  [themePluginInstance],
-                  [fullScreenPluginInstance, pageNavigationPluginInstance]
-                )
-              }
-              ViewMode={ViewMode.SinglePage}
-              renderLoader={(percentages: number) => (
-                <div style={{ width: '240px' }}>
-                  <ProgressBar progress={Math.round(percentages)} />
-                </div>
-              )}
-            />
-          </Worker> */}
-          {/* <div className="scrollToTop" onClick={() => { jumpToPage(0) }}>
-            <button className="scrollToTop-btn" onClick={() => { window.scrollTo(0, 0) }}>
-              <NorthIcon />
-            </button>
-          </div> */}
         </div>
       </div>
     </div>

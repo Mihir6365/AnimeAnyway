@@ -314,6 +314,7 @@ export const translatedVolume = [
     volumeNumber: 22,
     image: require("../assets/images/Year_Two_Volume_9.webp"),
     name: "Year 2 Volume 9",
+    folderName: "Year 2 Volume 9",
     path: '../../assets/file/Year 2 Volume 9.pdf',
     darkPath: '../../assets/file/Year 2 Volume 9(dark).pdf',
     pdf_size: 3921,
