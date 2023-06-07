@@ -3,7 +3,7 @@ import TelegramIcon from "@mui/icons-material/Telegram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import React from "react";
 import banner from './channels4_banner(1).webp';
-import './FooterStyle.css';
+import './FooterStyle.css'
 
 export default function Footer() {
   return (

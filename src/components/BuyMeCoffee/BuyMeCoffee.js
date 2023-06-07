@@ -4,6 +4,7 @@ import './buyMeCoffeeStyle.css';
 export default function BuyMeCoffee() {
   return (
     <>
+      <div className="donationCont">
       <div className="coffee">
         <a href="https://www.buymeacoffee.com/animeanyway11" target="_blank" rel="noreferrer">
           <strong>
@@ -15,9 +16,11 @@ export default function BuyMeCoffee() {
         <div className="paypal">
           <strong>
             <p className='text2'>PayPal</p>
-          </strong>
+          </strong> 
         </div>
       </a>
+      </div>
+      
     </>
   );
 }

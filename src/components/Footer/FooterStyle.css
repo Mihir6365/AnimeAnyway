@@ -3,6 +3,7 @@
 @media screen and (min-width: 1150px) {
   .ChannelFooter {
     position: relative;
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
     height: 500px;

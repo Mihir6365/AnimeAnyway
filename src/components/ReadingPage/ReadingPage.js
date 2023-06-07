@@ -55,6 +55,8 @@ export default function ReadingPage() {
     setHtmlData(e.data)})
   }
 
+  //
+
   function changeChap(chapterName){
     console.log("folderName",folderName)
     getHtml(folderName,chapterName)
@@ -121,8 +123,7 @@ export default function ReadingPage() {
           <div
             className="pageInput"
           >
-            <div className="pageno">
-              /{totalPage}</div>
+            
           </div>
 
           <div
@@ -159,9 +160,10 @@ export default function ReadingPage() {
           </div>
         </div> 
   
-
-        <div className="pdf-viewer-container" id="renderHtml" dangerouslySetInnerHTML={{ __html: htmlData }}>
-        </div>
+        {/* <div className="pdfMainCont"> */}
+          <div className="pdf-viewer-container" id="renderHtml" dangerouslySetInnerHTML={{ __html: htmlData }}>
+          </div>
+        {/* </div> */}
       </div>
     </div>
   );

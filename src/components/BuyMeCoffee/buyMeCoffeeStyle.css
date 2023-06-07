@@ -1,3 +1,8 @@
+.donationCont{
+  margin-top: 10px;
+  display: block;
+}
+
 .coffee {
   height: 60px;
   width: 60%;
