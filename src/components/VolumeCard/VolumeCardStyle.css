@@ -114,14 +114,25 @@
 
 .read-button {
   border-radius: 10px;
-  height: 20px;
-  width: 60px;
-  background-color: white;
+  height: 25px;
+  position: relative;
+  right: -179px;
+  /* width: 60px; */
+  /* background-color: white; */
   text-align: center;
   padding-bottom: 3px;
-  margin-right: 5px;
+  /* margin-left: 200%; */
   color: rgb(32, 32, 32);
   font-weight: 600;
+}
+
+.read-button:hover{
+  /* right: -182px; */
+  transform: translateX(2px);
+}
+
+.nextPageBtn:hover{
+  color: rgb(74, 73, 73);
 }
 
 .downloadbutton {

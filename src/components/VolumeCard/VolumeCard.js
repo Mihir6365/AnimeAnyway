@@ -1,4 +1,6 @@
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import React from "react";
 import { useState ,useEffect} from "react";
 import { Link } from "react-router-dom";
@@ -31,19 +33,20 @@ export default function VolumeCard({ card, index }) {
           </div>
           <div className="property-social-icons">
 
+            
             <div className="read-button">
               <Link
                 to={`/read?volume=${index}&theme=light`}
                 state={{ path: card.e.path }}
                 className="downloadbutton"
               >
-                Read
+                <ArrowForwardIosIcon className="nextPageBtn"/>
               </Link>
             </div>
 
-            <Link to={`/download?volume=${index}`} className="downloadbutton" >
+            {/* <Link to={`/download?volume=${index}`} className="downloadbutton" >
               <FileDownloadIcon className="downloadbutton" />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
