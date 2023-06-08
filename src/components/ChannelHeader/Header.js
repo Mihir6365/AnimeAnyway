@@ -3,10 +3,19 @@ import { Link } from "react-router-dom";
 import './HeaderStyle.css';
 
 export default function Header() {
+
+
+  const url =window.location.pathname
+
+  const newStyles ={
+    display: "none"
+  }
+
   return (
     <>
       <Link to="/"
-        className="channelHeader"
+      className={url=="/details"?"newStyles":"channelHeader"}
+        // className="channelHeader"
         style={{
           backgroundSize: "cover"
         }}

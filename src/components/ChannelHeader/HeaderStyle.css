@@ -2,6 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap");
 
+.newStyles{
+  display: none;
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
 .homebtn {
   background-color: rgba(219, 219, 219, 0.3);
   height: 22px;

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.mainHeaderCont{
+    height: 35vh;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: -66px;
+    background: url('../VolumeDetails/Image\ 02.webp') ;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 140px;
+}
+
+.volumeImg{
+    height: 38vh;
+    width: 14vw;
+    /* background-color: blue; */
+    background: url('../VolumeDetails/pic01.jpg') ;
+    background-size: cover;
+    opacity: 0.97;
+    box-shadow: 1px 1px 8px rgb(82, 81, 81);
+    position: relative;
+    top:10vh;
+    left: 10vw;
+    border-radius: 15px;
+}
+
+.volumeTitle{
+    position: relative;
+    left: 12vw;
+    top:10vh;
+    height: 20vh;
+    width:500px;
+    /* background-color: aqua; */
+    color: aliceblue;
+    font-size: 55px;
+    font-weight: 900;
+    font-family: 'Alata', sans-serif;
+}
+
+.curStatus{
+    position: relative;
+    left: -20vw;
+    top: 37vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.statusDot{
+    height: 15px;
+    width: 15px;
+    border-radius: 30px;
+    background-color: green;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.curStatus h2{
+    font-size: 25px;
+}
+
+.synCont{
+    height: 30vh;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.synopsis{
+    max-width: 70vw;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.volumeNav{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 3.5vh;
+    /* background-color: blueviolet; */
+    justify-content: center;
+}
+
+.prevVol , .index , .nextVol{
+    width: auto;
+    height: 100%;
+    background-color: rgb(51, 50, 50);
+    color: azure;
+    margin: 0px 90px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
