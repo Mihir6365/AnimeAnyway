@@ -17,7 +17,7 @@ export const VolumeDetails = () => {
             <div className="curStatus">
                 <div className="statusDot"> 
                 </div>
-                <h2>Ongoing</h2>
+                <h2 className='statusTitle'>Ongoing</h2>
             </div>
         </div>
 
@@ -40,7 +40,46 @@ export const VolumeDetails = () => {
         </div>
 
         <div className="chapterOpt">
-
+            <div className="chapCard">
+                <h2 className='chapTitle'>
+                    Prologue - Yamamura's Monologue
+                </h2>
+                <h2 className='transType'>
+                    AnimeAnyway Fan translation
+                </h2>
+            </div>
+            <div className="chapCard">
+                <h2 className='chapTitle'>
+                    Prologue - Yamamura's Monologue
+                </h2>
+                <h2 className='transType'>
+                    AnimeAnyway Fan translation
+                </h2>
+            </div>
+            <div className="chapCard">
+                <h2 className='chapTitle'>
+                    Chapter 1 
+                </h2>
+                <h2 className='transType'>
+                    AnimeAnyway Fan translation
+                </h2>
+            </div>
+            <div className="chapCard">
+                <h2 className='chapTitle'>
+                    Chapter 2
+                </h2>
+                <h2 className='transType'>
+                    AnimeAnyway Fan translation
+                </h2>
+            </div>
+            <div className="chapCard">
+                <h2 className='chapTitle'>
+                    Chapter 3
+                </h2>
+                <h2 className='transType'>
+                    AnimeAnyway Fan translation
+                </h2>
+            </div>
         </div>
     </>
   ) 
