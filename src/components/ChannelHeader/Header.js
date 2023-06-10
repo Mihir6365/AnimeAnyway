@@ -4,9 +4,9 @@ import './HeaderStyle.css';
 
 export default function Header() {
 
-
-  const url =window.location.pathname
-
+  // window.location.reload()
+  // const url =window.location.pathname
+  // console.log(url)
   const newStyles ={
     display: "none"
   }
@@ -14,7 +14,8 @@ export default function Header() {
   return (
     <>
       <Link to="/"
-      className={url=="/details"?"newStyles":"channelHeader"}
+      className="channelHeader"
+      // className={url=="/details"?"newStyles":"channelHeader"}
         // className="channelHeader"
         style={{
           backgroundSize: "cover"

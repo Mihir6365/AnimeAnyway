@@ -1,7 +1,12 @@
 import React from 'react'
+import { useEffect } from 'react'
 import "./VolumeDetailsStyles.css"
 
-export const VolumeDetails = () => {
+export const VolumeDetails = ({onChange,value}) => {
+
+    useEffect(()=>{
+        onChange(!value)
+    },[])
 
     return (
         <>
