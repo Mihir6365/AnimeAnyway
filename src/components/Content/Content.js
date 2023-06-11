@@ -3,14 +3,17 @@ import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import React from "react";
+import { useEffect } from "react";
 import { translatedVolume, volumeData } from '../../constants/volumeObj.js';
 import VolumeCard from "../VolumeCard/VolumeCard.js";
 import './ContentStyle.css';
 
-export default function Content() {
+export default function Content({onChange}) {
   const volumes = volumeData.slice(0).reverse();
   const transVolumes = translatedVolume.slice(0).reverse();
-
+  useEffect(()=>{
+    onChange(true)
+  },[])
   return (
     <>
       <div className="main-container">

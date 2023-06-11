@@ -13,7 +13,7 @@ import "./DarkMode.css";
 import { ReactComponent as Moon } from "./Moon.svg";
 import { ReactComponent as Sun } from "./Sun.svg";
 
-export default function ReadingPage() {
+export  const ReadingPage = ({onChange})=>{
   const search = useLocation().search;
   var zoomIndex = 1.8
   // eslint-disable-next-line no-restricted-globals
@@ -23,6 +23,7 @@ export default function ReadingPage() {
   screenWidth >= 1024 ? console.log("width = 1024") : zoomIndex = newWidth
   var volume_index = 0, theme = "light";
   volume_index = new URLSearchParams(search).get("volume");
+  console.log(volume_index)
   theme = new URLSearchParams(search).get("theme");
 
   const [pageNumber, setPageNumber] = useState(0);
@@ -39,9 +40,7 @@ export default function ReadingPage() {
   const link = "../../assets/html/Year 2 Volume 9/Chapter 1/index.html"
 
   // Displaying html 
-  useEffect(()=>{
-    getHtml("Year 2 Volume 9","Chapter 1")
-  },[])
+  
 
   function getHtml(folderName,chapterName){
     fetch(`../../assets/html/${folderName}/${chapterName}/index.html`).then(e=>{
@@ -62,7 +61,11 @@ export default function ReadingPage() {
     getHtml(folderName,chapterName)
   }
 
-
+  useEffect(()=>{
+    console.log(new URLSearchParams(search).get("chapter"))
+    getHtml(translatedVolume[new URLSearchParams(search).get("volume")].folderName,new URLSearchParams(search).get("chapter"))
+    onChange(true)
+  },[])
 
   useEffect(() => {
     setChapters(translatedVolume[volume_index].chapter);
@@ -74,11 +77,11 @@ export default function ReadingPage() {
     window.scrollTo(0, 0);
   }, [volume_index])
 
-  const darkPath = translatedVolume[volume_index].darkPath;
+  // const darkPath = translatedVolume[volume_index].darkPath;
   const lightPath = translatedVolume[volume_index].path;
 
   let path
-  pdfTheme === "light" ? path = lightPath : path = darkPath
+  pdfTheme === "light" ? path = lightPath : path = lightPath
 
   useEffect(() => {
     if (pdfTheme === "dark") {

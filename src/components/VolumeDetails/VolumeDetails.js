@@ -1,12 +1,63 @@
 import React from 'react'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
+import { useLocation } from 'react-router-dom';
+import { translatedVolume } from "../../constants/volumeObj.js";
+import { Link } from "react-router-dom";
 import "./VolumeDetailsStyles.css"
 
-export const VolumeDetails = ({onChange,value}) => {
+export const VolumeDetails = ({ onChange, value }) => {
 
-    useEffect(()=>{
-        onChange(!value)
-    },[])
+    const [chapters, setChapters] = useState([])
+    const [totalPage, setTotalPage] = useState([])
+    const [volumeName, setVolumeName] = useState()
+    const [chapterName, setChapterName] = useState([])
+    const [prevVolumeIndex,setPrevVolumeIndex] = useState()
+    const [nextVolumeIndex,setNextVolumeIndex] = useState()
+    
+    // function getVolumeIndex(){
+    //     translatedVolume.map(e => {
+    //         volumeIndexList.push(count)
+    //         console.log(count)
+    //         console.log(volumeIndexList[count])
+    //         count++
+    //     })
+    // }
+    
+    var volume_index , theme = "light";
+    const volumeIndexList = []
+    const leastVolumeIndex = 0
+    const maxVolumeIndex = translatedVolume.length-1
+    // const prevVolumeIndex = volume_index-1;
+    // const nextVolumeIndex = volume_index+1;
+    let currVolumeIndex = volume_index
+    const search = useLocation().search;
+    const loc = useLocation()
+    const { path } = loc.state
+    let { index } = loc.state
+    // console.log(path ,index)
+    volume_index = new URLSearchParams(search).get("volume");
+    console.log(translatedVolume)
+    // console.log(path)
+    useEffect(() => {
+        onChange(false)
+        // getVolumeIndex()
+    }, []) 
+
+    useEffect(() => {
+        console.log(translatedVolume[volume_index])
+        console.log(volume_index)
+        console.log(index)
+        console.log(prevVolumeIndex)
+        console.log(nextVolumeIndex)
+        setChapters(translatedVolume[volume_index].chapter);
+        setChapterName(translatedVolume[volume_index].chapter[0].name);
+        setTotalPage(translatedVolume[volume_index].totalPage);
+        setVolumeName(translatedVolume[volume_index].name)
+        setPrevVolumeIndex((new URLSearchParams(search).get("volume"))-1)
+        setNextVolumeIndex(parseInt(new URLSearchParams(search).get("volume"))+1)
+        window.scrollTo(0, 0);
+        console.log(translatedVolume[volume_index])
+    }, [volume_index])
 
     return (
         <>
@@ -17,7 +68,8 @@ export const VolumeDetails = ({onChange,value}) => {
                 }}>
                 </div>
                 <div className="volumeTitle">
-                    Cote Year 2 volume 9.5
+                    {/* Cote Year 2 volume 9.5 */}
+                    {volumeName}
                 </div>
                 <div className="curStatus">
                     <div className="statusDot">
@@ -49,59 +101,72 @@ export const VolumeDetails = ({onChange,value}) => {
                 </div>
             </div>
 
-            <div className="volumeNav">
-                <div className="prevVol">
+            <div className="volumeNav ">
+                {
+                    volume_index == leastVolumeIndex ? <>
+                        <div className="prevVol disable">
+                            Previous
+                        </div>
+                    </> : <>
+                        <Link 
+                            to={`/details?volume=${(prevVolumeIndex)}`}
+                            state={{ path: path , index:(prevVolumeIndex)}}
+                        >
+                            <div className="prevVol">
+                                Previous
+                            </div>
+                        </Link>
+                    </>
+                }
+                {/* <div className="prevVol">
                     Previous
-                </div>
+                </div> */}
                 <div className="index">
                     Index
                 </div>
-                <div className="nextVol">
+                {/* <div className="nextVol">
                     Next
-                </div>
+                </div> */}
+                {
+                    volume_index == maxVolumeIndex ? <>
+                        <div className="nextVol disable">
+                            Next
+                        </div>
+                    </> : <>
+                        <Link
+                            to={`/details?volume=${(nextVolumeIndex)}`}
+                            state={{ path: path , index:(nextVolumeIndex)}}
+                        >
+                            <div className="nextVol">
+                                Next
+                            </div>
+                        </Link>
+                    </>
+                }
             </div>
 
             <div className="chapterOpt">
-                <div className="chapCard">
-                    <h2 className='chapTitle'>
-                        Prologue - Yamamura's Monologue
-                    </h2>
-                    <h2 className='transType'>
-                        AnimeAnyway Fan translation
-                    </h2>
-                </div>
-                <div className="chapCard">
-                    <h2 className='chapTitle'>
-                        Prologue - Yamamura's Monologue
-                    </h2>
-                    <h2 className='transType'>
-                        AnimeAnyway Fan translation
-                    </h2>
-                </div>
-                <div className="chapCard">
-                    <h2 className='chapTitle'>
-                        Chapter 1
-                    </h2>
-                    <h2 className='transType'>
-                        AnimeAnyway Fan translation
-                    </h2>
-                </div>
-                <div className="chapCard">
-                    <h2 className='chapTitle'>
-                        Chapter 2
-                    </h2>
-                    <h2 className='transType'>
-                        AnimeAnyway Fan translation
-                    </h2>
-                </div>
-                <div className="chapCard">
-                    <h2 className='chapTitle'>
-                        Chapter 3
-                    </h2>
-                    <h2 className='transType'>
-                        AnimeAnyway Fan translation
-                    </h2>
-                </div>
+                {
+                    chapters.map(e => {
+                        return <>
+                            <Link
+                                to={`/read?volume=${index}&chapter=${e.name}&theme=light`}
+                                state={{ path: path }}
+                            >
+                                <div className="chapCard">
+                                    <h2 className='chapTitle'>
+                                        {e.name}
+                                    </h2>
+                                    <h2 className='transType'>
+                                        AnimeAnyway Fan translation
+                                    </h2>
+                                </div>
+                            </Link>
+                        </>
+                    })
+                }
+
+
             </div>
         </>
     )

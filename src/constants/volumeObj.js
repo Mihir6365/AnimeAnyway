@@ -320,11 +320,12 @@ export const translatedVolume = [
     pdf_size: 3921,
     epub_size: 12002,
     totalPage: 343,
+    // folderName:"Year 2 Volume 9",
     chapter: [
-      {
-        name: "Cover",
-        pageNo: 0
-      },
+      // {
+      //   name: "Cover",
+      //   pageNo: 0
+      // },
       {
         name: "Index",
         pageNo: 8

@@ -38,7 +38,7 @@ export default function VolumeCard({ card, index }) {
               <Link
                 // to={`/read?volume=${index}&theme=light`}
                 to={`/details?volume=${index}`}
-                state={{ path: card.e.path }}
+                state={{ path: card.e.path , index:index}}
                 className="downloadbutton"
               >
                 <ArrowForwardIosIcon className="nextPageBtn"/>
