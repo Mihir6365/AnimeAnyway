@@ -936,7 +936,13 @@
             font-family: "Arial"
         }
 
-        h1 {
+        .doc-content{
+           /* height: 100vh; */
+           /* display: table; */
+
+        }
+
+        .doc-content > h1 {
             padding-top: 0pt;
             color: #000000;
             font-weight: 700;

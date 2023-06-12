@@ -313,6 +313,7 @@ export const translatedVolume = [
   {
     volumeNumber: 22,
     image: require("../assets/images/Year_Two_Volume_9.webp"),
+    volumeImg:'/assets/html/Year 2 Volume 9/images/image1.webp',
     name: "Year 2 Volume 9",
     folderName: "Year 2 Volume 9",
     path: '../../assets/file/Year 2 Volume 9.pdf',

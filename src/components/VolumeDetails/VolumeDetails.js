@@ -5,28 +5,21 @@ import { translatedVolume } from "../../constants/volumeObj.js";
 import { Link } from "react-router-dom";
 import "./VolumeDetailsStyles.css"
 
-export const VolumeDetails = ({ onChange, value }) => {
+export const VolumeDetails = () => {
 
     const [chapters, setChapters] = useState([])
     const [totalPage, setTotalPage] = useState([])
     const [volumeName, setVolumeName] = useState()
     const [chapterName, setChapterName] = useState([])
-    const [prevVolumeIndex,setPrevVolumeIndex] = useState()
-    const [nextVolumeIndex,setNextVolumeIndex] = useState()
-    
-    // function getVolumeIndex(){
-    //     translatedVolume.map(e => {
-    //         volumeIndexList.push(count)
-    //         console.log(count)
-    //         console.log(volumeIndexList[count])
-    //         count++
-    //     })
-    // }
-    
-    var volume_index , theme = "light";
+    const [prevVolumeIndex, setPrevVolumeIndex] = useState()
+    const [nextVolumeIndex, setNextVolumeIndex] = useState()
+    const [volumeImg, setVolumeImg] = useState()
+
+
+    var volume_index, theme = "light";
     const volumeIndexList = []
     const leastVolumeIndex = 0
-    const maxVolumeIndex = translatedVolume.length-1
+    const maxVolumeIndex = translatedVolume.length - 1
     // const prevVolumeIndex = volume_index-1;
     // const nextVolumeIndex = volume_index+1;
     let currVolumeIndex = volume_index
@@ -36,37 +29,29 @@ export const VolumeDetails = ({ onChange, value }) => {
     let { index } = loc.state
     // console.log(path ,index)
     volume_index = new URLSearchParams(search).get("volume");
-    console.log(translatedVolume)
+    // console.log(translatedVolume)
     // console.log(path)
-    useEffect(() => {
-        onChange(false)
-        // getVolumeIndex()
-    }, []) 
 
     useEffect(() => {
-        console.log(translatedVolume[volume_index])
-        console.log(volume_index)
-        console.log(index)
-        console.log(prevVolumeIndex)
-        console.log(nextVolumeIndex)
         setChapters(translatedVolume[volume_index].chapter);
         setChapterName(translatedVolume[volume_index].chapter[0].name);
         setTotalPage(translatedVolume[volume_index].totalPage);
         setVolumeName(translatedVolume[volume_index].name)
-        setPrevVolumeIndex((new URLSearchParams(search).get("volume"))-1)
-        setNextVolumeIndex(parseInt(new URLSearchParams(search).get("volume"))+1)
+        setVolumeImg(translatedVolume[volume_index].volumeImg)
+        setPrevVolumeIndex((new URLSearchParams(search).get("volume")) - 1)
+        setNextVolumeIndex(parseInt(new URLSearchParams(search).get("volume")) + 1)
         window.scrollTo(0, 0);
         console.log(translatedVolume[volume_index])
     }, [volume_index])
 
     return (
         <>
+            {console.log(volumeImg)}
             <div className="mainHeaderCont">
-                <div className="volumeImg" styles={{
-                    background: "url('../VolumeDetails/pic01.jpg')",
-                    backgroundSize: "cover"
-                }}>
-                </div>
+                <img className="volumeImg"
+                    src={process.env.PUBLIC_URL + volumeImg}
+                >
+                </img>
                 <div className="volumeTitle">
                     {/* Cote Year 2 volume 9.5 */}
                     {volumeName}
@@ -74,7 +59,7 @@ export const VolumeDetails = ({ onChange, value }) => {
                 <div className="curStatus">
                     <div className="statusDot">
                     </div>
-                    <h2 className='statusTitle'>Ongoing</h2>
+                    <div className='statusTitle'>Ongoing</div>
                 </div>
             </div>
 
@@ -108,9 +93,9 @@ export const VolumeDetails = ({ onChange, value }) => {
                             Previous
                         </div>
                     </> : <>
-                        <Link 
+                        <Link
                             to={`/details?volume=${(prevVolumeIndex)}`}
-                            state={{ path: path , index:(prevVolumeIndex)}}
+                            state={{ path: path, index: (prevVolumeIndex) }}
                         >
                             <div className="prevVol">
                                 Previous
@@ -121,9 +106,17 @@ export const VolumeDetails = ({ onChange, value }) => {
                 {/* <div className="prevVol">
                     Previous
                 </div> */}
-                <div className="index">
+                {/* <div className="index">
                     Index
-                </div>
+                </div> */}
+                <Link
+                    to={`/read?volume=${index}&chapter=${'Index'}&theme=light`}
+                    state={{ path: path }}
+                >
+                    <div className="index">
+                        Index
+                    </div>
+                </Link>
                 {/* <div className="nextVol">
                     Next
                 </div> */}
@@ -135,7 +128,7 @@ export const VolumeDetails = ({ onChange, value }) => {
                     </> : <>
                         <Link
                             to={`/details?volume=${(nextVolumeIndex)}`}
-                            state={{ path: path , index:(nextVolumeIndex)}}
+                            state={{ path: path, index: (nextVolumeIndex) }}
                         >
                             <div className="nextVol">
                                 Next
@@ -154,12 +147,12 @@ export const VolumeDetails = ({ onChange, value }) => {
                                 state={{ path: path }}
                             >
                                 <div className="chapCard">
-                                    <h2 className='chapTitle'>
+                                    <div className='chapTitle'>
                                         {e.name}
-                                    </h2>
-                                    <h2 className='transType'>
+                                    </div>
+                                    <div className='transType'>
                                         AnimeAnyway Fan translation
-                                    </h2>
+                                    </div>
                                 </div>
                             </Link>
                         </>

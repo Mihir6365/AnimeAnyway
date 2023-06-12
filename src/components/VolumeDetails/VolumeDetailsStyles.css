@@ -22,7 +22,7 @@
     /* width: 14vw; */
     width: 200px;
     /* background-color: blue; */
-    background: url('../VolumeDetails/pic01.jpg') ;
+    /* background: url('../VolumeDetails/pic01.jpg') ; */
     background-size: cover;
     opacity: 0.97;
     box-shadow: 1px 1px 8px rgb(82, 81, 81);
@@ -64,7 +64,7 @@
     margin-top: 10px;
 }
 
-.curStatus h2{
+.statusTitle{
     font-size: 25px;
     margin: 0px;
 }
@@ -150,7 +150,7 @@
     flex-direction: row;
     padding: 5px 10px;
     align-items: center;
-    font-size: 1vw;
+    font-size: 1.2vw;
     box-shadow: 1px 1px 6px rgb(82, 81, 81);
     cursor: pointer;
 }
@@ -177,7 +177,7 @@
 
     .curStatus{
         position: relative;
-        left: -250px;
+        left: -32px;
         top: 37vh;
         display: flex;
         flex-direction: row;
@@ -193,7 +193,7 @@
         margin-top: 8px;
     }
     
-    .curStatus h2{
+    .statusTitle{
         font-size: 20px;
         margin: 0px;
     }
@@ -260,7 +260,7 @@
         margin-top: 8px;
     }
     
-    .curStatus h2{
+    .statusTitle{
         font-size: 20px;
         margin: 0px;
     }
@@ -326,7 +326,7 @@
         margin-top: 8px;
     }
     
-    .curStatus h2{
+    .statusTitle{
         font-size: 20px;
         margin: 0px;
     }
@@ -334,20 +334,20 @@
 @media screen and (max-width: 425px) {
     .volumeImg{
         width: 30vw;
-        height: 170px;
-        left: 5vw;
-        top:20px;
+    height: 170px;
+    left: 5vw;
+    top: 73px;
     }
     .volumeTitle{
         /* background-color: aqua; */
         font-size: 25px;
-        width: 98px;
-        top: 20px;
-        left: 17vw;
+    width: 98px;
+    top: 72px;
+    left: 17vw;
     }
 
     .mainHeaderCont{
-        height: 170px;
+        height: 200px;
         width: 100%;
         /* background-color: aqua; */
         margin-top: -66px;
@@ -360,11 +360,11 @@
 
     .curStatus{
         position: relative;
-        left: -160px;
-        top: 200px;
-        display: flex;
-        flex-direction: row;
-        font-size: 20px;
+    left: -160px;
+    top: 250px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
     }
     
     .statusDot{
@@ -376,7 +376,7 @@
         margin-top: 8px;
     }
     
-    .curStatus h2{
+    .statusTitle{
         font-size: 18px;
         margin: 0px;
     }
@@ -399,19 +399,19 @@
         flex-direction: row;
         padding: 1px 10px;
         align-items: center;
-        font-size: 8px;
+        font-size: 10px;
         box-shadow: 1px 1px 6px rgb(82, 81, 81);
     }
 
     .chapTitle{
         width:35vw;
-        font-size: 0.8rem;
+        font-size: 1rem;
         /* font-size: 12px; */
     }
     
     .transType{
         margin-left: 25%;
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 }
 

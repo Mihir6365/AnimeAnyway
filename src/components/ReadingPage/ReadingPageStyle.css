@@ -134,7 +134,7 @@
   position: relative;
   /* position: absolute; */
   top: 6%;
-  background-color: #ebebeb75;
+  /* background-color: #ebebeb75; */
   margin-top: 50px;
   margin-bottom: 50px;
   /* overflow: visible; */
@@ -275,12 +275,13 @@
   opacity: 0;
 }
 
-.maindiv > h1 {
+.heading {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   font-size: 27px;
 }
-h2 {
+.chapter-container {
   font-weight: normal;
-  font-size: inherit;
+  font-size: inherit; 
 }
+ 

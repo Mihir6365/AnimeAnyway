@@ -14,42 +14,19 @@ import { translatedVolume } from "./constants/volumeObj.js";
 
 function App() {
 
-  // window.location.reload()
-  const [showList,setShowList] = useState(true)
-  const [reloadState,setReloadState] = useState()
-  
 
-  console.log(window.location.pathname)
-
-  
-  
-
-  const handleChildStateChange = (newValue) => {
-    console.log(newValue)
-    setShowList(newValue);
-  };
-
-  useEffect(()=>{
-    handleChildStateChange(true)
-  },[])
-
-  
- 
-  // useEffect(()=>{
-  //   window.location.pathname == '/'?window.location.reload():console.log('');
-  // },[showList])
 
   return (
     <>
       <BrowserRouter>
-      {
+      {/* {
         showList?<Header />:''
-      }
+      } */}
         
         <Routes forceRefresh={true}>
-          <Route path="/" element={<Content onChange={handleChildStateChange}/>} />
-          <Route path="/read" element={<ReadingPage onChange={handleChildStateChange} />} />
-          <Route path="/details" element={<VolumeDetails onChange={handleChildStateChange} value={showList}/>}/>
+          <Route path="/" element={<Content />} />
+          <Route path="/read" element={<ReadingPage  />} />
+          <Route path="/details" element={<VolumeDetails  />}/>
         </Routes>
         <BuyMeCoffee />
         <Footer />

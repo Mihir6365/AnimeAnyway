@@ -6,16 +6,18 @@ import React from "react";
 import { useEffect } from "react";
 import { translatedVolume, volumeData } from '../../constants/volumeObj.js';
 import VolumeCard from "../VolumeCard/VolumeCard.js";
+import Header from "../ChannelHeader/Header.js";
 import './ContentStyle.css';
 
-export default function Content({onChange}) {
+export default function Content() {
   const volumes = volumeData.slice(0).reverse();
   const transVolumes = translatedVolume.slice(0).reverse();
-  useEffect(()=>{
-    onChange(true)
-  },[])
+  // useEffect(()=>{
+  //   onChange(true)
+  // },[])
   return (
     <>
+      <Header />
       <div className="main-container">
         <div className="headerName">
           Anime Anyway Translations

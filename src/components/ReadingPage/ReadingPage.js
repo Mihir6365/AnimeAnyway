@@ -12,8 +12,9 @@ import "../ReadingPage/ReadingPageStyle.css";
 import "./DarkMode.css";
 import { ReactComponent as Moon } from "./Moon.svg";
 import { ReactComponent as Sun } from "./Sun.svg";
+import Header from "../ChannelHeader/Header.js";
 
-export  const ReadingPage = ({onChange})=>{
+export  const ReadingPage = ()=>{
   const search = useLocation().search;
   var zoomIndex = 1.8
   // eslint-disable-next-line no-restricted-globals
@@ -64,7 +65,7 @@ export  const ReadingPage = ({onChange})=>{
   useEffect(()=>{
     console.log(new URLSearchParams(search).get("chapter"))
     getHtml(translatedVolume[new URLSearchParams(search).get("volume")].folderName,new URLSearchParams(search).get("chapter"))
-    onChange(true)
+    // onChange(true)
   },[])
 
   useEffect(() => {
@@ -99,6 +100,8 @@ export  const ReadingPage = ({onChange})=>{
   }
 
   return (
+    <>
+    <Header />
     <div className="maindiv">
       <h1 className="heading">Classroom Of The Elite {name}</h1>
       <div className="reading-container">
@@ -156,18 +159,19 @@ export  const ReadingPage = ({onChange})=>{
                         {e.name}
                       </h2>
                     </React.Fragment>
-                  );
+                  ); 
                 })}
-              </AccordionDetails>
+              </AccordionDetails> 
             </Accordion> 
-          </div>
-        </div> 
+          </div>  
+        </div>  
   
-        {/* <div className="pdfMainCont"> */}
+        {/* <div className="pdfMainCont"> */} 
           <div className="pdf-viewer-container" id="renderHtml" dangerouslySetInnerHTML={{ __html: htmlData }}>
           </div>
         {/* </div> */}
       </div>
-    </div>
+    </div> 
+    </>
   );
 }
