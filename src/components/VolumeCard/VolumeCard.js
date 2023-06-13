@@ -15,7 +15,7 @@ export default function VolumeCard({ card, index }) {
   return (
     <>
       <div className="center">
-        <div className="property-card">
+        <div className="property-card"> 
           <div
             className="property-image"
             style={{

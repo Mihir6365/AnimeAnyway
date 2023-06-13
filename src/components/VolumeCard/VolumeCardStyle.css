@@ -63,7 +63,9 @@
 /* Top Half of card, image. */
 
 .property-image {
-  height: 13em;
+  /* height: 13em; */
+
+  height: 18em;
   width: 14em;
   /* padding:1em 2em; */
   position: Absolute;
@@ -94,6 +96,11 @@
     rgb(243, 169, 169) 50%,
     rgb(250, 197, 161) 100%
   );
+
+  /* glass effect */
+  background-image:linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0));
+  backdrop-filter: blur(100px);
+  box-shadow: 10px 10px 10px rgba(30,30,30,0.5);
 }
 
 /* Social Icons */

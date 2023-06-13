@@ -15,6 +15,7 @@
   flex-direction: column;
   position: relative;
 }
+
 .heading {
   text-align: center;
   font-family: "Bell MT", Georgia;
@@ -24,6 +25,7 @@
   padding: 0 18px 8px;
   margin-top: 15px;
 }
+
 .pdf-display {
   margin: auto;
   width: 100%;
@@ -54,21 +56,25 @@
   display: flex;
   flex-direction: row;
 }
+
 .pageno {
   padding-top: 5px;
 }
+
 .bt1 {
   position: absolute;
   top: 50%;
   left: 5%;
   opacity: 0;
 }
+
 .bt2 {
   position: absolute;
   top: 55%;
   left: 70%;
   opacity: 0;
 }
+
 .theme-btn {
   width: 50px;
   z-index: 200;
@@ -90,7 +96,7 @@
   color: #ffffff;
   cursor: pointer;
   padding: 2px;
-}
+} 
 
 .chapter-option {
   margin: 10px;
@@ -117,28 +123,36 @@
   background-color: rgb(173, 175, 177);
 }
 
-.pdfMainCont{
-  /* height: fit-content; */
-  width: 100%;
-}
-
-
 
 .pdf-viewer-container {
-  user-select: none;
+  /* user-select: none;
   height: 90%;
-  /* min-height: 90% ; */
   display: block;
   overflow: auto;
   width: 90%;
   position: relative;
-  /* position: absolute; */
   top: 6%;
-  /* background-color: #ebebeb75; */
   margin-top: 50px;
-  margin-bottom: 50px;
-  /* overflow: visible; */
-  /* overflow-y: auto; */
+  margin-bottom: 50px; */
+
+  /* height: 100px; */
+  width: 90%;
+  height: auto;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  overflow: scroll;
+}
+/* .pdfMainCont {
+  width: 100%;
+} */
+.htmlCont {
+  /* height: fit-content; */
+  height: 100%;
+  overflow: scroll;
 }
 
 .viewer {
@@ -168,10 +182,12 @@
   .pageInput {
     left: 26%;
   }
+
   .fullscreeen-btn {
     left: 22%;
   }
 }
+
 @media screen and (max-width: 1400px) {
   .heading {
     margin-top: 0px;
@@ -190,6 +206,7 @@
     display: flex;
     flex-direction: row;
   }
+
   .chapter-option {
     margin: 10px;
     position: absolute;
@@ -213,9 +230,11 @@
     top: 7%;
     left: 70.5%;
   }
+
   .dark_mode_2 {
     top: 6%;
   }
+
   .pdf-viewer-container {
     top: 6.5%;
     height: 87%;
@@ -266,6 +285,7 @@
     top: 7%;
     left: 69%;
   }
+
   .dark_mode_2 {
     left: 70%;
   }
@@ -280,8 +300,8 @@
   font-weight: normal;
   font-size: 27px;
 }
+
 .chapter-container {
   font-weight: normal;
-  font-size: inherit; 
+  font-size: inherit;
 }
- 

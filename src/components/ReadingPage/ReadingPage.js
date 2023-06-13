@@ -6,6 +6,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { useRef } from "react";
 import { useLocation } from "react-router-dom";
 import { translatedVolume } from "../../constants/volumeObj.js";
 import "../ReadingPage/ReadingPageStyle.css";
@@ -99,6 +100,26 @@ export  const ReadingPage = ()=>{
     }
   }
 
+    const containerRef = useRef(100);
+    const [containerHeight, setContainerHeight] = useState(null);
+  
+    useEffect(() => {
+      adjustContainerHeight();
+      window.addEventListener('resize', adjustContainerHeight);
+      return () => {
+        window.removeEventListener('resize', adjustContainerHeight);
+      };
+    }, []);
+  
+    const adjustContainerHeight = () => {
+      const container = containerRef.current;
+      if (container) {
+        const contentHeight = container.scrollHeight;
+        setContainerHeight(contentHeight);
+      }
+    };
+
+
   return (
     <>
     <Header />
@@ -167,7 +188,9 @@ export  const ReadingPage = ()=>{
         </div>  
   
         {/* <div className="pdfMainCont"> */} 
-          <div className="pdf-viewer-container" id="renderHtml" dangerouslySetInnerHTML={{ __html: htmlData }}>
+          <div  className="pdf-viewer-container" id="renderHtml"  >
+            <div  className="htmlCont" dangerouslySetInnerHTML={{ __html: htmlData }} >
+            </div>
           </div>
         {/* </div> */}
       </div>
@@ -175,3 +198,4 @@ export  const ReadingPage = ()=>{
     </>
   );
 }
+ 
