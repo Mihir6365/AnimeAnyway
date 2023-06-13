@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.317ae75a.css",
+    "main.js": "/static/js/main.f9acad0a.js",
+    "static/media/cl2-header.webp": "/static/media/cl2-header.c1bf8c0ceceedd2584c4.webp",
+    "static/media/Year_Two_Volume_9.webp": "/static/media/Year_Two_Volume_9.20a22750ba7d87cd319b.webp",
+    "static/media/Year_Two_Volume_7.webp": "/static/media/Year_Two_Volume_7.237efb35a079607f4438.webp",
+    "static/media/Year_Two_Volume_8.webp": "/static/media/Year_Two_Volume_8.9cb5eec9c63a5a9ccbab.webp",
+    "static/media/Volume_0.webp": "/static/media/Volume_0.d014f935bfe641389ba0.webp",
+    "static/media/Year_Two_Volume_6.webp": "/static/media/Year_Two_Volume_6.c6c11fc3f666a3491407.webp",
+    "static/media/channels4_banner(1).webp": "/static/media/channels4_banner(1).bfcf77d7302ed07f0d0f.webp",
+    "static/media/Sun.svg": "/static/media/Sun.681607dcda2a01539a9a8a157ae74e6e.svg",
+    "index.html": "/index.html",
+    "static/media/Moon.svg": "/static/media/Moon.0a6a2b75ac51157455302ddcfca385c0.svg",
+    "main.317ae75a.css.map": "/static/css/main.317ae75a.css.map",
+    "main.f9acad0a.js.map": "/static/js/main.f9acad0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.317ae75a.css",
+    "static/js/main.f9acad0a.js"
+  ]
+}

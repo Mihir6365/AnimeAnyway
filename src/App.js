@@ -18,11 +18,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
-      {/* {
-        showList?<Header />:''
-      } */}
-        
+      <BrowserRouter>        
         <Routes forceRefresh={true}>
           <Route path="/" element={<Content />} />
           <Route path="/read" element={<ReadingPage  />} />

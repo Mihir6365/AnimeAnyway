@@ -1,420 +1,418 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 
 /* *{
     margin: 0px;
     padding: 0px;
 } */
 
-.mainHeaderCont{
-    height: 35vh;
-    width: 100%;
-    /* background-color: aqua; */
-    margin-top: -66px;
-    background: url('../VolumeDetails/Image\ 02.webp') ;
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 140px;
+.mainHeaderCont {
+  height: 35vh;
+  width: 100%;
+  /* background-color: aqua; */
+  margin-top: -66px;
+  background: url("../VolumeDetails/Image\ 02.webp");
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 140px;
 }
 
-.volumeImg{
-    height: 38vh;
-    /* width: 14vw; */
-    width: 200px;
-    /* background-color: blue; */
-    /* background: url('../VolumeDetails/pic01.jpg') ; */
-    background-size: cover;
-    opacity: 0.97;
-    box-shadow: 1px 1px 8px rgb(82, 81, 81);
-    position: relative;
-    top:10vh;
-    left: 10vw;
-    border-radius: 15px;
+.volumeImg {
+  /* width: 14vw; */
+  width: auto;
+  height: auto;
+  /* background-color: blue; */
+  /* background: url('../VolumeDetails/pic01.jpg') ; */
+  background-size: cover;
+  box-shadow: 1px 1px 8px rgb(82, 81, 81);
+  position: relative;
+  top: 15vh;
+  left: 10vw;
+  border-radius: 15px;
 }
 
-.volumeTitle{
-    position: relative;
-    left: 12vw;
-    top:10vh;
-    height: 20vh;
-    width:500px;
-    /* background-color: aqua; */
-    color: aliceblue;
-    font-size: 55px;
-    font-weight: 900;
-    font-family: 'Alata', sans-serif;
+.volumeTitle {
+  position: relative;
+  left: 12vw;
+  top: 15vh;
+  height: 20vh;
+  width: 500px;
+  /* background-color: aqua; */
+  color: aliceblue;
+  font-size: 55px;
+  font-weight: 900;
+  font-family: "Alata", sans-serif;
 }
 
-.curStatus{
+.curStatus {
+  position: relative;
+  left: -270px;
+  top: 37vh;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.statusDot {
+  height: 15px;
+  width: 15px;
+  border-radius: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.statusTitle {
+  font-size: 25px;
+  margin: 0px;
+}
+
+.synCont {
+  height: auto;
+  width: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.synopsis {
+  max-width: 70vw;
+  height: 100%;
+  /* background-color: aliceblue; */
+}
+
+.volumeNav {
+  margin-top: 50px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 3.5vh;
+  /* background-color: blueviolet; */
+  justify-content: center;
+}
+
+.prevVol,
+.index,
+.nextVol {
+  width: auto;
+  /* max-width: 5vw; */
+  height: 100%;
+  /* background-color: rgb(51, 50, 50); */
+  background: linear-gradient(
+    to right,
+    rgb(240, 108, 99) 0%,
+    rgb(216, 126, 126) 50%,
+    rgb(237, 128, 73) 100%
+  );
+  color: azure;
+  margin: 0px 4vw;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 1px 1px 6px rgb(82, 81, 81);
+  /* font-size: 5vw; */
+  padding: 5px 7px 0px 7px;
+  font-size: 1em;
+}
+
+.disable {
+  opacity: 0.5;
+}
+
+.chapterOpt {
+  /* background-color:burlywood; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.chapCard {
+  width: 70vw;
+  height: 30px;
+  border-radius: 10px;
+  /* background-color: rgb(44, 44, 44); */
+  background: linear-gradient(
+    to right,
+    rgb(240, 108, 99) 0%,
+    rgb(216, 126, 126) 50%,
+    rgb(237, 128, 73) 100%
+  );
+  margin: 20px 10px;
+  color: azure;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 10px;
+  align-items: center;
+  font-size: 1.2vw;
+  box-shadow: 1px 1px 6px rgb(82, 81, 81);
+  cursor: pointer;
+}
+
+.chapCard:hover {
+  cursor: pointer;
+}
+
+.chapTitle {
+  width: 35vw;
+}
+
+.transType {
+  margin-left: 25%;
+}
+
+@media screen and (max-width: 1800px) {
+  .curStatus {
+    left: -306px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .volumeTitle {
+    font-size: 33pt;
+    width: auto;
+  }
+
+  .curStatus {
     position: relative;
-    /* left: -20vw; */
-    left: -300px;
+    left: -100px;
     top: 37vh;
     display: flex;
     flex-direction: row;
     font-size: 20px;
-}
+  }
 
-.statusDot{
-    height: 15px;
-    width: 15px;
+  .statusDot {
+    height: 10px;
+    width: 10px;
     border-radius: 30px;
-    background-color: rgb(7, 243, 7);
     margin-right: 10px;
-    margin-top: 10px;
-}
+    margin-top: 8px;
+  }
 
-.statusTitle{
-    font-size: 25px;
+  .statusTitle {
+    font-size: 16.74pt;
     margin: 0px;
-}
+  }
 
-
-
-.synCont{
-    height: auto;
-    width: 100%;
-    /* background-color: aquamarine; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* justify-content: center; */
-}
-
-.synopsis{
-    max-width: 70vw;
-    height: 100%;
-    /* background-color: aliceblue; */
-}
-
-.volumeNav{
-    margin-top: 50px;
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    height: 3.5vh;
-    /* background-color: blueviolet; */
-    justify-content: center;
-}
-
-.prevVol , .index , .nextVol{
-    width: auto;
-    /* max-width: 5vw; */
-    height: 100%;
-    /* background-color: rgb(51, 50, 50); */
-    background: linear-gradient(
-    to right,
-    rgb(240, 108, 99) 0%,
-    rgb(216, 126, 126) 50%,
-    rgb(237, 128, 73) 100%
-  );
-    color: azure;
-    margin: 0px 4vw;
-    padding: 0px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 1px 1px 6px rgb(82, 81, 81);
-    /* font-size: 5vw; */
-    padding: 1px 4px;
-    font-size: 1em;
-}
-
-.disable{
-    opacity: 0.5;
-}
-
-.chapterOpt{
-    /* background-color:burlywood; */
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-.chapCard{
-    width: 70vw;
+  .chapCard {
+    width: 90vw;
     height: 30px;
     border-radius: 10px;
     /* background-color: rgb(44, 44, 44); */
     background: linear-gradient(
-    to right,
-    rgb(240, 108, 99) 0%,
-    rgb(216, 126, 126) 50%,
-    rgb(237, 128, 73) 100%
-  );
+      to right,
+      rgb(240, 108, 99) 0%,
+      rgb(216, 126, 126) 50%,
+      rgb(237, 128, 73) 100%
+    );
     margin: 20px 10px;
     color: azure;
     display: flex;
     flex-direction: row;
     padding: 5px 10px;
     align-items: center;
-    font-size: 1.2vw;
+    font-size: 10px;
     box-shadow: 1px 1px 6px rgb(82, 81, 81);
-    cursor: pointer;
-}
+  }
 
-.chapCard:hover{
-    cursor: pointer;
-}
+  .chapTitle {
+    width: 35vw;
+    font-size: 1rem;
+  }
 
-
-
-.chapTitle{
-    width:35vw;
-}
-
-.transType{
+  .transType {
     margin-left: 25%;
-}
-
-@media screen and (max-width: 1024px) {
-    .volumeTitle{
-        font-size: 35px;
-        width: auto;
-    }
-
-    .curStatus{
-        position: relative;
-        left: -32px;
-        top: 37vh;
-        display: flex;
-        flex-direction: row;
-        font-size: 20px;
-    }
-    
-    .statusDot{
-        height: 10px;
-        width: 10px;
-        border-radius: 30px;
-        background-color: rgb(7, 243, 7);
-        margin-right: 10px;
-        margin-top: 8px;
-    }
-    
-    .statusTitle{
-        font-size: 20px;
-        margin: 0px;
-    }
-
-    .chapCard{
-        width: 90vw;
-        height: 30px;
-        border-radius: 10px;
-        /* background-color: rgb(44, 44, 44); */
-        background: linear-gradient(
-        to right,
-        rgb(240, 108, 99) 0%,
-        rgb(216, 126, 126) 50%,
-        rgb(237, 128, 73) 100%
-      );
-        margin: 20px 10px;
-        color: azure;
-        display: flex;
-        flex-direction: row;
-        padding: 5px 10px;
-        align-items: center;
-        font-size: 10px;
-        box-shadow: 1px 1px 6px rgb(82, 81, 81);
-    }
-
-    .chapTitle{
-        width:35vw;
-        font-size: 1rem;
-    }
-    
-    .transType{
-        margin-left: 25%;
-        font-size: 1rem;
-    }
-    
-    
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .volumeImg{
-        width: 180px;
-    }
+  .volumeImg {
+    width: 160;
+    height: auto;
+  }
 
-    .volumeTitle{
-        font-size: 35px;
-        width: 250px;
-    }
+  .volumeTitle {
+    font-size: 33pt;
+    width: 300px;
+  }
 
-    .curStatus{
-        position: relative;
-        left: -160px;
-        top: 37vh;
-        display: flex;
-        flex-direction: row;
-        font-size: 20px;
-    }
-    
-    .statusDot{
-        height: 10px;
-        width: 10px;
-        border-radius: 30px;
-        background-color: rgb(7, 243, 7);
-        margin-right: 10px;
-        margin-top: 8px;
-    }
-    
-    .statusTitle{
-        font-size: 20px;
-        margin: 0px;
-    }
+  .curStatus {
+    position: relative;
+    left: -160px;
+    top: 37vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 16.75pt;
+  }
 
-    .chapCard{
-        width: 90vw;
-        /* height: 30px; */
-        height: auto;
-        border-radius: 10px;
-        /* background-color: rgb(44, 44, 44); */
-        background: linear-gradient(
-        to right,
-        rgb(240, 108, 99) 0%,
-        rgb(216, 126, 126) 50%,
-        rgb(237, 128, 73) 100%
-      );
-        margin: 20px 10px;
-        color: azure;
-        display: flex;
-        flex-direction: row;
-        padding: 1px 10px;
-        align-items: center;
-        font-size: 8px;
-        box-shadow: 1px 1px 6px rgb(82, 81, 81);
-    }
+  .statusDot {
+    height: 10px;
+    width: 10px;
+    border-radius: 30px;
+    background-color: rgb(7, 243, 7);
+    margin-right: 10px;
+    margin-top: 8px;
+  }
 
-    .chapTitle{
-        width:35vw;
-        font-size: 1rem;
-        /* font-size: 12px; */
-    }
-    
-    .transType{
-        margin-left: 25%;
-        font-size: 0.8rem;
-    }
+  .statusTitle {
+    font-size: 20px;
+    margin: 0px;
+  }
+
+  .chapCard {
+    width: 90vw;
+    /* height: 30px; */
+    height: auto;
+    border-radius: 10px;
+    /* background-color: rgb(44, 44, 44); */
+    background: linear-gradient(
+      to right,
+      rgb(240, 108, 99) 0%,
+      rgb(216, 126, 126) 50%,
+      rgb(237, 128, 73) 100%
+    );
+    margin: 20px 10px;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    padding: 1px 10px;
+    align-items: center;
+    font-size: 8px;
+    box-shadow: 1px 1px 6px rgb(82, 81, 81);
+  }
+
+  .chapTitle {
+    width: 35vw;
+    font-size: 1rem;
+    /* font-size: 12px; */
+  }
+
+  .transType {
+    margin-left: 25%;
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 580px) {
-    .volumeImg{
-        width: 150px;
-        height: 250px;
-    }
-    .volumeTitle{
-        font-size: 30px;
-        width: 200px;
-    }
-    .curStatus{
-        position: relative;
-        left: -120px;
-        top: 37vh;
-        display: flex;
-        flex-direction: row;
-        font-size: 20px;
-    }
-    
-    .statusDot{
-        height: 10px;
-        width: 10px;
-        border-radius: 30px;
-        background-color: rgb(7, 243, 7);
-        margin-right: 10px;
-        margin-top: 8px;
-    }
-    
-    .statusTitle{
-        font-size: 20px;
-        margin: 0px;
-    }
-}
-@media screen and (max-width: 425px) {
-    .volumeImg{
-        width: 30vw;
-    height: 170px;
-    left: 5vw;
-    top: 73px;
-    }
-    .volumeTitle{
-        /* background-color: aqua; */
-        font-size: 25px;
-    width: 98px;
-    top: 72px;
-    left: 17vw;
-    }
-
-    .mainHeaderCont{
-        height: 200px;
-        width: 100%;
-        /* background-color: aqua; */
-        margin-top: -66px;
-        background: url('../VolumeDetails/Image\ 02.webp') ;
-        background-size: cover;
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 100px;
-    }
-
-    .curStatus{
-        position: relative;
-    left: -160px;
-    top: 250px;
+  .volumeImg {
+    left: 5%;
+    width: 180px;
+    height: 250px;
+  }
+  .volumeTitle {
+    left: 8vw;
+    font-size: 25pt;
+    width: 300px;
+  }
+  .curStatus {
+    position: relative;
+    left: -120px;
+    top: 37vh;
     display: flex;
     flex-direction: row;
     font-size: 20px;
-    }
-    
-    .statusDot{
-        height: 10px;
-        width: 10px;
-        border-radius: 30px;
-        background-color: rgb(7, 243, 7);
-        margin-right: 10px;
-        margin-top: 8px;
-    }
-    
-    .statusTitle{
-        font-size: 18px;
-        margin: 0px;
-    }
+  }
 
-    .chapCard{
-        width: 90vw;
-        /* height: 30px; */
-        height: auto;
-        border-radius: 10px;
-        /* background-color: rgb(44, 44, 44); */
-        background: linear-gradient(
-        to right,
-        rgb(240, 108, 99) 0%,
-        rgb(216, 126, 126) 50%,
-        rgb(237, 128, 73) 100%
-      );
-        margin: 10px 10px;
-        color: azure;
-        display: flex;
-        flex-direction: row;
-        padding: 1px 10px;
-        align-items: center;
-        font-size: 10px;
-        box-shadow: 1px 1px 6px rgb(82, 81, 81);
-    }
+  .statusDot {
+    height: 10px;
+    width: 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-top: 8px;
+  }
 
-    .chapTitle{
-        width:35vw;
-        font-size: 1rem;
-        /* font-size: 12px; */
-    }
-    
-    .transType{
-        margin-left: 25%;
-        font-size: 0.8rem;
-    }
+  .statusTitle {
+    font-size: 20px;
+    margin: 0px;
+  }
 }
+@media screen and (max-width: 450px) {
+  .volumeImg {
+    width: 180px;
+    height: 250px;
+    left: 6vw;
+    top: 105px;
+  }
+  .volumeTitle {
+    /* background-color: aqua; */
+    font-size: 23pt;
+    width: 300px;
+    top: 104px;
+    left: 9vw;
+  }
 
+  .synCont {
+    margin-top: 200px;
+  }
 
+  .mainHeaderCont {
+    height: 300px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: -66px;
+    background: url("../VolumeDetails/Image\ 02.webp");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+  }
 
+  .curStatus {
+    position: relative;
+    left: -255px;
+    top: 372px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+  }
 
+  .statusDot {
+    height: 10px;
+    width: 10px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-top: 8px;
+  }
+
+  .statusTitle {
+    font-size: 18px;
+    margin: 0px;
+  }
+
+  .chapCard {
+    width: 90vw;
+    /* height: 30px; */
+    height: auto;
+    border-radius: 10px;
+    /* background-color: rgb(44, 44, 44); */
+    background: linear-gradient(
+      to right,
+      rgb(240, 108, 99) 0%,
+      rgb(216, 126, 126) 50%,
+      rgb(237, 128, 73) 100%
+    );
+    margin: 10px 10px;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    padding: 1px 10px;
+    align-items: center;
+    font-size: 10px;
+    box-shadow: 1px 1px 6px rgb(82, 81, 81);
+  }
+
+  .chapTitle {
+    width: 35vw;
+    font-size: 1rem;
+    /* font-size: 12px; */
+  }
+
+  .transType {
+    margin-left: 25%;
+    font-size: 0.8rem;
+  }
+}

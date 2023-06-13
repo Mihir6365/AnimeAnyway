@@ -26,7 +26,7 @@
     background-color: rgb(244, 146, 152);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    width:100%;
+    width: 100%;
   }
 
   .channel-info {
@@ -54,7 +54,7 @@
     flex-direction: row;
   }
 
-  .channel-link{
+  .channel-link {
     margin: 10px 30px;
     width: 50%;
     text-align: left;
@@ -62,43 +62,43 @@
 
   .channel-link h4 {
     margin: 9px 0px;
-    color:rgba(255, 255, 255, 0.885);
+    color: rgba(255, 255, 255, 0.885);
   }
-  .channel-link h2{
+  .channel-link h2 {
     margin: 5px 0px;
     margin-bottom: 20px;
   }
 
-  .links{
+  .links {
     display: flex;
     flex-direction: row;
   }
 
-  .icons{
+  .icons {
     color: rgba(255, 255, 255, 0.885);
     margin-top: 9px;
     margin-left: 5px;
   }
 
-  .developer-link{
+  .developer-link {
     /* margin: 10px 30px; */
     /* margin-top: -10px; */
     width: 100px;
-    color:  rgba(255, 255, 255, 0.885);
+    color: rgba(255, 255, 255, 0.885);
   }
-  .developer-link h4{
+  .developer-link h4 {
     /* margin: 10px 30px;
     width: 100px; */
     margin-top: 0px;
-    color:  rgba(255, 255, 255, 0.885);
+    color: rgba(255, 255, 255, 0.885);
   }
 
-  .developer-insta-links{
+  .developer-insta-links {
     margin-top: -10px;
     display: flex;
     flex-direction: row;
   }
-  .developer-insta-links .icons{
+  .developer-insta-links .icons {
     margin-top: 1px;
     /* display: flex;
     flex-direction: row; */
@@ -170,14 +170,12 @@
     text-align: center;
     margin-left: 100px;
     /* font-family: "Dancing Script", cursive; */
-    font-family: "Varela Round", sans-serif;;  
+    font-family: "Varela Round", sans-serif;
     font-size: 20px;
     color: #ffffff;
     /* display: flex;
     flex-direction: column; */
   }
-
-  
 
   .lastImage {
     height: 38%;
@@ -188,25 +186,25 @@
     background-size: cover;
   }
 
-  .developer-link{
+  .developer-link {
     /* margin: 10px 30px; */
     /* margin-top: -10px; */
     width: 100px;
-    color:  rgba(255, 255, 255, 0.885);
+    color: rgba(255, 255, 255, 0.885);
   }
-  .developer-link h4{
+  .developer-link h4 {
     /* margin: 10px 30px;
     width: 100px; */
     margin-top: 0px;
-    color:  rgba(255, 255, 255, 0.885);
+    color: rgba(255, 255, 255, 0.885);
   }
 
-  .developer-insta-links{
+  .developer-insta-links {
     margin-top: -10px;
     display: flex;
     flex-direction: row;
   }
-  .developer-insta-links .icons{
+  .developer-insta-links .icons {
     margin-top: 1px;
     /* display: flex;
     flex-direction: row; */
@@ -275,7 +273,7 @@
     flex-direction: column;
   }
 
-  .channel-link{
+  .channel-link {
     /* margin: 10px 30px; */
     margin: auto;
     margin-bottom: 30px;
@@ -285,49 +283,48 @@
 
   .channel-link h4 {
     margin: 9px 0px;
-    color:rgba(255, 255, 255, 0.885);
+    color: rgba(255, 255, 255, 0.885);
   }
-  .channel-link h2{
+  .channel-link h2 {
     margin: 5px 0px;
     margin-bottom: 20px;
   }
 
-  .links{
+  .links {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
 
-  .icons{
+  .icons {
     color: rgba(255, 255, 255, 0.885);
     margin-top: 9px;
     margin-left: 5px;
   }
 
-  .developer-link{
+  .developer-link {
     /* margin: 10px 30px; */
     margin: auto;
     width: 100px;
-    color:  rgba(255, 255, 255, 0.885);
+    color: rgba(255, 255, 255, 0.885);
   }
-  .developer-link h4{
+  .developer-link h4 {
     /* margin: 10px 30px;
     width: 100px; */
     margin-top: 0px;
-    color:  rgba(255, 255, 255, 0.885);
+    color: rgba(255, 255, 255, 0.885);
   }
 
-  .developer-insta-links{
+  .developer-insta-links {
     margin-top: -10px;
     display: flex;
     flex-direction: row;
   }
-  .developer-insta-links .icons{
+  .developer-insta-links .icons {
     margin-top: 1px;
     /* display: flex;
     flex-direction: row; */
   }
-
 
   .lastImage {
     /* display: block; */

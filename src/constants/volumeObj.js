@@ -1,144 +1,142 @@
 export const volumeData = [
   {
-    "volumeNumber": 1,
-    "name": "Year 1 Volume 1"
+    volumeNumber: 1,
+    name: "Year 1 Volume 1",
   },
   {
-    "volumeNumber": 2,
-    "name": "Year 1 Volume 2"
+    volumeNumber: 2,
+    name: "Year 1 Volume 2",
   },
   {
-    "volumeNumber": 3,
-    "name": "Year 1 Volume 3"
+    volumeNumber: 3,
+    name: "Year 1 Volume 3",
   },
   {
-    "volumeNumber": 4,
-    "name": "Year 1 Volume 4"
+    volumeNumber: 4,
+    name: "Year 1 Volume 4",
   },
   {
-    "volumeNumber": 4.5,
-    "name": "Year 1 Volume 4.5"
+    volumeNumber: 4.5,
+    name: "Year 1 Volume 4.5",
   },
   {
-    "volumeNumber": 5,
-    "name": "Year 1 Volume 5"
+    volumeNumber: 5,
+    name: "Year 1 Volume 5",
   },
   {
-    "volumeNumber": 6,
-    "name": "Year 1 Volume 6"
+    volumeNumber: 6,
+    name: "Year 1 Volume 6",
   },
   {
-    "volumeNumber": 7,
-    "name": "Year 1 Volume 7"
+    volumeNumber: 7,
+    name: "Year 1 Volume 7",
   },
   {
-    "volumeNumber": 7.5,
-    "name": "Year 1 Volume 7.5"
+    volumeNumber: 7.5,
+    name: "Year 1 Volume 7.5",
   },
   {
-    "volumeNumber": 8,
-    "name": "Year 1 Volume 8"
+    volumeNumber: 8,
+    name: "Year 1 Volume 8",
   },
   {
-    "volumeNumber": 90,
-    "name": "Year 1 Volume 9"
+    volumeNumber: 90,
+    name: "Year 1 Volume 9",
   },
   {
-    "volumeNumber": 10,
-    "name": "Year 1 Volume 10"
+    volumeNumber: 10,
+    name: "Year 1 Volume 10",
   },
   {
-    "volumeNumber": 11,
-    "name": "Year 1 Volume 11"
+    volumeNumber: 11,
+    name: "Year 1 Volume 11",
   },
   {
-    "volumeNumber": 11.5,
-    "name": "Year 1 Volume 11.5"
+    volumeNumber: 11.5,
+    name: "Year 1 Volume 11.5",
   },
   {
-    "volumeNumber": 11.75,
-    "name": "Year 1 Volume 11.75"
+    volumeNumber: 11.75,
+    name: "Year 1 Volume 11.75",
   },
   {
-    "volumeNumber": 12,
-    "name": "Year 2 Volume 1"
+    volumeNumber: 12,
+    name: "Year 2 Volume 1",
   },
   {
-    "volumeNumber": 13,
-    "name": "Year 2 Volume 2"
+    volumeNumber: 13,
+    name: "Year 2 Volume 2",
   },
   {
-    "volumeNumber": 14,
-    "name": "Year 2 Volume 3"
+    volumeNumber: 14,
+    name: "Year 2 Volume 3",
   },
   {
-    "volumeNumber": 15,
-    "name": "Year 2 Volume 4"
+    volumeNumber: 15,
+    name: "Year 2 Volume 4",
   },
   {
-    "volumeNumber": 16,
-    "name": "Year 2 Volume 4.5"
+    volumeNumber: 16,
+    name: "Year 2 Volume 4.5",
   },
   {
-    "volumeNumber": 17,
-    "name": "Year 2 Volume 5"
+    volumeNumber: 17,
+    name: "Year 2 Volume 5",
   },
-]
+];
 
 export const translatedVolume = [
   {
     volumeNumber: 18,
     image: require("../assets/images/Year_Two_Volume_6.webp"),
     name: "Year 2 Volume 6",
-    path: '../../assets/file/Year 2 Volume 6.pdf',
-    darkPath: '../../assets/file/Year 2 Volume 6.pdf',
-    totalPage: 285,
-    pdf_size: 3766,
-    epub_size: 2034,
+    namehtml: "COTE Year 2 <br/> Volume 6",
+    status: "Completed",
+    synopsis: `<p>"Hey, Horikita-san. Can you really say that keeping Kushida-san was the correct thing to do?"</p>
+
+    <p>The sacrifice for the Unanimous Vote Special Exam was very costly, and a significant crack had emerged in Ayanokōji’s class. Kushida, Hasebe, and Wang continuously refrained from coming to classes, and even though the details for the Sports Festival were announced, confusion arose in the class meeting due to opposition to Horikita, and the class couldn’t even begin training.</p>
+    
+    <p>Although the class gained a significant number of points and was even promoted, at this rate, it was going to end up becoming a net negative result. Horikita and Hirata started taking action to coax the three absentees back but……</p>
+    
+    <p>The Sports Festival this time around is greatly influenced by individual ability. Onodera seeks to attain the best results possible and offers to team up with Sudō――!?</p>
+    
+    <p>"I won’t acknowledge her. No matter how many people end up following Horikita in the future, I will never acknowledge her."</p>
+    
+    <p>Does darkness or light await at the end with this choice?</p>
+`,
     chapter: [
       {
         name: "Cover",
-        pageNo: 0
       },
       {
         name: "Index",
-        pageNo: 2
       },
       {
         name: "Prologue",
-        pageNo: 3,
       },
       {
         name: "Chapter 1",
-        pageNo: 6,
       },
       {
         name: "Chapter 2",
-        pageNo: 47,
       },
       {
         name: "Chapter 3",
-        pageNo: 76,
       },
       {
         name: "Chapter 4",
-        pageNo: 154,
       },
       {
         name: "Chapter 5",
-        pageNo: 192,
       },
       {
         name: "Chapter 6",
-        pageNo: 242,
       },
       {
         name: "Epilogue",
-        pageNo: 266,
       },
       {
         name: "Afterword",
-        pageNo: 283,
       },
     ],
   },
@@ -146,59 +144,51 @@ export const translatedVolume = [
     volumeNumber: 19,
     image: require("../assets/images/Year_Two_Volume_7.webp"),
     name: "Year 2 Volume 7",
-    path: '../../assets/file/Year 2 Volume 7.pdf',
-    darkPath: '../../assets/file/Year 2 Volume 7.pdf',
-    totalPage: 294,
-    pdf_size: 3473,
-    epub_size: 2034,
+    namehtml: "COTE Year 2 <br/> Volume 7",
+    status: "Completed",
+    synopsis: `<p>"You’re about the only person I could think of who would understand what I’m saying and wouldn’t carelessly leak it."</p>
+
+    <p>The Sports Festival has ended and the first Cultural Festival of the Advanced Nurturing High School is soon approaching. Hasebe and Miyake have put up a wall with the class, and while there are unhelpful students like Kōenji, Ayanokōji and his other classmates' preparations for the Maid Café were progressing steadily even in secret. However, there was no way that Ryūen was oblivious to this and he suddenly destroyed the cooperation agreement with Horikita's Class. Ryūen’s class announced they too will open a Concept Café and requested a 1 vs 1 match with them through sales.</p>
+    
+    <p>On the other hand, Ayanokōji started to approach Kanzaki, who is disappointed in his own class for losing the opportunity to raise to Class A, and Nagumo, who changed after Ayanokōji threw away their match――!?</p>
+    
+    <p>"I have a proposal for Student Council President Nagumo. Can I be the one to propose the match this time?"</p>`,
     chapter: [
       {
         name: "Cover",
-        pageNo: 0
       },
       {
         name: "Index",
-        pageNo: 2
       },
       {
         name: "Prologue",
-        pageNo: 3,
       },
       {
         name: "Chapter 1",
-        pageNo: 5,
       },
       {
         name: "Chapter 2",
-        pageNo: 69,
       },
       {
         name: "Chapter 3",
-        pageNo: 92,
       },
       {
         name: "Chapter 4",
-        pageNo: 109,
       },
       {
         name: "Chapter 5",
-        pageNo: 144,
       },
       {
         name: "Chapter 6",
-        pageNo: 180,
       },
       {
         name: "Chapter 7",
-        pageNo: 225,
       },
       {
         name: "Epilogue",
-        pageNo: 258,
       },
       {
         name: "Afterword",
-        pageNo: 291,
       },
     ],
   },
@@ -206,51 +196,56 @@ export const translatedVolume = [
     volumeNumber: 20,
     image: require("../assets/images/Year_Two_Volume_8.webp"),
     name: "Year 2 Volume 8",
-    path: '../../assets/file/Year 2 Volume 8.pdf',
-    darkPath: '../../assets/file/Year 2 Volume 8.pdf',
-    pdf_size: 3599,
-    epub_size: 1948,
-    totalPage: 260,
+    namehtml: "COTE Year 2 <br/> Volume 8",
+    status: "Completed",
+    synopsis: `<p>The theme of this school trip is: If you know the enemy and know yourself, you need not fear the result of a hundred battles.</p>
+
+    <p>In late November, after the final examinations are over, the details of the school trip are announced. The destination is Hokkaido. There will be no special exam, and the trip will be a normal school trip, including skiing and sightseeing. However, it is a unique trip in which a total of eight students, one boy and one girl from each class, will be grouped together for the five days, four nights. Ayanokōji and Kushida are in a group with members of other classes, including Ryūen of all people.</p>
+    
+    <p>However, things will not go so smoothly.</p>
+    
+    <p>"Aren't you misunderstanding something, Ayanokōji?"</p>
+    
+    <p>"What am I misunderstanding?"</p>
+    
+    <p>"The prelude to my battle with Sakayanagi has already begun."</p>
+    
+    <p>An omen of turbulence--?!</p>
+    
+    <p>On the other hand, an event is going to happen that will drastically change the relationship between the students.</p>
+    
+    <p>"I-I'm properly confessing to Suzune. I'm going to ask her to go out with me."</p>
+    `,
     chapter: [
       {
         name: "Cover",
-        pageNo: 0
       },
       {
         name: "Index",
-        pageNo: 3
       },
       {
         name: "Prologue",
-        pageNo: 6,
       },
       {
         name: "Chapter 1",
-        pageNo: 9,
       },
       {
         name: "Chapter 2",
-        pageNo: 56,
       },
       {
         name: "Chapter 3",
-        pageNo: 115,
       },
       {
         name: "Chapter 4",
-        pageNo: 170,
       },
       {
         name: "Chapter 5",
-        pageNo: 213,
       },
       {
         name: "Epilogue",
-        pageNo: 246,
       },
       {
         name: "Afterword",
-        pageNo: 258,
       },
     ],
   },
@@ -258,118 +253,135 @@ export const translatedVolume = [
     volumeNumber: 21,
     image: require("../assets/images/Volume_0.webp"),
     name: "Volume 0",
-    path: '../../assets/file/Volume 0.pdf',
-    darkPath: '../../assets/file/Volume 0(dark).pdf',
-    pdf_size: 3761,
-    epub_size: 5677,
-    totalPage: 270,
+    namehtml: "COTE Volume 0",
+    status: "Ongoing",
+    synopsis: `<p>This may be a story of the past that had been concealed, and mustn’t be seen.</p>
+
+    <p>About 20 years before Kiyotaka Ayanokōji enrolled at Advanced Nurturing High School.</p>
+    
+    <p>There was a man. Atsuomi Ayanokōji, aged 31. A politician.</p>
+    
+    <p>Atsuomi was born as a "have-not" in Japan’s society of disparity, but there was one thing he possessed more than anybody else.</p>
+    
+    <p>That is———his uncontrollable, ever-expanding "ambition".</p>
+    
+    <p>Atsuomi had been doing dirty work for Jinnosuke Naoe, the head of the Naoe faction that he was a part of. As a chance to reward all the hard work that he had done, Naoe offers him a top-secret project:</p>
+    
+    <p>The founding of an institution for a 'Talented Persons Nurturing Program', which is under the direct control of the government——.</p>
+    
+    <p>Atsuomi, who is busy pursuing his ambitions, brings them to fruition and names the institution he establishes――the White Room.</p>
+    
+    <p>He had also started on another project.</p>
+    
+    <p>To get his own biological child to join him in the White Room.</p>
+    
+    <p>This is the beginning of everything. A story about the "dissection" of Kiyotaka Ayanokōji——.</p>
+    
+    <p>Within a cold white room, what does the future look like in the eyes of a young child?</p>
+    `,
     chapter: [
       {
         name: "Cover",
-        pageNo: 0
       },
       {
         name: "Index",
-        pageNo: 5
       },
       {
         name: "Prologue",
-        pageNo: 8,
       },
       {
         name: "Chapter 1",
-        pageNo: 16,
       },
       {
         name: "Chapter 2",
-        pageNo: 40,
       },
       {
         name: "Chapter 3",
-        pageNo: 97,
       },
       {
         name: "Chapter 4",
-        pageNo: 120,
       },
       {
         name: "Chapter 5",
-        pageNo: 135,
       },
       {
         name: "Chapter 6",
-        pageNo: 204,
       },
       {
         name: "Epilogue",
-        pageNo: 249,
       },
       {
         name: "Afterword",
-        pageNo: 269,
       },
     ],
   },
   {
     volumeNumber: 22,
     image: require("../assets/images/Year_Two_Volume_9.webp"),
-    volumeImg:'/assets/html/Year 2 Volume 9/images/image1.webp',
     name: "Year 2 Volume 9",
-    folderName: "Year 2 Volume 9",
-    path: '../../assets/file/Year 2 Volume 9.pdf',
-    darkPath: '../../assets/file/Year 2 Volume 9(dark).pdf',
-    pdf_size: 3921,
-    epub_size: 12002,
-    totalPage: 343,
-    // folderName:"Year 2 Volume 9",
+    namehtml: "COTE Year 2 <br/> Volume 9",
+    synopsis: `<p>
+    "As I thought, I guess that means Ichinose-san has given up on
+    getting to Class A?"
+  </p>
+
+  <p>
+    December, after the end of the School Trip. The final Special Test
+    of the second semester, the Cooperative Written Test is announced.
+  </p>
+
+  <p>
+    In this test, everyone takes turns at answering the questions of the
+    test, with the class as a whole answering a hundred questions.
+    Horikita's Class B will face Sakayanagi's Class A.
+  </p>
+
+  <p>
+    While they are preparing for the test, Nagumo announces that he will
+    decide on the next Student Council President. The student council
+    members from the second year are Horikita and Ichinose. Even though
+    people were asking her to run for it, Ichinose's own desire was to
+    quit the student council altogether.
+  </p>
+
+  <p>
+    And separate from the problem of finding members for the new student
+    council, with Kiryūin targeted by a bogus shoplifting scandal, even
+    the people around the Student Council find themselves busier and
+    busier.
+  </p>
+
+  <p>"I'm not forcing myself! ……I want to meet Ayanokōji-kun, too……"</p>
+
+  <p>This school's book of revelations is headed for a new chaos——</p>`,
+    status: "Completed",
     chapter: [
-      // {
-      //   name: "Cover",
-      //   pageNo: 0
-      // },
       {
         name: "Index",
-        pageNo: 8
       },
       {
         name: "Prologue",
-        pageNo: 10,
       },
       {
         name: "Chapter 1",
-        pageNo: 13,
       },
       {
         name: "Chapter 2",
-        pageNo: 68,
       },
       {
         name: "Chapter 3",
-        pageNo: 122,
       },
       {
         name: "Chapter 4",
-        pageNo: 183,
       },
       {
         name: "Chapter 5",
-        pageNo: 220,
       },
       {
         name: "Chapter 6",
-        pageNo: 274,
       },
       {
         name: "Epilogue",
-        pageNo: 314,
-      },
-      {
-        name: "Afterword",
-        pageNo: 342,
-      },
-      {
-        name: "Thanks..",
-        pageNo: 343,
       },
     ],
   },
