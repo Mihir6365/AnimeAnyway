@@ -3,7 +3,6 @@ import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import React from "react";
-import { useEffect } from "react";
 import { translatedVolume, volumeData } from '../../constants/volumeObj.js';
 import VolumeCard from "../VolumeCard/VolumeCard.js";
 import Header from "../ChannelHeader/Header.js";
@@ -12,9 +11,7 @@ import './ContentStyle.css';
 export default function Content() {
   const volumes = volumeData.slice(0).reverse();
   const transVolumes = translatedVolume.slice(0).reverse();
-  // useEffect(()=>{
-  //   onChange(true)
-  // },[])
+
   return (
     <>
       <Header />
@@ -39,13 +36,10 @@ export default function Content() {
             <strong>
               Year 2 Volume 9 is is translated completely.
               <br /><br />
-              Year 2 Volume 9.5 will be out in June, and translation will take few weeks.
+              Year 2 Volume 9.5 trial version translation will be out on june 18th.
               <br /><br />
               <a href="https://www.youtube.com/@ANIMEANYWAY" target="_blank" rel="noreferrer">Subscribe to my youtube channel to stay updated to the latest Classroom of the Elite news.</a>
-              <br /><br />
-              Note that the translations are not official and are done by me and my team.
-              <br /><br />
-              You can read, download and stay updated on the latest Classroom Of The Elite news by bookmarking this website
+
             </strong>
           </div>
         </div>

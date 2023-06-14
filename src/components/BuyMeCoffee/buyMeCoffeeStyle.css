@@ -1,53 +1,42 @@
-.donationCont{
+.coffee,
+.paypal {
+  height: 60px;
+  width: 60%;
+  border-radius: 10px;
+  text-align: center;
+}
+.text,
+.text2 {
+  font-size: larger;
+}
+.donationCont {
   margin-top: 10px;
   display: block;
 }
-
 .coffee {
-  height: 60px;
-  width: 60%;
-  background-color: rgb(255, 221, 0);
-  margin: 20px auto;
-  margin-bottom: 5px;
-  border-radius: 10px;
-  text-align: center;
+  background-color: #fd0;
+  margin: 20px auto 5px;
   justify-content: center;
   align-items: center;
 }
 .paypal {
-  height: 60px;
-  width: 60%;
-  background-image: linear-gradient(
-    to right,
-    rgb(1, 112, 186),
-    rgb(21, 71, 160)
-  );
-
-  margin: 5px auto;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  text-align: center;
+  background-image: linear-gradient(to right, #0170ba, #1547a0);
+  margin: 5px auto 30px;
   justify-content: center;
   align-items: center;
 }
-
 .text {
   padding: 16px 0;
-  font-size: larger;
-  color: rgb(0, 0, 0);
-  margin: 0px;
+  color: #000;
+  margin: 0;
 }
 .text2 {
   margin-top: 10px;
   padding-top: 14px;
-  font-size: larger;
-  color: rgb(255, 255, 255);
+  color: #fff;
 }
-
 @media only screen and (max-width: 600px) {
-  .coffee {
-    width: 85%;
-  }
+  .coffee,
   .paypal {
     width: 85%;
   }

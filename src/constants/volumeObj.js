@@ -106,9 +106,6 @@ export const translatedVolume = [
 `,
     chapter: [
       {
-        name: "Cover",
-      },
-      {
         name: "Index",
       },
       {
@@ -135,9 +132,6 @@ export const translatedVolume = [
       {
         name: "Epilogue",
       },
-      {
-        name: "Afterword",
-      },
     ],
   },
   {
@@ -154,9 +148,6 @@ export const translatedVolume = [
     
     <p>"I have a proposal for Student Council President Nagumo. Can I be the one to propose the match this time?"</p>`,
     chapter: [
-      {
-        name: "Cover",
-      },
       {
         name: "Index",
       },
@@ -187,9 +178,6 @@ export const translatedVolume = [
       {
         name: "Epilogue",
       },
-      {
-        name: "Afterword",
-      },
     ],
   },
   {
@@ -218,9 +206,6 @@ export const translatedVolume = [
     `,
     chapter: [
       {
-        name: "Cover",
-      },
-      {
         name: "Index",
       },
       {
@@ -243,9 +228,6 @@ export const translatedVolume = [
       },
       {
         name: "Epilogue",
-      },
-      {
-        name: "Afterword",
       },
     ],
   },
@@ -281,9 +263,6 @@ export const translatedVolume = [
     `,
     chapter: [
       {
-        name: "Cover",
-      },
-      {
         name: "Index",
       },
       {
@@ -309,9 +288,6 @@ export const translatedVolume = [
       },
       {
         name: "Epilogue",
-      },
-      {
-        name: "Afterword",
       },
     ],
   },

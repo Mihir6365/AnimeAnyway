@@ -1,11 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap");
-
+@import url(https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap);
 .main-container {
   height: fit-content;
   width: 85%;
   background-color: rgba(255, 255, 255, 0.1);
-  margin: auto;
-  margin-top: 30px;
+  margin: 30px auto auto;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -21,36 +19,30 @@
   font-size: 30px;
   font-weight: 700;
 }
-
 .volume-container {
   width: 100%;
   display: flex;
   flex-direction: row;
 }
-
 .card-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .accord-container {
   width: 92%;
   height: auto;
   padding: 10px;
   margin: 0 3.5%;
 }
-
 .accordion {
   width: 100%;
 }
-
 .previousVolume {
   font-size: 20px;
   font-weight: 600;
 }
-
 .link-container {
   margin: 1rem;
   padding: 1rem;
@@ -61,20 +53,18 @@
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  color: black;
+  color: #000;
 }
-
+.info-container > a,
+.new-link,
 .volume-url {
-  color: black;
+  color: #000;
 }
-
 .volume-url:visited {
-  color: rgb(82, 78, 78);
+  color: #524e4e;
 }
-
 .info-container {
   margin: 2rem 2rem 1rem 0;
-  /* height: 50vh; */
   height: auto;
   min-height: 300px;
   width: 50%;
@@ -83,18 +73,12 @@
   border-radius: 1rem;
   padding: 20px;
   font-size: 20px;
-  color: rgb(48, 47, 47);
+  color: #302f2f;
   max-height: 500px;
 }
-
-.new-link {
-  color: black;
-}
-
 .new-link:hover {
-  color: rgb(129, 129, 129);
+  color: #818181;
 }
-
 .volume-url {
   margin: 1px;
   font-size: 1.3rem;
@@ -109,7 +93,6 @@
 .volume-url:hover {
   border: 2px solid rgb(48 93 103);
 }
-
 @media screen and (max-width: 1440px) {
   .headerName {
     margin: auto;
@@ -119,24 +102,20 @@
     font-size: 20px;
     font-weight: 700;
   }
-
   .volume-container {
     display: flex;
     flex-direction: column;
   }
-
   .main-container {
     flex-direction: column;
     justify-content: center;
     margin-top: 10px;
   }
-
   .link-container {
     margin: 1rem auto;
     width: 81.5%;
     min-width: 81.6%;
   }
-
   .info-container {
     margin: 2rem auto;
     min-width: 81.6%;
@@ -150,11 +129,7 @@
 }
 @media screen and (max-width: 400px) {
   .accord-container {
-    margin: 0 0;
+    margin: 0;
     padding-left: 10px;
   }
-}
-
-.info-container > a {
-  color: black;
 }

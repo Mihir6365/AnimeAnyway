@@ -1,58 +1,55 @@
-@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
-
-/* *{
-    margin: 0px;
-    padding: 0px;
-} */
-
+@import url(https://fonts.googleapis.com/css2?family=Alata&display=swap);
+.volumeImg,
+.volumeTitle {
+  top: 15vh;
+}
+.curStatus,
+.volumeImg,
+.volumeTitle {
+  position: relative;
+}
 .mainHeaderCont {
   height: 35vh;
   width: 100%;
-  /* background-color: aqua; */
   margin-top: -66px;
-  background: url("../VolumeDetails/Image\ 02.webp");
-  background-size: cover;
+  background: url("../VolumeDetails/Image\ 02.webp") 0 0 / cover;
   display: flex;
   flex-direction: row;
   margin-bottom: 140px;
 }
-
 .volumeImg {
-  /* width: 14vw; */
   width: auto;
   height: auto;
-  /* background-color: blue; */
-  /* background: url('../VolumeDetails/pic01.jpg') ; */
   background-size: cover;
-  box-shadow: 1px 1px 8px rgb(82, 81, 81);
-  position: relative;
-  top: 15vh;
+  box-shadow: 1px 1px 8px #525151;
   left: 10vw;
   border-radius: 15px;
 }
-
 .volumeTitle {
-  position: relative;
   left: 12vw;
-  top: 15vh;
   height: 20vh;
   width: 500px;
-  /* background-color: aqua; */
-  color: aliceblue;
+  color: #f0f8ff;
   font-size: 55px;
   font-weight: 900;
-  font-family: "Alata", sans-serif;
+  font-family: Alata, sans-serif;
 }
-
+.chapCard,
+.index,
+.nextVol,
+.prevVol {
+  background: linear-gradient(to right, #f06c63 0, #d87e7e 50%, #ed8049 100%);
+  color: azure;
+  box-shadow: 1px 1px 6px #525151;
+  cursor: pointer;
+}
 .curStatus {
-  position: relative;
   left: -270px;
   top: 37vh;
   display: flex;
   flex-direction: row;
   font-size: 20px;
 }
-
 .statusDot {
   height: 15px;
   width: 15px;
@@ -60,67 +57,48 @@
   margin-right: 10px;
   margin-top: 10px;
 }
-
 .statusTitle {
   font-size: 25px;
-  margin: 0px;
+  margin: 0;
 }
-
 .synCont {
+  margin-top: 190px;
   height: auto;
   width: 100%;
-  /* background-color: aquamarine; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
 }
-
 .synopsis {
   max-width: 70vw;
   height: 100%;
-  /* background-color: aliceblue; */
 }
-
+p {
+  font-size: 17pt;
+}
 .volumeNav {
   margin-top: 50px;
   max-width: 100%;
   display: flex;
   flex-direction: row;
   height: 3.5vh;
-  /* background-color: blueviolet; */
   justify-content: center;
 }
-
-.prevVol,
 .index,
-.nextVol {
+.nextVol,
+.prevVol {
   width: auto;
-  /* max-width: 5vw; */
   height: 100%;
-  /* background-color: rgb(51, 50, 50); */
-  background: linear-gradient(
-    to right,
-    rgb(240, 108, 99) 0%,
-    rgb(216, 126, 126) 50%,
-    rgb(237, 128, 73) 100%
-  );
-  color: azure;
-  margin: 0px 4vw;
+  margin: 0 4vw;
   border-radius: 5px;
-  cursor: pointer;
-  box-shadow: 1px 1px 6px rgb(82, 81, 81);
-  /* font-size: 5vw; */
-  padding: 5px 7px 0px 7px;
+  padding: 7px 7px 0;
   font-size: 1em;
+  text-align: center;
 }
-
 .disable {
   opacity: 0.5;
 }
-
 .chapterOpt {
-  /* background-color:burlywood; */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -128,53 +106,36 @@
   margin-top: 60px;
   margin-bottom: 60px;
 }
-
 .chapCard {
   width: 70vw;
   height: 30px;
   border-radius: 10px;
-  /* background-color: rgb(44, 44, 44); */
-  background: linear-gradient(
-    to right,
-    rgb(240, 108, 99) 0%,
-    rgb(216, 126, 126) 50%,
-    rgb(237, 128, 73) 100%
-  );
   margin: 20px 10px;
-  color: azure;
   display: flex;
   flex-direction: row;
   padding: 5px 10px;
   align-items: center;
   font-size: 1.2vw;
-  box-shadow: 1px 1px 6px rgb(82, 81, 81);
-  cursor: pointer;
 }
-
 .chapCard:hover {
   cursor: pointer;
 }
-
 .chapTitle {
   width: 35vw;
 }
-
 .transType {
   margin-left: 25%;
 }
-
 @media screen and (max-width: 1800px) {
   .curStatus {
     left: -306px;
   }
 }
-
 @media screen and (max-width: 1240px) {
   .volumeTitle {
     font-size: 33pt;
     width: auto;
   }
-
   .curStatus {
     position: relative;
     left: -100px;
@@ -183,7 +144,6 @@
     flex-direction: row;
     font-size: 20px;
   }
-
   .statusDot {
     height: 10px;
     width: 10px;
@@ -191,23 +151,15 @@
     margin-right: 10px;
     margin-top: 8px;
   }
-
   .statusTitle {
     font-size: 16.74pt;
-    margin: 0px;
+    margin: 0;
   }
-
   .chapCard {
     width: 90vw;
     height: 30px;
     border-radius: 10px;
-    /* background-color: rgb(44, 44, 44); */
-    background: linear-gradient(
-      to right,
-      rgb(240, 108, 99) 0%,
-      rgb(216, 126, 126) 50%,
-      rgb(237, 128, 73) 100%
-    );
+    background: linear-gradient(to right, #f06c63 0, #d87e7e 50%, #ed8049 100%);
     margin: 20px 10px;
     color: azure;
     display: flex;
@@ -215,88 +167,72 @@
     padding: 5px 10px;
     align-items: center;
     font-size: 10px;
-    box-shadow: 1px 1px 6px rgb(82, 81, 81);
+    box-shadow: 1px 1px 6px #525151;
   }
-
   .chapTitle {
     width: 35vw;
     font-size: 1rem;
   }
-
   .transType {
     margin-left: 25%;
     font-size: 1rem;
   }
 }
-
 @media screen and (max-width: 768px) {
   .volumeImg {
     width: 160;
     height: auto;
   }
-
   .volumeTitle {
     font-size: 33pt;
     width: 300px;
+    top: 17vh;
   }
-
   .curStatus {
     position: relative;
-    left: -160px;
+    left: -190px;
     top: 37vh;
     display: flex;
     flex-direction: row;
     font-size: 16.75pt;
   }
-
   .statusDot {
     height: 10px;
     width: 10px;
     border-radius: 30px;
-    background-color: rgb(7, 243, 7);
     margin-right: 10px;
     margin-top: 8px;
   }
-
   .statusTitle {
     font-size: 20px;
-    margin: 0px;
+    margin: 0;
   }
-
   .chapCard {
     width: 90vw;
-    /* height: 30px; */
-    height: auto;
+    height: 40px;
     border-radius: 10px;
-    /* background-color: rgb(44, 44, 44); */
-    background: linear-gradient(
-      to right,
-      rgb(240, 108, 99) 0%,
-      rgb(216, 126, 126) 50%,
-      rgb(237, 128, 73) 100%
-    );
-    margin: 20px 10px;
+    background: linear-gradient(to right, #f06c63 0, #d87e7e 50%, #ed8049 100%);
+    margin: 10px 10px;
     color: azure;
     display: flex;
     flex-direction: row;
     padding: 1px 10px;
     align-items: center;
     font-size: 8px;
-    box-shadow: 1px 1px 6px rgb(82, 81, 81);
+    box-shadow: 1px 1px 6px #525151;
   }
-
   .chapTitle {
     width: 35vw;
     font-size: 1rem;
-    /* font-size: 12px; */
   }
-
   .transType {
-    margin-left: 25%;
-    font-size: 0.8rem;
+    margin-left: 150px;
+    font-size: 1rem;
+  }
+  .synopsis {
+    max-width: 80vw;
   }
 }
-
 @media screen and (max-width: 580px) {
   .volumeImg {
     left: 5%;
@@ -310,13 +246,12 @@
   }
   .curStatus {
     position: relative;
-    left: -120px;
+    left: -28vw;
     top: 37vh;
     display: flex;
     flex-direction: row;
     font-size: 20px;
   }
-
   .statusDot {
     height: 10px;
     width: 10px;
@@ -324,13 +259,22 @@
     margin-right: 10px;
     margin-top: 8px;
   }
-
   .statusTitle {
     font-size: 20px;
-    margin: 0px;
+    margin: 0;
+  }
+  .transType {
+    margin-left: 7vw;
+  }
+  .synCont {
+    margin-top: -30px;
   }
 }
 @media screen and (max-width: 450px) {
+  .mainHeaderCont {
+    flex-direction: row;
+    display: flex;
+  }
   .volumeImg {
     width: 180px;
     height: 250px;
@@ -338,38 +282,27 @@
     top: 105px;
   }
   .volumeTitle {
-    /* background-color: aqua; */
-    font-size: 23pt;
     width: 300px;
-    top: 104px;
+    top: 16vh;
     left: 9vw;
+    font-size: 22pt;
   }
-
   .synCont {
-    margin-top: 200px;
+    margin-top: 130px;
   }
-
   .mainHeaderCont {
     height: 300px;
     width: 100%;
-    /* background-color: aqua; */
     margin-top: -66px;
-    background: url("../VolumeDetails/Image\ 02.webp");
-    background-size: cover;
-    display: flex;
-    flex-direction: row;
+    background: url("../VolumeDetails/Image\ 02.webp") 0 0 / cover;
     margin-bottom: 100px;
   }
-
   .curStatus {
     position: relative;
-    left: -255px;
+    left: -60vw;
     top: 372px;
-    display: flex;
-    flex-direction: row;
     font-size: 20px;
   }
-
   .statusDot {
     height: 10px;
     width: 10px;
@@ -377,42 +310,33 @@
     margin-right: 10px;
     margin-top: 8px;
   }
-
   .statusTitle {
     font-size: 18px;
-    margin: 0px;
+    margin: 0;
   }
-
   .chapCard {
     width: 90vw;
-    /* height: 30px; */
-    height: auto;
+    height: 40px;
     border-radius: 10px;
-    /* background-color: rgb(44, 44, 44); */
-    background: linear-gradient(
-      to right,
-      rgb(240, 108, 99) 0%,
-      rgb(216, 126, 126) 50%,
-      rgb(237, 128, 73) 100%
-    );
-    margin: 10px 10px;
+    background: linear-gradient(to right, #f06c63 0, #d87e7e 50%, #ed8049 100%);
+    margin: 10px;
     color: azure;
     display: flex;
     flex-direction: row;
     padding: 1px 10px;
     align-items: center;
     font-size: 10px;
-    box-shadow: 1px 1px 6px rgb(82, 81, 81);
+    box-shadow: 1px 1px 6px #525151;
   }
-
   .chapTitle {
     width: 35vw;
     font-size: 1rem;
-    /* font-size: 12px; */
   }
-
   .transType {
-    margin-left: 25%;
-    font-size: 0.8rem;
+    margin-left: 10px;
+    font-size: 1rem;
+  }
+  p {
+    font-size: 13pt;
   }
 }

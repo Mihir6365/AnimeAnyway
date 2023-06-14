@@ -1,98 +1,76 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins&family=Varela+Round&display=swap");
-
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins&family=Varela+Round&display=swap);
 @media screen and (min-width: 1150px) {
+  .channel-info,
+  .footerInfo {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
   .ChannelFooter {
     position: relative;
     display: flex;
     flex-direction: column;
     height: 500px;
     width: 85%;
-    /* background-color: aqua; */
     margin: auto;
     bottom: 10px;
-    /* margin-top: 30px; */
   }
-
+  .channel-info,
+  .creator-info {
+    margin-left: 100px;
+    font-family: "Varela Round", sans-serif;
+  }
   .footerInfo {
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 52%;
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.2),
-      rgb(244, 146, 152)
-    );
-    background-color: rgb(244, 146, 152);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), #f49298);
+    background-color: #f49298;
     width: 100%;
   }
-
-  .channel-info {
-    /* padding-top: 10px; */
-    width: 35%;
-    margin-left: 100px;
-    text-align: left;
-    font-family: "Varela Round", sans-serif;
-    color: rgba(255, 255, 255, 0.885);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-
-    /* filter: blur(10px); */
+  .creator-info,
+  .links {
+    flex-direction: row;
+    display: flex;
   }
-
+  .channel-info {
+    width: 35%;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.885);
+  }
   .creator-info {
     width: 40%;
     text-align: center;
-    margin-left: 100px;
-    /* font-family: "Dancing Script", cursive; */
-    font-family: "Varela Round", sans-serif;
     font-size: 20px;
-    color: #ffffff;
-    display: flex;
-    flex-direction: row;
+    color: #fff;
   }
-
+  .channel-link h4,
+  .developer-link,
+  .developer-link h4,
+  .icons {
+    color: rgba(255, 255, 255, 0.885);
+  }
   .channel-link {
     margin: 10px 30px;
     width: 50%;
     text-align: left;
   }
-
   .channel-link h4 {
-    margin: 9px 0px;
-    color: rgba(255, 255, 255, 0.885);
+    margin: 9px 0;
   }
   .channel-link h2 {
-    margin: 5px 0px;
-    margin-bottom: 20px;
+    margin: 5px 0 20px;
   }
-
-  .links {
-    display: flex;
-    flex-direction: row;
-  }
-
   .icons {
-    color: rgba(255, 255, 255, 0.885);
     margin-top: 9px;
     margin-left: 5px;
   }
-
   .developer-link {
-    /* margin: 10px 30px; */
-    /* margin-top: -10px; */
     width: 100px;
-    color: rgba(255, 255, 255, 0.885);
   }
   .developer-link h4 {
-    /* margin: 10px 30px;
-    width: 100px; */
-    margin-top: 0px;
-    color: rgba(255, 255, 255, 0.885);
+    margin-top: 0;
   }
-
   .developer-insta-links {
     margin-top: -10px;
     display: flex;
@@ -100,10 +78,7 @@
   }
   .developer-insta-links .icons {
     margin-top: 1px;
-    /* display: flex;
-    flex-direction: row; */
   }
-
   .lastImage {
     height: 38%;
     background-image: url("./channels4_banner(1).webp");
@@ -114,7 +89,6 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
-
   .custom-shape-divider-top-1671373515 {
     position: absolute;
     top: 0;
@@ -123,12 +97,10 @@
     overflow: hidden;
     line-height: 0;
   }
-
   .custom-shape-divider-top-1671373515 .shape-fill {
     fill: #ffffff;
   }
 }
-
 @media screen and (max-width: 1200px) and (min-width: 1150px) {
   .ChannelFooter {
     position: relative;
@@ -136,47 +108,32 @@
     flex-direction: column;
     height: 500px;
     width: 100%;
-    /* background-color: aqua; */
     margin: auto;
-    bottom: 0px;
+    bottom: 0;
   }
-
+  .channel-info,
+  .creator-info {
+    width: 40%;
+    margin-left: 100px;
+    font-family: "Varela Round", sans-serif;
+  }
   .footerInfo {
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 62%;
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.2),
-      rgb(244, 146, 152)
-    );
-    background-color: rgb(244, 146, 152);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), #f49298);
+    background-color: #f49298;
   }
-
   .channel-info {
-    /* padding-top: 10px; */
-    width: 40%;
-    margin-left: 100px;
     text-align: left;
-    font-family: "Varela Round", sans-serif;
     color: rgba(255, 255, 255, 0.885);
-
-    /* filter: blur(10px); */
   }
-
   .creator-info {
-    width: 40%;
     text-align: center;
-    margin-left: 100px;
-    /* font-family: "Dancing Script", cursive; */
-    font-family: "Varela Round", sans-serif;
     font-size: 20px;
-    color: #ffffff;
-    /* display: flex;
-    flex-direction: column; */
+    color: #fff;
   }
-
   .lastImage {
     height: 38%;
     background-image: url("./channels4_banner(1).webp");
@@ -185,20 +142,14 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-
   .developer-link {
-    /* margin: 10px 30px; */
-    /* margin-top: -10px; */
     width: 100px;
     color: rgba(255, 255, 255, 0.885);
   }
   .developer-link h4 {
-    /* margin: 10px 30px;
-    width: 100px; */
-    margin-top: 0px;
+    margin-top: 0;
     color: rgba(255, 255, 255, 0.885);
   }
-
   .developer-insta-links {
     margin-top: -10px;
     display: flex;
@@ -206,115 +157,75 @@
   }
   .developer-insta-links .icons {
     margin-top: 1px;
-    /* display: flex;
-    flex-direction: row; */
   }
-
-  /* .custom-shape-divider-top-1671373515 {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            overflow: hidden;
-            line-height: 0;
-        }
-    
-        .custom-shape-divider-top-1671373515 .shape-fill {
-            fill: #FFFFFF;
-        } */
 }
-
 @media screen and (max-width: 1150px) {
-  .ChannelFooter {
-    /* position: relative; */
-    display: flex;
+  .ChannelFooter,
+  .footerInfo {
     flex-direction: column;
+    display: flex;
+  }
+  .channel-info,
+  .creator-info {
+    font-family: "Varela Round", sans-serif;
+    text-align: center;
+  }
+  .ChannelFooter {
     height: auto;
     width: 100%;
-    /* background-color: aqua; */
     margin: auto;
-    bottom: 0px;
+    bottom: 0;
   }
-
   .footerInfo {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     height: 62%;
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.2),
-      rgb(244, 146, 152)
-    );
-    background-color: rgb(244, 146, 152);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), #f49298);
+    background-color: #f49298;
   }
-
   .channel-info {
-    /* padding-top: 10px; */
-    /* width: 40%; */
-    /* margin-left: 100px; */
-
-    text-align: center;
     margin: 10px;
-    font-family: "Varela Round", sans-serif;
     color: rgba(255, 255, 255, 0.885);
-
-    /* filter: blur(10px); */
   }
-
   .creator-info {
     width: 40%;
-    text-align: center;
-    /* margin-left: 100px; */
-    font-family: "Varela Round", sans-serif;
     font-size: 20px;
-    color: #ffffff;
+    color: #fff;
     display: flex;
     flex-direction: column;
   }
-
+  .channel-link h4,
+  .developer-link,
+  .developer-link h4,
+  .icons {
+    color: rgba(255, 255, 255, 0.885);
+  }
   .channel-link {
-    /* margin: 10px 30px; */
-    margin: auto;
-    margin-bottom: 30px;
+    margin: auto auto 30px;
     width: 67%;
     text-align: center;
   }
-
   .channel-link h4 {
-    margin: 9px 0px;
-    color: rgba(255, 255, 255, 0.885);
+    margin: 9px 0;
   }
   .channel-link h2 {
-    margin: 5px 0px;
-    margin-bottom: 20px;
+    margin: 5px 0 20px;
   }
-
   .links {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
-
   .icons {
-    color: rgba(255, 255, 255, 0.885);
     margin-top: 9px;
     margin-left: 5px;
   }
-
   .developer-link {
-    /* margin: 10px 30px; */
     margin: auto;
     width: 100px;
-    color: rgba(255, 255, 255, 0.885);
   }
   .developer-link h4 {
-    /* margin: 10px 30px;
-    width: 100px; */
-    margin-top: 0px;
-    color: rgba(255, 255, 255, 0.885);
+    margin-top: 0;
   }
-
   .developer-insta-links {
     margin-top: -10px;
     display: flex;
@@ -322,32 +233,14 @@
   }
   .developer-insta-links .icons {
     margin-top: 1px;
-    /* display: flex;
-    flex-direction: row; */
   }
-
   .lastImage {
-    /* display: block; */
     height: 200px;
     width: 100%;
     background-image: url("./channels4_banner(1).webp");
     background-color: rgba(255, 255, 255, 0.1);
-    /* background-blend-mode: lighten; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
   }
-
-  /* .custom-shape-divider-top-1671373515 {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            overflow: hidden;
-            line-height: 0;
-        }
-    
-        .custom-shape-divider-top-1671373515 .shape-fill {
-            fill: #FFFFFF;
-        } */
 }

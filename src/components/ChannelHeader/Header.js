@@ -1,38 +1,14 @@
 import React from "react";
-import { useEffect,useState } from "react";
 import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
 import './HeaderStyle.css';
 
 export default function Header() {
 
-  const search = useLocation().search;
-  let header = new URLSearchParams(search).get("header");
-
-
-  const [headerClassName,setHeaderClassName] = useState('channelHeader')
-
-  // window.location.reload()
-  // const url =window.location.pathname
-  // console.log(url)
-  const newStyles ={
-    display: "none"
-  }
-
-  useEffect(()=>{
-    header === false? setHeaderClassName('newStyles'):setHeaderClassName('channelHeader');
-  },[])
-
-  // let headerClassName = true
-  // header == false? headerClassName = 'newStyles':headerClassName='channelHeader';
 
   return (
     <>
-    {console.log(headerClassName)}
       <Link to="/"
-      className={headerClassName}
-      // className={url=="/details"?"newStyles":"channelHeader"}
-        // className="channelHeader"
+        className="channelHeader"
         style={{
           backgroundSize: "cover"
         }}

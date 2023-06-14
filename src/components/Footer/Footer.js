@@ -60,16 +60,6 @@ export default function Footer() {
               <h4 style={{ fontSize: "20px", marginTop: "-35px" }}>
                 Developer Contact
               </h4>
-              {/* <h4
-                style={{
-                  fontSize: "20px",
-                  marginTop: "-10px",
-                  marginLeft: "-35px",
-                  color: "rgba(255, 255, 255, 0.885)",
-                }}
-              >
-                services@asplay.tech
-              </h4> */}
               <a
                 href="https://www.instagram.com/_evoliq_/?next=%2F"
                 target="_blank"

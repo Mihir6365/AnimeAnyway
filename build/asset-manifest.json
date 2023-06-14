@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.186bc047.css",
+    "main.js": "/static/js/main.03a8be03.js",
+    "static/media/cl2-header.webp": "/static/media/cl2-header.c1bf8c0ceceedd2584c4.webp",
+    "static/media/Year_Two_Volume_9.webp": "/static/media/Year_Two_Volume_9.20a22750ba7d87cd319b.webp",
+    "static/media/Year_Two_Volume_7.webp": "/static/media/Year_Two_Volume_7.237efb35a079607f4438.webp",
+    "static/media/Image 02.webp": "/static/media/Image 02.4c42f870c1efa0b5734d.webp",
+    "static/media/Year_Two_Volume_8.webp": "/static/media/Year_Two_Volume_8.9cb5eec9c63a5a9ccbab.webp",
+    "static/media/Volume_0.webp": "/static/media/Volume_0.d014f935bfe641389ba0.webp",
+    "static/media/Year_Two_Volume_6.webp": "/static/media/Year_Two_Volume_6.c6c11fc3f666a3491407.webp",
+    "static/media/channels4_banner(1).webp": "/static/media/channels4_banner(1).bfcf77d7302ed07f0d0f.webp",
+    "index.html": "/index.html",
+    "main.186bc047.css.map": "/static/css/main.186bc047.css.map",
+    "main.03a8be03.js.map": "/static/js/main.03a8be03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.186bc047.css",
+    "static/js/main.03a8be03.js"
+  ]
+}
