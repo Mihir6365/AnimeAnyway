@@ -18,9 +18,6 @@ export const VolumeDetails = () => {
   const leastVolumeIndex = 0;
   const maxVolumeIndex = translatedVolume.length - 1;
   const search = useLocation().search;
-  const loc = useLocation();
-  const { path } = loc.state;
-  let { index } = loc.state;
   volume_index = new URLSearchParams(search).get("volume");
 
   useEffect(() => {
@@ -43,7 +40,7 @@ export const VolumeDetails = () => {
 
   return (
     <>
-      {console.log(volumeImg)}
+
       <div className="mainHeaderCont">
         <img
           className="volumeImg"
@@ -67,12 +64,13 @@ export const VolumeDetails = () => {
         <div
           className="synopsis"
           dangerouslySetInnerHTML={{ __html: synopsis }}
-          id="para"
+
         ></div>
       </div>
 
       <div className="volumeNav ">
-        {volume_index === leastVolumeIndex ? (
+        {/* eslint-disable-next-line */}
+        {volume_index == leastVolumeIndex ? (
           <>
             <div className="prevVol disable">Previous</div>
           </>
@@ -80,7 +78,6 @@ export const VolumeDetails = () => {
           <>
             <Link
               to={`/details?volume=${prevVolumeIndex}`}
-              state={{ path: path, index: prevVolumeIndex }}
             >
               <div className="prevVol">Previous</div>
             </Link>
@@ -88,12 +85,12 @@ export const VolumeDetails = () => {
         )}
 
         <Link
-          to={`/read?volume=${index}&chapter=${"Index"}`}
-          state={{ path: path }}
+          to={`/read?volume=${volume_index}&chapter=${"Index"}`}
         >
           <div className="index">Index</div>
         </Link>
-        {volume_index === maxVolumeIndex ? (
+        {/* eslint-disable-next-line */}
+        {volume_index == maxVolumeIndex ? (
           <>
             <div className="nextVol disable">Next</div>
           </>
@@ -101,7 +98,6 @@ export const VolumeDetails = () => {
           <>
             <Link
               to={`/details?volume=${nextVolumeIndex}`}
-              state={{ path: path, index: nextVolumeIndex }}
             >
               <div className="nextVol">Next</div>
             </Link>
@@ -114,8 +110,7 @@ export const VolumeDetails = () => {
           return (
             <>
               <Link
-                to={`/read?volume=${index}&chapter=${e.name}`}
-                state={{ path: path }}
+                to={`/read?volume=${volume_index}&chapter=${e.name}`}
               >
                 <div className="chapCard">
                   <div className="chapTitle">{e.name}</div>

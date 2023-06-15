@@ -80,8 +80,6 @@ export default function Content() {
           </Accordion>
         </div>
       </div>
-      <div>
-      </div>
     </>
   );
 }

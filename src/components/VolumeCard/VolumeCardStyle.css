@@ -39,8 +39,12 @@
   bottom: -1px;
   padding: 0.4em 1em;
   margin: 0;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(4px);
+  color: white;
+}
+.property-description > h5 {
+  color: white;
 }
 .property-social-icons {
   display: flex;
@@ -65,8 +69,11 @@
 .read-button:hover {
   transform: translateX(2px);
 }
+.nextPageBtn {
+  color: #ffffff;
+}
 .nextPageBtn:hover {
-  color: #4a4949;
+  color: #d4d4d4;
 }
 .downloadbutton {
   color: #2c2c2c;

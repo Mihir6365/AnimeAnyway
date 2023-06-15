@@ -21,22 +21,19 @@ export default function VolumeCard({ card, index }) {
             <div className="property-image-title">
             </div>
           </div>
-          <div className="property-description">
-            <h5> {card.e.name} </h5>
-          </div>
-          <div className="property-social-icons">
-
-
-            <div className="read-button">
-              <Link
-                to={`/details?volume=${index}`}
-                state={{ path: card.e.path, index: index }}
-                className="downloadbutton"
-              >
-                <ArrowForwardIosIcon className="nextPageBtn" />
-              </Link>
+          <Link
+            to={`/details?volume=${index}`}
+            className="downloadbutton"
+          >
+            <div className="property-description">
+              <h5> {card.e.name} </h5>
             </div>
-          </div>
+            <div className="property-social-icons">
+              <div className="read-button">
+                <ArrowForwardIosIcon className="nextPageBtn" />
+              </div>
+            </div>
+          </Link>
         </div>
       </div>
     </>
