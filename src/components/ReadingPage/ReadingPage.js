@@ -11,7 +11,7 @@ export const ReadingPage = () => {
   const volume = new URLSearchParams(search).get("volume");
   const chapter = new URLSearchParams(search).get("chapter");
   let name = translatedVolume[volume].name;
-  const [fileContent, setFileContent] = useState('<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>');
+  const [fileContent, setFileContent] = useState('<br/><br/><br/><br/><br/><br/><br/><div style="text-align:center">WIll be updated soon<div><br/><br/><br/><br/><br/><br/><br/><br/>');
 
   useEffect(() => {
     fetchFileContent();

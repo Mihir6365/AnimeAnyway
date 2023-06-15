@@ -103,35 +103,36 @@ export const translatedVolume = [
     <p>"I won’t acknowledge her. No matter how many people end up following Horikita in the future, I will never acknowledge her."</p>
     
     <p>Does darkness or light await at the end with this choice?</p>
+    <strong>Year 2 Volume 6 will be updated on the website soon!</strong>
 `,
     chapter: [
-      {
-        name: "Index",
-      },
-      {
-        name: "Prologue",
-      },
-      {
-        name: "Chapter 1",
-      },
-      {
-        name: "Chapter 2",
-      },
-      {
-        name: "Chapter 3",
-      },
-      {
-        name: "Chapter 4",
-      },
-      {
-        name: "Chapter 5",
-      },
-      {
-        name: "Chapter 6",
-      },
-      {
-        name: "Epilogue",
-      },
+      // {
+      //   name: "Index",
+      // },
+      // {
+      //   name: "Prologue",
+      // },
+      // {
+      //   name: "Chapter 1",
+      // },
+      // {
+      //   name: "Chapter 2",
+      // },
+      // {
+      //   name: "Chapter 3",
+      // },
+      // {
+      //   name: "Chapter 4",
+      // },
+      // {
+      //   name: "Chapter 5",
+      // },
+      // {
+      //   name: "Chapter 6",
+      // },
+      // {
+      //   name: "Epilogue",
+      // },
     ],
   },
   {
@@ -146,38 +147,40 @@ export const translatedVolume = [
     
     <p>On the other hand, Ayanokōji started to approach Kanzaki, who is disappointed in his own class for losing the opportunity to raise to Class A, and Nagumo, who changed after Ayanokōji threw away their match――!?</p>
     
-    <p>"I have a proposal for Student Council President Nagumo. Can I be the one to propose the match this time?"</p>`,
+    <p>"I have a proposal for Student Council President Nagumo. Can I be the one to propose the match this time?"</p>
+    <strong>Year 2 Volume 6 will be updated on the website soon!</strong>
+    `,
     chapter: [
-      {
-        name: "Index",
-      },
-      {
-        name: "Prologue",
-      },
-      {
-        name: "Chapter 1",
-      },
-      {
-        name: "Chapter 2",
-      },
-      {
-        name: "Chapter 3",
-      },
-      {
-        name: "Chapter 4",
-      },
-      {
-        name: "Chapter 5",
-      },
-      {
-        name: "Chapter 6",
-      },
-      {
-        name: "Chapter 7",
-      },
-      {
-        name: "Epilogue",
-      },
+      // {
+      //   name: "Index",
+      // },
+      // {
+      //   name: "Prologue",
+      // },
+      // {
+      //   name: "Chapter 1",
+      // },
+      // {
+      //   name: "Chapter 2",
+      // },
+      // {
+      //   name: "Chapter 3",
+      // },
+      // {
+      //   name: "Chapter 4",
+      // },
+      // {
+      //   name: "Chapter 5",
+      // },
+      // {
+      //   name: "Chapter 6",
+      // },
+      // {
+      //   name: "Chapter 7",
+      // },
+      // {
+      //   name: "Epilogue",
+      // },
     ],
   },
   {
