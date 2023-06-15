@@ -1,26 +1,60 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { translatedVolume } from "../../constants/volumeObj.js";
 import "../ReadingPage/ReadingPageStyle.css";
 import Header from "../ChannelHeader/Header.js";
 
-
 export const ReadingPage = () => {
   const search = useLocation().search;
   const volume = new URLSearchParams(search).get("volume");
-  const chapter = new URLSearchParams(search).get("chapter");
-  let name = translatedVolume[volume].name;
+  var chapter = new URLSearchParams(search).get("chapter");
+  
+  
+  // const [volume,setVolume] = useState(new URLSearchParams(search).get("volume"))
+  // const [chapter,setChapter] = useState(new URLSearchParams(search).get("chapter"))
+  const [chapterList, setChapterList] = useState(translatedVolume[volume].chapter)
   const [fileContent, setFileContent] = useState('<br/><br/><br/><br/><br/><br/><br/><div style="text-align:center">WIll be updated soon<div><br/><br/><br/><br/><br/><br/><br/><br/>');
+  const [prevIndex, setPrevIndex] = useState(getIndex(chapter) - 1)
+  const [nextIndex, setNextIndex] = useState(getIndex(chapter) + 1)
+  const [currIndex, setCurrIndex] = useState(getIndex(chapter))
 
-  useEffect(() => {
+  let volumeIndex = translatedVolume[volume].name;
+
+  // useEffect(() => {
+    
+  // }, []);
+
+  useEffect(()=>{
+    setPrevIndex(getIndex(chapter)-1)
+    console.log(prevIndex)
+    setNextIndex(getIndex(chapter)+1)
+    setCurrIndex(getIndex(chapter))
     fetchFileContent();
-  }, []);
+    window.scrollTo(0, 0)
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[chapter])
+
+  function getIndex(chapterName) {
+    let count = 0;
+    for (let i = 0; i < chapterList.length; i++) {
+      if (chapterList[i].name == chapterName) {
+        break;
+      }
+      count++;
+    }
+    return count;
+  }
+
+  function getChapterName(index) {
+    return chapterList[index].name
+  }
 
   const fetchFileContent = async () => {
     try {
-      const response = await axios.get(`../../assets/${name}/${chapter}.html`);
+      const response = await axios.get(`../../assets/${volumeIndex}/${chapter}.html`);
       setFileContent(response.data);
     } catch (error) {
       console.error(error);
@@ -31,6 +65,36 @@ export const ReadingPage = () => {
     <>
       <Header />
       <div dangerouslySetInnerHTML={{ __html: fileContent }} style={{ userSelect: "none" }} />
+      <div className="chapNav">
+        {currIndex == 0 ? (
+          <>
+            <div className="prevChap disable" >Previous Chapter</div>
+          </>
+        ) : (
+          <>
+            <Link
+              to={`/read?volume=${volume}&chapter=${getChapterName(prevIndex)}`}
+            >
+            <div className="prevChap" onClick={()=>{getChapterName(prevIndex)}}>Previous chapter</div>
+            </Link>
+          </>
+        )}
+
+        {/* eslint-disable-next-line */}
+        {currIndex == (chapterList.length - 1) ? (
+          <>
+            <div className="nextChap disable" >Next Chapter</div>
+          </>
+        ) : (
+          <>
+            <Link
+              to={`/read?volume=${volume}&chapter=${getChapterName(nextIndex)}`}
+            >
+            <div className="nextChap" onClick={()=>{getChapterName(nextIndex)}}>Next chapter</div>
+            </Link>
+          </>
+        )}
+      </div>
     </>
   );
 }

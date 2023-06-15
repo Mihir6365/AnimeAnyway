@@ -35,7 +35,7 @@ export const VolumeDetails = () => {
     } else {
       setcolor("blue");
     }
-    // eslint-disable-next-line
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [volume_index, status]);
 
   return (
