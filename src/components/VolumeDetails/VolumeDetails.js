@@ -19,7 +19,6 @@ export const VolumeDetails = () => {
   const maxVolumeIndex = translatedVolume.length - 1;
   const search = useLocation().search;
   volume_index = new URLSearchParams(search).get("volume");
-
   useEffect(() => {
     setChapters(translatedVolume[volume_index].chapter);
     setVolumeName(translatedVolume[volume_index].namehtml);
@@ -29,40 +28,42 @@ export const VolumeDetails = () => {
     setPrevVolumeIndex(new URLSearchParams(search).get("volume") - 1);
     setNextVolumeIndex(parseInt(new URLSearchParams(search).get("volume")) + 1);
     window.scrollTo(0, 0);
-    console.log(translatedVolume[volume_index]);
     if (status === "Completed") {
       setcolor("rgb(7, 243, 7)");
+    } else if (status === "Upcoming") {
+      setcolor("red");
     } else {
       setcolor("blue");
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+
   }, [volume_index, status]);
 
   return (
-    <>
-
+    <div className="infinity">
       <div className="mainHeaderCont">
         <img
           className="volumeImg"
           src={process.env.PUBLIC_URL + volumeImg}
           alt={volumeName + " cover"}
         ></img>
-        <div
+        <h1
           dangerouslySetInnerHTML={{ __html: volumeName }}
           className="volumeTitle"
-        ></div>
-        <div className="curStatus">
+        ></h1>
+        <div className="curStatus" >
           <div
-            style={{ "background-color": color }}
+            style={{ "backgroundColor": color }}
             className="statusDot"
           ></div>
           <div className="statusTitle">{status}</div>
         </div>
       </div>
 
+
       <div className="synCont">
         <div
-          className="synopsis"
+          className="synopsis infinity"
           dangerouslySetInnerHTML={{ __html: synopsis }}
 
         ></div>
@@ -84,11 +85,20 @@ export const VolumeDetails = () => {
           </>
         )}
 
-        <Link
-          to={`/read?volume=${volume_index}&chapter=${"Index"}`}
-        >
-          <div className="index">Index</div>
-        </Link>
+
+        {chapters.length == 0 ? (
+          <>
+
+          </>
+        ) : (
+          <>
+            <Link
+              to={`/read?volume=${volume_index}&chapter=${"Index"}`}
+            >
+              <div className="index">Index</div>
+            </Link>
+          </>
+        )}
         {/* eslint-disable-next-line */}
         {volume_index == maxVolumeIndex ? (
           <>
@@ -114,13 +124,13 @@ export const VolumeDetails = () => {
               >
                 <div className="chapCard">
                   <div className="chapTitle">{e.name}</div>
-                  <div className="transType">AnimeAnyway Fan translation</div>
+                  <div className="transType">AnimeAnyway <br /> Fan translation</div>
                 </div>
               </Link>
             </>
           );
         })}
       </div>
-    </>
+    </div>
   );
 };

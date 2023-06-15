@@ -238,8 +238,8 @@ export const translatedVolume = [
     volumeNumber: 21,
     image: require("../assets/images/Volume_0.webp"),
     name: "Volume 0",
-    namehtml: "COTE Volume 0",
-    status: "Ongoing",
+    namehtml: "COTE <br/> Volume 0",
+    status: "Completed",
     synopsis: `<p>This may be a story of the past that had been concealed, and mustn’t be seen.</p>
 
     <p>About 20 years before Kiyotaka Ayanokōji enrolled at Advanced Nurturing High School.</p>
@@ -362,6 +362,52 @@ export const translatedVolume = [
       {
         name: "Epilogue",
       },
+    ],
+  },
+  {
+    volumeNumber: 23,
+    image: require("../assets/images/Year_Two_Volume_9.5.webp"),
+    name: "Year 2 Volume 9.5",
+    namehtml: "COTE Year 2 <br/> Volume 9.5",
+    synopsis: `<p>The second winter break had come by in the Advanced Nurturing High School. The promise to buy Christmas presents was cancelled due to Karuizawa coming down with influenza, and it so happens that Ayanokōji will be alone during the next couple days around Christmas Eve.<p/>
+
+    <p>Amidst that. “Um, what's your plan for lunch today, Ayanokōji-kun?” “Let's leave that for when we meet. Is it fine if I visit your room?”<p/>
+    
+    <p>“Catch me later at the North entrance of Keyaki Mall in 30 minutes.” Endless phone calls from leaders of each class.<p/>
+    
+    <p>On the other hand. “Ayanokōji-kun…… isn't just a gloomy person, is he? Like, he's hiding something.” Discussions about Ayanokōji spur on between classmates――!?<p/>
+    <br>
+    <strong>Year 2 Volume 9.5 will be updated on the website on 16th February!</strong>
+  `,
+    status: "Upcoming",
+    chapter: [
+      // {
+      //   name: "Index",
+      // },
+      // {
+      //   name: "Prologue",
+      // },
+      // {
+      //   name: "Chapter 1",
+      // },
+      // {
+      //   name: "Chapter 2",
+      // },
+      // {
+      //   name: "Chapter 3",
+      // },
+      // {
+      //   name: "Chapter 4",
+      // },
+      // {
+      //   name: "Chapter 5",
+      // },
+      // {
+      //   name: "Chapter 6",
+      // },
+      // {
+      //   name: "Epilogue",
+      // },
     ],
   },
 ];

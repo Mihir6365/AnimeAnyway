@@ -20,8 +20,8 @@ export default function Header() {
           </h1>
         </div>
         <div className="homebtn">
-          <KeyboardBackspaceIcon className="backBtn"/> Back to home
-          {/* <img src="https://img.icons8.com/material-sharp/24/null/home-page.png" alt="homebtn" /> */}
+          {/* <KeyboardBackspaceIcon className="backBtn"/> Back to home */}
+          <img src="https://img.icons8.com/material-sharp/24/null/home-page.png" alt="homebtn" />
         </div>
       </Link>
       <br />

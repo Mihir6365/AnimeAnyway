@@ -10,11 +10,7 @@ export const ReadingPage = () => {
   const search = useLocation().search;
   const volume = new URLSearchParams(search).get("volume");
   var chapter = new URLSearchParams(search).get("chapter");
-  
-  
-  // const [volume,setVolume] = useState(new URLSearchParams(search).get("volume"))
-  // const [chapter,setChapter] = useState(new URLSearchParams(search).get("chapter"))
-  const [chapterList, setChapterList] = useState(translatedVolume[volume].chapter)
+  const chapterList = translatedVolume[volume].chapter;
   const [fileContent, setFileContent] = useState('<br/><br/><br/><br/><br/><br/><br/><div style="text-align:center">WIll be updated soon<div><br/><br/><br/><br/><br/><br/><br/><br/>');
   const [prevIndex, setPrevIndex] = useState(getIndex(chapter) - 1)
   const [nextIndex, setNextIndex] = useState(getIndex(chapter) + 1)
@@ -22,20 +18,16 @@ export const ReadingPage = () => {
 
   let volumeIndex = translatedVolume[volume].name;
 
-  // useEffect(() => {
-    
-  // }, []);
-
-  useEffect(()=>{
-    setPrevIndex(getIndex(chapter)-1)
+  useEffect(() => {
+    setPrevIndex(getIndex(chapter) - 1)
     console.log(prevIndex)
-    setNextIndex(getIndex(chapter)+1)
+    setNextIndex(getIndex(chapter) + 1)
     setCurrIndex(getIndex(chapter))
     fetchFileContent();
     window.scrollTo(0, 0)
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  },[chapter])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [chapter])
 
   function getIndex(chapterName) {
     let count = 0;
@@ -75,7 +67,7 @@ export const ReadingPage = () => {
             <Link
               to={`/read?volume=${volume}&chapter=${getChapterName(prevIndex)}`}
             >
-            <div className="prevChap" onClick={()=>{getChapterName(prevIndex)}}>Previous chapter</div>
+              <div className="prevChap" onClick={() => { getChapterName(prevIndex) }}>Previous chapter</div>
             </Link>
           </>
         )}
@@ -90,7 +82,7 @@ export const ReadingPage = () => {
             <Link
               to={`/read?volume=${volume}&chapter=${getChapterName(nextIndex)}`}
             >
-            <div className="nextChap" onClick={()=>{getChapterName(nextIndex)}}>Next chapter</div>
+              <div className="nextChap" onClick={() => { getChapterName(nextIndex) }}>Next chapter</div>
             </Link>
           </>
         )}
