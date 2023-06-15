@@ -1,4 +1,5 @@
 import React from "react";
+import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import { Link } from "react-router-dom";
 import './HeaderStyle.css';
 
@@ -18,7 +19,10 @@ export default function Header() {
             Classroom Of The Elite Fan Translations
           </h1>
         </div>
-        <div className="homebtn"><img src="https://img.icons8.com/material-sharp/24/null/home-page.png" alt="homebtn" /></div>
+        <div className="homebtn">
+          <KeyboardBackspaceIcon className="backBtn"/> Back to home
+          {/* <img src="https://img.icons8.com/material-sharp/24/null/home-page.png" alt="homebtn" /> */}
+        </div>
       </Link>
       <br />
       <br />
