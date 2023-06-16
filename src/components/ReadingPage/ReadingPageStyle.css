@@ -156,14 +156,14 @@
 }
 .nextChap,
 .prevChap {
-  width: auto;
+  width: 160px;
   height: 30px;
-  margin: 0 4vw;
+  margin: 0 8vw;
   border-radius: 5px;
   padding: 3px 7px 0;
   font-size: 1em;
   text-align: center;
-  background: linear-gradient(to right, #f06c63 0, #d87e7e 50%, #ed8049 100%);
+  background: #222121;
   color: azure;
   box-shadow: 1px 1px 6px #525151;
   cursor: pointer;
@@ -264,5 +264,13 @@
   }
   .dark_mode_2 {
     left: 70%;
+  }
+}
+@media screen and (max-width: 580px) {
+  .nextChap,
+  .prevChap {
+    width: 100px;
+    height: 26px;
+    margin: 0 10vw;
   }
 }

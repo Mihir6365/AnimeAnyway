@@ -6,6 +6,28 @@
   font-family: "MADE INFINITY PERSONAL USE B";
   src: url("./MADEINFINITY PERSONALUSE.otf") format("truetype");
 }
+@keyframes expand-div {
+  0% {
+    max-height: 0px;
+  }
+  100% {
+    max-height: 2000px;
+  }
+}
+.volumeImg {
+  top: 100px;
+}
+@keyframes contract-div {
+  0% {
+    max-height: 2000px;
+  }
+  10% {
+    max-height: 1000px;
+  }
+  100% {
+    max-height: 0px;
+  }
+}
 .volumeImg {
   top: 100px;
 }
@@ -138,6 +160,10 @@
   margin-left: calc(48% - 80px);
   font-size: 10pt;
 }
+.expand-btn {
+  display: none;
+}
+
 @media screen and (max-width: 900px) {
   .index,
   .nextVol,
@@ -188,11 +214,41 @@
   .nextVol,
   .prevVol {
     width: 100px;
-    height: 24px;
+    height: 28px;
     margin: 0 3vw;
   }
   .transType {
     margin-left: calc(48% - 90px);
+  }
+  .expand-btn {
+    display: block;
+    width: 80vw;
+    height: 30px;
+    border: none;
+    border-top: 5px solid black;
+    background-color: #ffffff;
+    font-weight: 900;
+    font-size: 13pt;
+    padding: 0px;
+    color: #f6f2f2;
+    border-radius: 3px;
+  }
+  .read-btn {
+    width: 40%;
+    height: 28px;
+    background-color: black;
+    margin-top: -2px;
+    margin-left: calc(30%);
+    min-width: 100px;
+    border-top: none;
+    border-radius: 0px 0px 5px 5px;
+  }
+  .expand {
+    max-height: 0px;
+    overflow: hidden;
+    /* animation-name: expand-div; */
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
   }
 }
 @media screen and (max-width: 410px) {

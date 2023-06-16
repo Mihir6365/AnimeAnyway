@@ -14,6 +14,7 @@ export const VolumeDetails = () => {
   const [status, setStatus] = useState();
   const [color, setcolor] = useState();
   const [synopsis, setsynopsis] = useState();
+  const [expanded, setExpanded] = useState(false);
   var volume_index;
   const leastVolumeIndex = 0;
   const maxVolumeIndex = translatedVolume.length - 1;
@@ -35,9 +36,21 @@ export const VolumeDetails = () => {
     } else {
       setcolor("blue");
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [volume_index, status]);
+
+  function expand() {
+    if (!expanded) {
+      document.getElementById("expand").style.animationName = "expand-div";
+      document.getElementById("read-btn").innerText = "Show Less";
+      setExpanded(true);
+    } else {
+      document.getElementById("expand").style.animationName = "contract-div";
+      document.getElementById("read-btn").innerText = "Show More";
+      setExpanded(false);
+    }
+  }
 
   return (
     <div className="infinity">
@@ -65,8 +78,13 @@ export const VolumeDetails = () => {
         <div
           className="synopsis infinity"
           dangerouslySetInnerHTML={{ __html: synopsis }}
-
         ></div>
+        <br />
+        <button className="expand-btn" onClick={() => expand()}>
+          <p className="read-btn" id="read-btn">
+            Show More
+          </p>
+        </button>
       </div>
 
       <div className="volumeNav ">

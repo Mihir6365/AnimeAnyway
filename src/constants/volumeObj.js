@@ -93,8 +93,10 @@ export const translatedVolume = [
     namehtml: "COTE Year 2 <br/> Volume 6",
     status: "Completed",
     synopsis: `<p>"Hey, Horikita-san. Can you really say that keeping Kushida-san was the correct thing to do?"</p>
+    <div class="expand infinity" id="expand">
 
     <p>The sacrifice for the Unanimous Vote Special Exam was very costly, and a significant crack had emerged in Ayanokōji’s class. Kushida, Hasebe, and Wang continuously refrained from coming to classes, and even though the details for the Sports Festival were announced, confusion arose in the class meeting due to opposition to Horikita, and the class couldn’t even begin training.</p>
+
     
     <p>Although the class gained a significant number of points and was even promoted, at this rate, it was going to end up becoming a net negative result. Horikita and Hirata started taking action to coax the three absentees back but……</p>
     
@@ -103,6 +105,8 @@ export const translatedVolume = [
     <p>"I won’t acknowledge her. No matter how many people end up following Horikita in the future, I will never acknowledge her."</p>
     
     <p>Does darkness or light await at the end with this choice?</p>
+    </div>
+    <br>
     <strong>Year 2 Volume 6 will be updated on the website soon!</strong>
 `,
     chapter: [
@@ -142,12 +146,17 @@ export const translatedVolume = [
     namehtml: "COTE Year 2 <br/> Volume 7",
     status: "Completed",
     synopsis: `<p>"You’re about the only person I could think of who would understand what I’m saying and wouldn’t carelessly leak it."</p>
+  <div class="expand infinity" id="expand">
+
 
     <p>The Sports Festival has ended and the first Cultural Festival of the Advanced Nurturing High School is soon approaching. Hasebe and Miyake have put up a wall with the class, and while there are unhelpful students like Kōenji, Ayanokōji and his other classmates' preparations for the Maid Café were progressing steadily even in secret. However, there was no way that Ryūen was oblivious to this and he suddenly destroyed the cooperation agreement with Horikita's Class. Ryūen’s class announced they too will open a Concept Café and requested a 1 vs 1 match with them through sales.</p>
+    <div class="expand infinity" id="expand">
     
     <p>On the other hand, Ayanokōji started to approach Kanzaki, who is disappointed in his own class for losing the opportunity to raise to Class A, and Nagumo, who changed after Ayanokōji threw away their match――!?</p>
     
     <p>"I have a proposal for Student Council President Nagumo. Can I be the one to propose the match this time?"</p>
+    </div>
+    <br>
     <strong>Year 2 Volume 6 will be updated on the website soon!</strong>
     `,
     chapter: [
@@ -190,8 +199,10 @@ export const translatedVolume = [
     namehtml: "COTE Year 2 <br/> Volume 8",
     status: "Completed",
     synopsis: `<p>The theme of this school trip is: If you know the enemy and know yourself, you need not fear the result of a hundred battles.</p>
+    <div class="expand infinity" id="expand">
 
     <p>In late November, after the final examinations are over, the details of the school trip are announced. The destination is Hokkaido. There will be no special exam, and the trip will be a normal school trip, including skiing and sightseeing. However, it is a unique trip in which a total of eight students, one boy and one girl from each class, will be grouped together for the five days, four nights. Ayanokōji and Kushida are in a group with members of other classes, including Ryūen of all people.</p>
+    <div class="expand infinity" id="expand">
     
     <p>However, things will not go so smoothly.</p>
     
@@ -206,6 +217,7 @@ export const translatedVolume = [
     <p>On the other hand, an event is going to happen that will drastically change the relationship between the students.</p>
     
     <p>"I-I'm properly confessing to Suzune. I'm going to ask her to go out with me."</p>
+    </div>
     `,
     chapter: [
       {
@@ -243,6 +255,7 @@ export const translatedVolume = [
     synopsis: `<p>This may be a story of the past that had been concealed, and mustn’t be seen.</p>
 
     <p>About 20 years before Kiyotaka Ayanokōji enrolled at Advanced Nurturing High School.</p>
+<div class="expand infinity" id="expand">
     
     <p>There was a man. Atsuomi Ayanokōji, aged 31. A politician.</p>
     
@@ -263,6 +276,7 @@ export const translatedVolume = [
     <p>This is the beginning of everything. A story about the "dissection" of Kiyotaka Ayanokōji——.</p>
     
     <p>Within a cold white room, what does the future look like in the eyes of a young child?</p>
+    </div>
     `,
     chapter: [
       {
@@ -308,6 +322,7 @@ export const translatedVolume = [
     December, after the end of the School Trip. The final Special Test
     of the second semester, the Cooperative Written Test is announced.
   </p>
+  <div class="expand infinity" id="expand">
 
   <p>
     In this test, everyone takes turns at answering the questions of the
@@ -332,7 +347,8 @@ export const translatedVolume = [
 
   <p>"I'm not forcing myself! ……I want to meet Ayanokōji-kun, too……"</p>
 
-  <p>This school's book of revelations is headed for a new chaos——</p>`,
+  <p>This school's book of revelations is headed for a new chaos——</p>
+  </div>`,
     status: "Completed",
     chapter: [
       {
@@ -369,15 +385,40 @@ export const translatedVolume = [
     image: require("../assets/images/Year_Two_Volume_9.5.webp"),
     name: "Year 2 Volume 9.5",
     namehtml: "COTE Year 2 <br/> Volume 9.5",
-    synopsis: `<p>The second winter break had come by in the Advanced Nurturing High School. The promise to buy Christmas presents was cancelled due to Karuizawa coming down with influenza, and it so happens that Ayanokōji will be alone during the next couple days around Christmas Eve.<p/>
+    synopsis: `<p>“Merry Christmas, Santa’s here.”<p/>
 
-    <p>Amidst that. “Um, what's your plan for lunch today, Ayanokōji-kun?” “Let's leave that for when we meet. Is it fine if I visit your room?”<p/>
-    
-    <p>“Catch me later at the North entrance of Keyaki Mall in 30 minutes.” Endless phone calls from leaders of each class.<p/>
-    
-    <p>On the other hand. “Ayanokōji-kun…… isn't just a gloomy person, is he? Like, he's hiding something.” Discussions about Ayanokōji spur on between classmates――!?<p/>
+
+<p>The second winter break at the Advanced Nurturing High school had come. <p/>
+<div class="expand infinity" id="expand">
+<p>Ayanokoji’s promise to go shopping for Christmas presents with Karuizawa was ruined by Karuizawa’s flu, and Ayanokoji had to spend the days after Christmas Eve alone.<p/>
+
+
+<p>Meanwhile, <p/>
+
+<p>“Umm, can I ask what your plans during the day are, Ayanokoji-kun?” <p/>
+
+<p>“Let’s enjoy that after we meet, then. May I visit your room?”<p/>
+
+
+<p>“Hang with me for a bit after this. Keyaki mall, north gate.” <p/>
+
+<p>The phone calls from each class leader would not cease.<p/>
+
+<p>At the same time, <p/>
+
+<p>“Ayanokoji-kun isn’t just a gloomy classmate, right? It’s like there’s something he’s hiding.” <p/>
+
+<p>His classmates are beginning to discuss Ayanokoji!?<p/>
+
+<p>The second winter break!<p/>
+
+<p>What’s the purpose behind the leaders’ phone calls..!?<p/>
+
+<p>And even a discussion about Ayanokoji!?<p/>
+</div>
+
     <br>
-    <strong>Year 2 Volume 9.5 will be updated on the website on 16th February!</strong>
+    <strong>Year 2 Volume 9.5 will be updated on the website on 17th February!</strong>
   `,
     status: "Upcoming",
     chapter: [

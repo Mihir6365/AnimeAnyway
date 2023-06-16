@@ -60,14 +60,14 @@ export const ReadingPage = () => {
       <div className="chapNav">
         {currIndex == 0 ? (
           <>
-            <div className="prevChap disable" >Previous Chapter</div>
+            <div className="prevChap disable" >Previous</div>
           </>
         ) : (
           <>
             <Link
               to={`/read?volume=${volume}&chapter=${getChapterName(prevIndex)}`}
             >
-              <div className="prevChap" onClick={() => { getChapterName(prevIndex) }}>Previous chapter</div>
+              <div className="prevChap" onClick={() => { getChapterName(prevIndex) }}>Previous</div>
             </Link>
           </>
         )}
@@ -75,14 +75,14 @@ export const ReadingPage = () => {
         {/* eslint-disable-next-line */}
         {currIndex == (chapterList.length - 1) ? (
           <>
-            <div className="nextChap disable" >Next Chapter</div>
+            <div className="nextChap disable" >Next</div>
           </>
         ) : (
           <>
             <Link
               to={`/read?volume=${volume}&chapter=${getChapterName(nextIndex)}`}
             >
-              <div className="nextChap" onClick={() => { getChapterName(nextIndex) }}>Next chapter</div>
+              <div className="nextChap" onClick={() => { getChapterName(nextIndex) }}>Next</div>
             </Link>
           </>
         )}
