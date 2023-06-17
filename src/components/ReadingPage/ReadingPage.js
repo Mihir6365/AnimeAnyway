@@ -11,7 +11,7 @@ export const ReadingPage = () => {
   const volume = new URLSearchParams(search).get("volume");
   var chapter = new URLSearchParams(search).get("chapter");
   const chapterList = translatedVolume[volume].chapter;
-  const [fileContent, setFileContent] = useState('<br/><br/><br/><br/><br/><br/><br/><div style="text-align:center">WIll be updated soon<div><br/><br/><br/><br/><br/><br/><br/><br/>');
+  const [fileContent, setFileContent] = useState('<br/><br/><br/><br/><br/><br/><br/><div style="text-align:center"> Loading...<div><br/><br/><br/><br/><br/><br/><br/><br/>');
   const [prevIndex, setPrevIndex] = useState(getIndex(chapter) - 1)
   const [nextIndex, setNextIndex] = useState(getIndex(chapter) + 1)
   const [currIndex, setCurrIndex] = useState(getIndex(chapter))

@@ -1,6 +1,3 @@
-import InstagramIcon from "@mui/icons-material/Instagram";
-import TelegramIcon from "@mui/icons-material/Telegram";
-import YouTubeIcon from "@mui/icons-material/YouTube";
 import React from "react";
 import banner from './channels4_banner(1).webp';
 import './FooterStyle.css'
@@ -16,15 +13,15 @@ export default function Footer() {
           </div>
           <div className="creator-info">
             <div className="channel-link">
-              <h2>Follow Us</h2>
+              <p>Follow Us</p>
               <a
                 href="https://www.instagram.com/anime_anyway_/?igshid=1ch5mp9tspotz"
                 target="_blank"
                 rel="noreferrer"
               >
                 <div className="links">
-                  <h4>Instagram</h4>
-                  <InstagramIcon className="icons" />
+                  <p>Instagram</p>
+                  <img src="./icons8-instagram.svg" />
                 </div>
               </a>
               <a
@@ -33,14 +30,14 @@ export default function Footer() {
                 rel="noreferrer"
               >
                 <div className="links">
-                  <h4>Youtube</h4>
-                  <YouTubeIcon className="icons" />
+                  <p>Youtube</p>
+                  <img src="./icons8-youtube.svg" style={{ height: "38px" }} />
                 </div>
               </a>
               <a href="https://t.me/animeanyway" target="_blank" rel="noreferrer">
                 <div className="links">
-                  <h4>Telegram</h4>
-                  <TelegramIcon className="icons" />
+                  <p>Telegram</p>
+                  <img src="./icons8-telegram.svg" style={{ height: "28px", "padding-top": "3px" }} />
                 </div>
               </a>
             </div>
@@ -67,7 +64,7 @@ export default function Footer() {
               >
                 <div className="developer-insta-links">
                   <h4>_evoliq_</h4>
-                  <InstagramIcon className="icons" />
+                  <img src="./icons8-instagram.svg" style={{ marginTop: "-28px" }} />
                 </div>
               </a>
             </div>

@@ -1,4 +1,14 @@
 @import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins&family=Varela+Round&display=swap);
+.channel-link > p {
+  font-size: 20px;
+  font-weight: 800;
+}
+.links > p {
+  color: #fff;
+  margin: 9px 3px;
+  font-size: 20px;
+  font-weight: 700;
+}
 @media screen and (min-width: 1150px) {
   .channel-info,
   .footerInfo {

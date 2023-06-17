@@ -31,37 +31,33 @@
   flex-wrap: wrap;
 }
 .accord-container {
-  width: 92%;
-  height: auto;
-  padding: 10px;
-  margin: 0 3.5%;
+  width: calc(93% - 20px);
+  background-color: #212121;
+  border-radius: 7px;
+  height: 60px;
+  color: #000;
+  padding: 0px 0px 0px 20px;
+  margin: 20px 3.5%;
 }
 .accordion {
-  width: 100%;
-}
-.previousVolume {
+  display: block;
+  font-weight: 700;
   font-size: 20px;
-  font-weight: 600;
+  color: #f2f2f2;
+  margin: -37.5px 40px;
 }
-.link-container {
-  margin: 1rem;
-  padding: 1rem;
-  height: fit-content;
-  width: 100%;
-  max-width: 90%;
-  z-index: 10;
-  border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
-  color: #000;
+.accord-container:hover {
+  background-color: #2f2f2f;
 }
+#backimg {
+  height: 40px;
+  width: auto;
+  padding-top: 10px;
+}
+
 .info-container > a,
-.new-link,
-.volume-url {
+.new-link {
   color: #000;
-}
-.volume-url:visited {
-  color: #524e4e;
 }
 .info-container {
   margin: 2rem 2rem 1rem 0;
@@ -78,20 +74,6 @@
 }
 .new-link:hover {
   color: #818181;
-}
-.volume-url {
-  margin: 1px;
-  font-size: 1.3rem;
-  font-weight: 500;
-  padding: 1.5rem;
-  border: 2px solid transparent;
-  border-bottom: 2px solid #d7d7d7;
-  border-radius: 0.5rem;
-  text-decoration: none;
-  cursor: pointer;
-}
-.volume-url:hover {
-  border: 2px solid rgb(48 93 103);
 }
 @media screen and (max-width: 1440px) {
   .headerName {
@@ -111,25 +93,55 @@
     justify-content: center;
     margin-top: 10px;
   }
-  .link-container {
-    margin: 1rem auto;
-    width: 81.5%;
-    min-width: 81.6%;
-  }
+
   .info-container {
     margin: 2rem auto;
     min-width: 81.6%;
     height: auto;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 668px) {
   .accord-container {
-    margin: 0 2%;
+    height: 42px;
+    padding: 0px 0px 0px 10px;
+    width: calc(93% - 10px);
+  }
+  .accordion {
+    font-weight: 600;
+    font-size: 18px;
+    margin: -31px 30px;
+  }
+  #backimg {
+    height: 30px;
+    padding-top: 5px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .accord-container {
-    margin: 0;
-    padding-left: 10px;
+    height: 68px;
+  }
+  .accordion {
+    font-weight: 600;
+    font-size: 18px;
+    margin: -55px 50px;
+  }
+  #backimg {
+    height: 50px;
+    padding-top: 10px;
+  }
+}
+@media screen and (max-width: 345px) {
+  .accord-container {
+    height: 68px;
+    padding: 0px 0px 0px 5px;
+  }
+  .accordion {
+    font-weight: 500;
+    font-size: 15px;
+    margin: -44px 40px;
+  }
+  #backimg {
+    height: 40px;
+    padding-top: 12px;
   }
 }
