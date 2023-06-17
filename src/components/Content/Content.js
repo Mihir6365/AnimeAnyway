@@ -16,9 +16,9 @@ export default function Content() {
     <>
       <Header />
       <div className="main-container">
-        <div className="headerName">
+        <h3 className="headerName">
           Anime Anyway Translations
-        </div>
+        </h3>
         <div className="volume-container">
           <div className="card-container">
             {transVolumes.map((e) => {
@@ -45,7 +45,7 @@ export default function Content() {
         </div>
         <a href="https://www.youtube.com/watch?v=CAkMA_DsT-I&list=PLgFd4QA43aqVIIrukJI6fqJNOv2g0k48N&index=2" target="_blank" >
           <div className="accord-container">
-            <img src="./back-arrow.svg" id="backimg" />
+            <img src="./back-arrow.svg" id="backimg" alt="back" />
             <div className="accordion">
               Previous Classroom of the Elite Volumes
             </div>

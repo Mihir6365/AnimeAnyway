@@ -25,11 +25,11 @@ export default function VolumeCard({ card, index }) {
             className="downloadbutton"
           >
             <div className="property-description">
-              <h5> {card.e.name} </h5>
+              <h2> {card.e.name} </h2>
             </div>
             <div className="property-social-icons">
               <div className="read-button">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAXElEQVR4nO3VOwqAQAxAQT/nFmwVtLbTzmOOLG5rIZJGMgfIg7CfpklfYMCMLiqwuO0hEbTYauREn5FHcl1voKtHt5ijA1PE8CPkAsrh/1pLgTX6uR5rJObDScUF85ca+b4WJLoAAAAASUVORK5CYII=" />
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAXElEQVR4nO3VOwqAQAxAQT/nFmwVtLbTzmOOLG5rIZJGMgfIg7CfpklfYMCMLiqwuO0hEbTYauREn5FHcl1voKtHt5ijA1PE8CPkAsrh/1pLgTX6uR5rJObDScUF85ca+b4WJLoAAAAASUVORK5CYII=" alt="next btn" style={{ height: "24px", width: "24px" }} />
               </div>
             </div>
           </Link>

@@ -20,7 +20,7 @@ export default function Header() {
         </div>
         <div className="homebtn">
           {/* <KeyboardBackspaceIcon className="backBtn"/> Back to home */}
-          <img src="https://img.icons8.com/material-sharp/24/null/home-page.png" alt="homebtn" />
+          <img src="./icons8-home.svg" alt="homebtn" />
         </div>
       </Link>
       <br />

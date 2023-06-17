@@ -8,8 +8,8 @@ export default function Footer() {
       <div className="ChannelFooter">
         <div className="footerInfo">
           <div className="channel-info">
-            <h1>Anime Anyway</h1>
-            <h3>Channel for all Classroom of the elite novel translations</h3>
+            <h4>Anime Anyway</h4>
+            <h4>Channel for all Classroom of the elite novel translations</h4>
           </div>
           <div className="creator-info">
             <div className="channel-link">
@@ -21,7 +21,7 @@ export default function Footer() {
               >
                 <div className="links">
                   <p>Instagram</p>
-                  <img src="./icons8-instagram.svg" />
+                  <img src="./icons8-instagram.svg" alt="insta icon" style={{ width: "30px", height: "30px" }} />
                 </div>
               </a>
               <a
@@ -31,13 +31,13 @@ export default function Footer() {
               >
                 <div className="links">
                   <p>Youtube</p>
-                  <img src="./icons8-youtube.svg" style={{ height: "38px" }} />
+                  <img src="./icons8-youtube.svg" style={{ height: "38px", width: "38px" }} alt="youtube icon" />
                 </div>
               </a>
               <a href="https://t.me/animeanyway" target="_blank" rel="noreferrer">
                 <div className="links">
                   <p>Telegram</p>
-                  <img src="./icons8-telegram.svg" style={{ height: "28px", "padding-top": "3px" }} />
+                  <img src="./icons8-telegram.svg" style={{ height: "28px", width: "28px", "padding-top": "3px" }} alt="telegram icon" />
                 </div>
               </a>
             </div>
@@ -45,18 +45,18 @@ export default function Footer() {
               className="developer-link"
               style={{ display: "flex", flexDirection: "column" }}
             >
-              <h3
+              <p
                 style={{
-                  fontFamily: "Dancing Script, cursive",
                   fontSize: "45px",
-                  marginTop: "0px",
+                  marginTop: "27px",
+                  fontWeight: "bold",
                 }}
               >
                 Evoliq
-              </h3>
-              <h4 style={{ fontSize: "20px", marginTop: "-35px" }}>
+              </p>
+              <p style={{ fontSize: "20px", marginTop: "-35px" }}>
                 Developer Contact
-              </h4>
+              </p>
               <a
                 href="https://www.instagram.com/_evoliq_/?next=%2F"
                 target="_blank"
@@ -64,13 +64,13 @@ export default function Footer() {
               >
                 <div className="developer-insta-links">
                   <h4>_evoliq_</h4>
-                  <img src="./icons8-instagram.svg" style={{ marginTop: "-28px" }} />
+                  <img src="./icons8-instagram.svg" style={{ marginTop: "-28px", height: "75px", width: "30px" }} alt="instagram icon" />
                 </div>
               </a>
             </div>
           </div>
         </div>
-        <img src={banner} alt="banner"></img>
+        <img src={banner} alt="banner" style={{ height: "48%", width: "100%" }} />
       </div>
     </>
   );

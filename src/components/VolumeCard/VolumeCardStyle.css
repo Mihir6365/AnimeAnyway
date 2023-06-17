@@ -7,6 +7,12 @@
 .property-description p {
   font-size: 12px;
 }
+h2 {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+}
 .center {
   height: fit-content;
   margin: 30px;

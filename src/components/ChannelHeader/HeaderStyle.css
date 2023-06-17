@@ -1,6 +1,3 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap);
 .newStyles {
   display: none;
   height: 0;
@@ -45,7 +42,7 @@
   .channelName {
     text-align: center;
     top: 470px;
-    font-family: Merriweather, serif;
+    /* font-family: Merriweather, serif; */
     font-size: 48px;
     color: #fff;
     text-shadow: 2px 2px 8px #000;
@@ -55,7 +52,7 @@
 }
 .channelName > h1 {
   font-size: inherit;
-  font-weight: 400;
+  font-weight: 650;
   padding: 0 20px;
 }
 @media screen and (max-width: 1440px) {
@@ -86,7 +83,7 @@
     margin-top: 500px;
     margin-left: 5%;
     margin-right: 5%;
-    font-family: Merriweather, serif;
+    /* font-family: Merriweather, serif; */
     font-size: 40px;
     color: #fff;
     text-shadow: 2px 2px 8px #000;
@@ -99,7 +96,7 @@
     margin-top: 400px;
     margin-left: 5%;
     margin-right: 5%;
-    font-family: Merriweather, serif;
+    /* font-family: Merriweather, serif; */
     font-size: 38px;
     color: #fff;
     text-shadow: 2px 2px 8px #000;
@@ -119,7 +116,7 @@
     margin-top: 280px;
     margin-left: 5%;
     margin-right: 5%;
-    font-family: Merriweather, serif;
+    /* font-family: Merriweather, serif; */
     font-size: 35px;
     color: #fff;
     text-shadow: 2px 2px 8px #000;
@@ -143,5 +140,6 @@
   }
 }
 .homebtn > img {
-  width: auto;
+  height: 24px;
+  width: 24px;
 }
