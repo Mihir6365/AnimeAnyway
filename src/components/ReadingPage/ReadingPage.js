@@ -20,7 +20,6 @@ export const ReadingPage = () => {
 
   useEffect(() => {
     setPrevIndex(getIndex(chapter) - 1)
-    console.log(prevIndex)
     setNextIndex(getIndex(chapter) + 1)
     setCurrIndex(getIndex(chapter))
     fetchFileContent();

@@ -37,7 +37,7 @@ export default function Footer() {
               <a href="https://t.me/animeanyway" target="_blank" rel="noreferrer">
                 <div className="links">
                   <p>Telegram</p>
-                  <img src="./icons8-telegram.svg" style={{ height: "28px", width: "28px", "padding-top": "3px" }} alt="telegram icon" />
+                  <img src="./icons8-telegram.svg" style={{ height: "28px", width: "28px", "paddingTop": "3px" }} alt="telegram icon" />
                 </div>
               </a>
             </div>

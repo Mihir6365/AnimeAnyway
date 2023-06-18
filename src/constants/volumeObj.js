@@ -110,33 +110,33 @@ export const translatedVolume = [
     <strong>Year 2 Volume 6 will be updated on the website soon!</strong>
 `,
     chapter: [
-      // {
-      //   name: "Index",
-      // },
-      // {
-      //   name: "Prologue",
-      // },
-      // {
-      //   name: "Chapter 1",
-      // },
-      // {
-      //   name: "Chapter 2",
-      // },
-      // {
-      //   name: "Chapter 3",
-      // },
-      // {
-      //   name: "Chapter 4",
-      // },
-      // {
-      //   name: "Chapter 5",
-      // },
-      // {
-      //   name: "Chapter 6",
-      // },
-      // {
-      //   name: "Epilogue",
-      // },
+      {
+        name: "Index",
+      },
+      {
+        name: "Prologue",
+      },
+      {
+        name: "Chapter 1",
+      },
+      {
+        name: "Chapter 2",
+      },
+      {
+        name: "Chapter 3",
+      },
+      {
+        name: "Chapter 4",
+      },
+      {
+        name: "Chapter 5",
+      },
+      {
+        name: "Chapter 6",
+      },
+      {
+        name: "Epilogue",
+      },
     ],
   },
   {
@@ -160,36 +160,36 @@ export const translatedVolume = [
     <strong>Year 2 Volume 6 will be updated on the website soon!</strong>
     `,
     chapter: [
-      // {
-      //   name: "Index",
-      // },
-      // {
-      //   name: "Prologue",
-      // },
-      // {
-      //   name: "Chapter 1",
-      // },
-      // {
-      //   name: "Chapter 2",
-      // },
-      // {
-      //   name: "Chapter 3",
-      // },
-      // {
-      //   name: "Chapter 4",
-      // },
-      // {
-      //   name: "Chapter 5",
-      // },
-      // {
-      //   name: "Chapter 6",
-      // },
-      // {
-      //   name: "Chapter 7",
-      // },
-      // {
-      //   name: "Epilogue",
-      // },
+      {
+        name: "Index",
+      },
+      {
+        name: "Prologue",
+      },
+      {
+        name: "Chapter 1",
+      },
+      {
+        name: "Chapter 2",
+      },
+      {
+        name: "Chapter 3",
+      },
+      {
+        name: "Chapter 4",
+      },
+      {
+        name: "Chapter 5",
+      },
+      {
+        name: "Chapter 6",
+      },
+      {
+        name: "Chapter 7",
+      },
+      {
+        name: "Epilogue",
+      },
     ],
   },
   {
