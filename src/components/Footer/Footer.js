@@ -47,9 +47,9 @@ export default function Footer() {
             >
               <p
                 style={{
-                  fontSize: "45px",
+                  fontSize: "40px",
                   marginTop: "27px",
-                  fontWeight: "bold",
+                  fontWeight: "500",
                 }}
               >
                 Evoliq
