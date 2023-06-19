@@ -468,12 +468,13 @@
   font-family: "Arial";
 }
 
-c16 > h1 {
+.c16 {
+  display: block;
   padding-top: 0pt;
   color: #000000;
   font-weight: 700;
   font-size: 19pt;
-  padding-bottom: 0pt;
+  margin-bottom: 20px;
   font-family: "Bell MT";
   line-height: 1.1500000000000001;
   page-break-after: avoid;
@@ -482,13 +483,12 @@ c16 > h1 {
   text-align: center;
 }
 
-c16 > h2 {
-  padding-top: 0pt;
+.c31 {
   color: #000000;
   font-size: 15pt;
   padding-bottom: 0pt;
   font-family: "Georgia";
-  line-height: 1.1500000000000001;
+  line-height: 1.3;
   page-break-after: avoid;
   orphans: 2;
   widows: 2;

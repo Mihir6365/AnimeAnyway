@@ -44,7 +44,7 @@ table th {
   page-break-after: avoid;
 }
 ol,
-p {
+.c47 > p {
   margin: 0;
 }
 .c7 {
@@ -247,7 +247,7 @@ p {
 }
 .c22,
 li,
-p {
+.c47 > p {
   font-size: 11pt;
 }
 .c22 {
@@ -368,7 +368,7 @@ c47 > h6 {
 .title,
 c47 > h1,
 li,
-p {
+.c47 > p {
   color: #000;
 }
 .c32 {
@@ -377,7 +377,7 @@ p {
 .subtitle,
 .title,
 li,
-p {
+.c47 > p {
   font-family: Arial;
 }
 .c34 {
