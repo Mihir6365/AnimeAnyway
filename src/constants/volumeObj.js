@@ -422,21 +422,21 @@ export const translatedVolume = [
   `,
     status: "Upcoming",
     chapter: [
-      // {
-      //   name: "Index",
-      // },
-      // {
-      //   name: "Prologue",
-      // },
-      // {
-      //   name: "Chapter 1",
-      // },
-      // {
-      //   name: "Chapter 2",
-      // },
-      // {
-      //   name: "Chapter 3",
-      // },
+      {
+        name: "Index",
+      },
+      {
+        name: "Prologue",
+      },
+      {
+        name: "Chapter 1",
+      },
+      {
+        name: "Chapter 2",
+      },
+      {
+        name: "Chapter 3",
+      },
       // {
       //   name: "Chapter 4",
       // },
