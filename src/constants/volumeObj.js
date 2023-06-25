@@ -420,7 +420,7 @@ export const translatedVolume = [
     <br>
     <strong>Year 2 Volume 9.5 will be updated on the website on 17th February!</strong>
   `,
-    status: "Upcoming",
+    status: "Ongoing",
     chapter: [
       {
         name: "Index",

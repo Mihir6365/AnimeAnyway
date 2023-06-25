@@ -29,7 +29,7 @@ export default function VolumeCard({ card, index }) {
             </div>
             <div className="property-social-icons">
               <div className="read-button">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAXElEQVR4nO3VOwqAQAxAQT/nFmwVtLbTzmOOLG5rIZJGMgfIg7CfpklfYMCMLiqwuO0hEbTYauREn5FHcl1voKtHt5ijA1PE8CPkAsrh/1pLgTX6uR5rJObDScUF85ca+b4WJLoAAAAASUVORK5CYII=" alt="next btn" style={{ height: "24px", width: "24px" }} />
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAXElEQVR4nO3VOwqAQAxAQT/nFmwVtLbTzmOOLG5rIZJGMgfIg7CfpklfYMCMLiqwuO0hEbTYauREn5FHcl1voKtHt5ijA1PE8CPkAsrh/1pLgTX6uR5rJObDScUF85ca+b4WJLoAAAAASUVORK5CYII=" alt="Read" style={{ height: "24px", width: "24px" }} />
               </div>
             </div>
           </Link>
