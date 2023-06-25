@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
-import { translatedVolume, volumeData } from '../../constants/volumeObj.js';
+import { translatedVolume } from '../../constants/volumeObj.js';
 import VolumeCard from "../VolumeCard/VolumeCard.js";
 import Header from "../ChannelHeader/Header.js";
 import './ContentStyle.css';
@@ -42,7 +42,7 @@ export default function Content() {
             </strong>
           </div>
         </div>
-        <a href="https://www.youtube.com/watch?v=CAkMA_DsT-I&list=PLgFd4QA43aqVIIrukJI6fqJNOv2g0k48N&index=2" target="_blank" >
+        <a href="https://www.youtube.com/watch?v=CAkMA_DsT-I&list=PLgFd4QA43aqVIIrukJI6fqJNOv2g0k48N&index=2" target="_blank" rel="noreferrer">
           <div className="accord-container">
             <img src="./back-arrow.svg" id="backimg" alt="back" />
             <div className="accordion">

@@ -2,32 +2,40 @@
   font-family: "MADE INFINITY PERSONAL USE";
   src: url("./MADEINFINITY PERSONALUSE-Regular.otf") format("truetype");
 }
+
 @font-face {
   font-family: "MADE INFINITY PERSONAL USE B";
   src: url("./MADEINFINITY PERSONALUSE.otf") format("truetype");
 }
+
 @keyframes expand-div {
   0% {
     max-height: 0px;
   }
+
   100% {
     max-height: 2000px;
   }
 }
+
 .volumeImg {
   top: 100px;
 }
+
 @keyframes contract-div {
   0% {
     max-height: 2000px;
   }
+
   10% {
     max-height: 1000px;
   }
+
   100% {
     max-height: 0px;
   }
 }
+
 .volumeImg {
   top: 100px;
 }
@@ -36,6 +44,7 @@
 .volumeTitle {
   position: relative;
 }
+
 .mainHeaderCont {
   height: 260px;
   width: 100%;
@@ -45,6 +54,7 @@
   flex-direction: row;
   margin-bottom: 140px;
 }
+
 .volumeImg {
   width: auto;
   height: auto;
@@ -53,6 +63,7 @@
   left: 15vw;
   border-radius: 15px;
 }
+
 .volumeTitle {
   left: 16vw;
   height: 20vh;
@@ -63,6 +74,7 @@
   top: 120px;
   font-family: "MADE INFINITY PERSONAL USE B", sans-serif;
 }
+
 .chapCard,
 .index,
 .nextVol,
@@ -73,6 +85,7 @@
   box-shadow: 1px 1px 6px #525151;
   cursor: pointer;
 }
+
 .curStatus {
   position: relative;
   top: 270px;
@@ -82,6 +95,7 @@
   font-family: "MADE INFINITY PERSONAL USE", sans-serif;
   left: calc(15vw - 478px);
 }
+
 .statusDot {
   height: 15px;
   width: 15px;
@@ -89,10 +103,12 @@
   margin-right: 8px;
   margin-top: 10px;
 }
+
 .statusTitle {
   font-size: 25px;
   margin: 0;
 }
+
 .synCont {
   margin-top: -20px;
   height: auto;
@@ -101,14 +117,17 @@
   flex-direction: column;
   align-items: center;
 }
+
 .synopsis {
   max-width: 70vw;
   height: 100%;
 }
-.infinity > p {
+
+.infinity>p {
   font-size: 13pt;
   font-family: "MADE INFINITY PERSONAL USE", sans-serif;
 }
+
 .volumeNav {
   margin-top: 45px;
   max-width: 100%;
@@ -117,6 +136,7 @@
   height: 3.5vh;
   justify-content: center;
 }
+
 .index,
 .nextVol,
 .prevVol {
@@ -128,9 +148,11 @@
   font-size: 1em;
   text-align: center;
 }
+
 .disable {
   opacity: 0.5;
 }
+
 .chapterOpt {
   width: 100%;
   display: flex;
@@ -139,6 +161,7 @@
   margin-top: 40px;
   margin-bottom: 60px;
 }
+
 .chapCard {
   width: 70vw;
   height: 30px;
@@ -150,21 +173,26 @@
   align-items: center;
   font-size: 14pt;
 }
+
 .chapCard:hover {
   cursor: pointer;
 }
+
 .chapTitle {
   width: 35vw;
 }
+
 .transType {
   margin-left: calc(48% - 80px);
   font-size: 10pt;
 }
+
 .expand-btn {
   display: none;
 }
 
 @media screen and (max-width: 900px) {
+
   .index,
   .nextVol,
   .prevVol {
@@ -172,44 +200,54 @@
     height: 26px;
     margin: 0 3.8vw;
   }
+
   .curStatus {
-    position: absolute;
-    top: 255px;
-    left: 9%;
+    top: 317px;
+    left: calc(-300px + 7%);
   }
+
   .statusTitle {
     font-size: 18px;
   }
+
   .synCont {
     margin-top: -30px;
   }
+
   .volumeImg {
     height: 210px;
     width: auto;
     left: 7%;
   }
+
   .volumeTitle {
     left: 10vw;
     font-size: 23pt;
     width: auto;
   }
+
   .mainHeaderCont {
     height: 250px;
   }
+
   .statusDot {
     height: 12px;
     width: 12px;
     margin-right: 8px;
     margin-top: 8px;
   }
+
   p {
     font-size: 12pt;
   }
+
   .synopsis {
     max-width: 80vw;
   }
 }
+
 @media screen and (max-width: 580px) {
+
   .index,
   .nextVol,
   .prevVol {
@@ -217,9 +255,11 @@
     height: 28px;
     margin: 0 3vw;
   }
+
   .transType {
     margin-left: calc(48% - 90px);
   }
+
   .expand-btn {
     display: block;
     width: 80vw;
@@ -233,6 +273,7 @@
     color: #f6f2f2;
     border-radius: 3px;
   }
+
   .read-btn {
     width: 40%;
     height: 28px;
@@ -243,6 +284,7 @@
     border-top: none;
     border-radius: 0px 0px 5px 5px;
   }
+
   .expand {
     max-height: 0px;
     overflow: hidden;
@@ -251,6 +293,7 @@
     animation-fill-mode: forwards;
   }
 }
+
 @media screen and (max-width: 410px) {
   .volumeNav {
     margin-top: 35px;
@@ -260,19 +303,23 @@
     height: 3.5vh;
     justify-content: center;
   }
+
   .chapterOpt {
     margin-top: 30px;
   }
+
   .transType {
     margin-left: calc(48% - 70px);
     font-size: 8pt;
   }
+
   .chapCard {
     font-size: 10pt;
     padding: 5px 10px;
     margin: 8px;
     width: calc(250px + 7.6vw);
   }
+
   .index,
   .nextVol,
   .prevVol {
@@ -282,36 +329,46 @@
     margin: 0 3.8vw;
     font-size: 10pt;
   }
+
   .mainHeaderCont {
     height: 240px;
   }
+
   .volumeImg {
     height: 170px;
     width: auto;
   }
+
   .volumeTitle {
     font-size: 20pt;
     font-weight: 800;
     top: 132px;
     line-height: 30pt;
+    min-width: 300px;
+    height: 100px;
   }
-  .curStatus {
-    top: 215px;
-    left: 9.3vw;
-  }
+
   .statusTitle {
     font-size: 16px;
   }
+
   .statusDot {
     height: 10px;
     width: 10px;
     margin-right: 8px;
     margin-top: 7px;
   }
+
   .synCont {
     margin-top: -75px;
   }
+
+  .curStatus {
+    top: 275px;
+    left: calc(-403px + 7%);
+  }
 }
+
 h1 {
   margin: 0;
   display: inherit;
