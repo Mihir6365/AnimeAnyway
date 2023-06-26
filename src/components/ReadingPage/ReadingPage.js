@@ -17,7 +17,6 @@ export const ReadingPage = () => {
   const [currIndex, setCurrIndex] = useState(getIndex(chapter))
 
   let volumeIndex = translatedVolume[volume].name;
-
   useEffect(() => {
     setPrevIndex(getIndex(chapter) - 1)
     setNextIndex(getIndex(chapter) + 1)
@@ -25,6 +24,26 @@ export const ReadingPage = () => {
     fetchFileContent();
     window.scrollTo(0, 0)
 
+    const loadAd = async () => {
+      try {
+        const script = document.createElement('script');
+        script.src =
+          'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+        script.async = true;
+        script.crossOrigin = 'anonymous';
+        document.body.appendChild(script);
+
+        await new Promise((resolve) => {
+          script.onload = resolve;
+        });
+
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (error) {
+        console.error('Failed to load AdSense script', error);
+      }
+    };
+
+    loadAd();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chapter])
 
