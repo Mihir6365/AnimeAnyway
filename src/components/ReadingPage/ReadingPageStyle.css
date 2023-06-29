@@ -3,6 +3,7 @@
 .hidden {
   opacity: 0;
 }
+
 .reading-container {
   height: 1000px;
   width: 85%;
@@ -16,6 +17,7 @@
   flex-direction: column;
   position: relative;
 }
+
 .bt1,
 .bt2,
 .chapter-option,
@@ -25,6 +27,7 @@
 .theme-btn {
   position: absolute;
 }
+
 .heading {
   text-align: center;
   margin: 15px 0 0;
@@ -33,20 +36,24 @@
   font-weight: 400;
   font-size: 27px;
 }
+
 .pdf-display {
   margin: auto;
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
+
 .dark_mode_2 {
   top: 1.8%;
   left: 72%;
 }
+
 .label-tab {
   display: flex;
   flex-direction: row;
 }
+
 .pageInput {
   padding: 3px 10px;
   height: 20px;
@@ -57,28 +64,34 @@
   display: flex;
   flex-direction: row;
 }
+
 .pageno {
   padding-top: 5px;
 }
+
 .bt1 {
   top: 50%;
   left: 5%;
 }
+
 .bt2 {
   top: 55%;
   left: 70%;
 }
+
 .theme-btn {
   width: 50px;
   z-index: 200;
   top: 4%;
   left: 72%;
 }
+
 .fullscreeen-btn {
   margin: 10px;
   top: 2.5%;
   left: 26%;
 }
+
 .ful-btn {
   border: none;
   background-color: transparent;
@@ -86,6 +99,7 @@
   cursor: pointer;
   padding: 2px;
 }
+
 .chapter-option {
   margin: 10px;
   top: 1.7%;
@@ -94,6 +108,7 @@
   cursor: pointer;
   z-index: 20;
 }
+
 .chapter-container {
   padding: 5px 5px 5px 10px;
   border-radius: 10px;
@@ -101,12 +116,15 @@
   font-weight: 400;
   font-size: inherit;
 }
+
 .chapter-container:hover {
   background-color: #d6dadd;
 }
+
 .chapter-container:active {
   background-color: #adafb1;
 }
+
 .pdf-viewer-container {
   width: 90%;
   height: auto;
@@ -117,14 +135,17 @@
   margin-bottom: 60px;
   overflow: scroll;
 }
+
 .htmlCont {
   height: 100%;
   overflow: scroll;
 }
+
 .viewer {
   height: 100px;
   width: 50%;
 }
+
 .scrollToTop {
   position: sticky;
   display: block;
@@ -135,6 +156,7 @@
   margin-left: 20px;
   cursor: pointer;
 }
+
 .scrollToTop-btn {
   background-color: #77777900;
   border: none;
@@ -154,6 +176,7 @@
 .disable {
   opacity: 0.5;
 }
+
 .nextChap,
 .prevChap {
   width: 160px;
@@ -173,21 +196,26 @@
   .pageInput {
     left: 26%;
   }
+
   .fullscreeen-btn {
     left: 22%;
   }
 }
+
 @media screen and (max-width: 1400px) {
   .heading {
     margin-top: 0;
   }
 }
+
 @media screen and (max-width: 1024px) {
+
   .chapter-option,
   .pageInput {
     margin: 10px;
     position: absolute;
   }
+
   .pageInput {
     padding: 0 2px;
     height: 25px;
@@ -197,6 +225,7 @@
     display: flex;
     flex-direction: row;
   }
+
   .chapter-option {
     top: 0;
     left: 34%;
@@ -204,37 +233,46 @@
     min-width: 130px;
     cursor: pointer;
   }
+
   .fullscreeen-btn,
   .theme-btn {
     margin: 10px;
     position: absolute;
     top: 7%;
   }
+
   .fullscreeen-btn {
     left: 24%;
   }
+
   .theme-btn {
     left: 70.5%;
   }
+
   .dark_mode_2 {
     top: 6%;
   }
+
   .pdf-viewer-container {
     top: 6.5%;
     height: 87%;
     width: 100%;
   }
 }
+
 @media screen and (max-width: 754px) {
+
   .chapter-option,
   .pageInput {
     margin: 10px;
     position: absolute;
   }
+
   .pdf-viewer-container,
   .reading-container {
     width: 100%;
   }
+
   .pageInput {
     padding: 0 2px;
     height: 20px;
@@ -244,29 +282,36 @@
     display: flex;
     flex-direction: row;
   }
+
   .chapter-option {
     top: 0;
     left: 20%;
     width: 50%;
     cursor: pointer;
   }
+
   .fullscreeen-btn,
   .theme-btn {
     margin: 10px;
     position: absolute;
     top: 7%;
   }
+
   .fullscreeen-btn {
     left: 17%;
   }
+
   .theme-btn {
     left: 69%;
   }
+
   .dark_mode_2 {
     left: 70%;
   }
 }
+
 @media screen and (max-width: 580px) {
+
   .nextChap,
   .prevChap {
     width: 100px;
@@ -274,7 +319,9 @@
     margin: 0 10vw;
   }
 }
+
 @media screen and (max-width: 360px) {
+
   .nextChap,
   .prevChap {
     width: 80px;

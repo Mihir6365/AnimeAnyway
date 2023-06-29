@@ -386,8 +386,6 @@ export const translatedVolume = [
     name: "Year 2 Volume 9.5",
     namehtml: "COTE Year 2 <br/> Volume 9.5",
     synopsis: `<p>“Merry Christmas, Santa’s here.”<p/>
-
-
 <p>The second winter break at the Advanced Nurturing High school had come. <p/>
 <div class="expand infinity" id="expand">
 <p>Ayanokoji’s promise to go shopping for Christmas presents with Karuizawa was ruined by Karuizawa’s flu, and Ayanokoji had to spend the days after Christmas Eve alone.<p/>
@@ -430,6 +428,7 @@ export const translatedVolume = [
       },
       {
         name: "Chapter 1",
+        parts: 3
       },
       {
         name: "Chapter 2",

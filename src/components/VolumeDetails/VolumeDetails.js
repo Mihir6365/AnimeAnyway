@@ -4,6 +4,7 @@ import { useLocation } from "react-router-dom";
 import { translatedVolume } from "../../constants/volumeObj.js";
 import { Link } from "react-router-dom";
 import "./VolumeDetailsStyles.css";
+import { Helmet } from "react-helmet";
 
 export const VolumeDetails = () => {
   const [chapters, setChapters] = useState([]);
@@ -20,6 +21,8 @@ export const VolumeDetails = () => {
   const maxVolumeIndex = translatedVolume.length - 1;
   const search = useLocation().search;
   volume_index = new URLSearchParams(search).get("volume");
+
+
   useEffect(() => {
     setChapters(translatedVolume[volume_index].chapter);
     setVolumeName(translatedVolume[volume_index].namehtml);
@@ -36,7 +39,7 @@ export const VolumeDetails = () => {
     } else {
       setcolor("blue");
     }
-
+    console.log(window.history);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [volume_index, status]);
 
@@ -54,6 +57,9 @@ export const VolumeDetails = () => {
 
   return (
     <div className="infinity">
+      <Helmet>
+        <title>COTE {translatedVolume[volume_index].name}</title>
+      </Helmet>
       <div className="mainHeaderCont">
         <img
           className="volumeImg"
@@ -134,9 +140,9 @@ export const VolumeDetails = () => {
       </div>
 
       <div className="chapterOpt">
-        {chapters.map((e) => {
+        {chapters.map((e, index) => {
           return (
-            <>
+            <div key={index}>
               <Link
                 to={`/read?volume=${volume_index}&chapter=${e.name}`}
               >
@@ -145,7 +151,7 @@ export const VolumeDetails = () => {
                   <div className="transType">AnimeAnyway <br /> Fan translation</div>
                 </div>
               </Link>
-            </>
+            </div>
           );
         })}
       </div>
