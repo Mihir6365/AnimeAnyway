@@ -9,6 +9,7 @@ import { Helmet } from "react-helmet";
 import Footer from "../Footer/Footer.js";
 import BuyMeCoffee from "../BuyMeCoffee/BuyMeCoffee.js";
 import Ad from "../Ads/Ad.jsx";
+import Ad2 from "../Ads/Ad2.jsx";
 
 export const ReadingPage = () => {
   const search = useLocation().search;
@@ -115,7 +116,6 @@ export const ReadingPage = () => {
           </>
         )}
 
-        {/* eslint-disable-next-line */}
         {currIndex == chapterList.length - 1 ? (
           <>
             <div className="nextChap disable">Next</div>

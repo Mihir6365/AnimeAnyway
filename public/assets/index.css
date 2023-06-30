@@ -69,16 +69,46 @@ li {
   margin: 0 1%;
 }
 
+.tooltip {
+  color: blue;
+  position: relative;
+  cursor: pointer;
+  /* white-space: nowrap; */
+}
+
+.tooltip::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 0px;
+  min-height: 60px;
+  min-width: 200px;
+  max-width: 58vw;
+  background-color: rgb(255, 255, 0);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 18px;
+  display: none;
+  white-space: normal;
+  top: -70px;
+}
+
+.tooltip:hover::before {
+  color: black;
+  display: block;
+}
+
 
 @media only screen and (max-width: 900px) {
+  .tooltip::before {
+    font-size: 12px;
+    max-width: 85vw;
+  }
+
   .main-body {
     margin: 0 auto;
     width: 90%;
     min-width: 300px;
-  }
-
-  .ad-body {
-    display: none;
   }
 
   .main-body>p {

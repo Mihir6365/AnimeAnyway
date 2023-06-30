@@ -57,5 +57,7 @@ body {
 }
 
 body::before {
+  zoom: 1;
+  overflow-x: hidden;
   background-color: #f6f2f2;
 }
