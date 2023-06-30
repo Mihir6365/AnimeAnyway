@@ -107,7 +107,6 @@ export const translatedVolume = [
     <p>Does darkness or light await at the end with this choice?</p>
     </div>
     <br>
-    <strong>Year 2 Volume 6 will be updated on the website soon!</strong>
 `,
     chapter: [
       {
@@ -157,7 +156,6 @@ export const translatedVolume = [
     <p>"I have a proposal for Student Council President Nagumo. Can I be the one to propose the match this time?"</p>
     </div>
     <br>
-    <strong>Year 2 Volume 6 will be updated on the website soon!</strong>
     `,
     chapter: [
       {

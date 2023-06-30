@@ -22,7 +22,6 @@ export const VolumeDetails = () => {
   const search = useLocation().search;
   volume_index = new URLSearchParams(search).get("volume");
 
-
   useEffect(() => {
     setChapters(translatedVolume[volume_index].chapter);
     setVolumeName(translatedVolume[volume_index].namehtml);
@@ -39,10 +38,8 @@ export const VolumeDetails = () => {
     } else {
       setcolor("blue");
     }
-    console.log(window.history);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [volume_index, status]);
-
   function expand() {
     if (!expanded) {
       document.getElementById("expand").style.animationName = "expand-div";
@@ -58,7 +55,7 @@ export const VolumeDetails = () => {
   return (
     <div className="infinity">
       <Helmet>
-        <title>COTE {translatedVolume[volume_index].name}</title>
+        <title>Classroom of the elite {translatedVolume[volume_index].name} Human Translation | Anime Anyway</title>
       </Helmet>
       <div className="mainHeaderCont">
         <img
@@ -81,6 +78,8 @@ export const VolumeDetails = () => {
 
 
       <div className="synCont">
+        <h2 className="heading2">Synopsis</h2>
+        <br />
         <div
           className="synopsis infinity"
           dangerouslySetInnerHTML={{ __html: synopsis }}
@@ -108,9 +107,7 @@ export const VolumeDetails = () => {
             </Link>
           </>
         )}
-
-
-        {chapters.length == 0 ? (
+        {chapters.length === 0 ? (
           <>
 
           </>

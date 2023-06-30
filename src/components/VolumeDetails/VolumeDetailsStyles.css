@@ -1,11 +1,13 @@
 @font-face {
   font-family: "MADE INFINITY PERSONAL USE";
   src: url("./MADEINFINITY PERSONALUSE-Regular.otf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "MADE INFINITY PERSONAL USE B";
   src: url("./MADEINFINITY PERSONALUSE.otf") format("truetype");
+  font-display: swap;
 }
 
 @keyframes expand-div {
@@ -56,8 +58,8 @@
 }
 
 .volumeImg {
-  width: auto;
-  height: auto;
+  width: 184px;
+  height: 260px;
   background-size: cover;
   box-shadow: 1px 1px 8px #525151;
   left: 15vw;
@@ -211,12 +213,12 @@
   }
 
   .synCont {
-    margin-top: -30px;
+    margin-top: -50px;
   }
 
   .volumeImg {
     height: 210px;
-    width: auto;
+    width: 148px;
     left: 7%;
   }
 
@@ -336,7 +338,7 @@
 
   .volumeImg {
     height: 170px;
-    width: auto;
+    width: 120px;
   }
 
   .volumeTitle {
@@ -344,7 +346,7 @@
     font-weight: 800;
     top: 132px;
     line-height: 30pt;
-    min-width: 300px;
+    min-width: 155px;
     height: 100px;
   }
 
@@ -360,7 +362,7 @@
   }
 
   .synCont {
-    margin-top: -75px;
+    margin-top: -90px;
   }
 
   .curStatus {
@@ -372,4 +374,9 @@
 h1 {
   margin: 0;
   display: inherit;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 28px;
 }
