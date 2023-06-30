@@ -16,7 +16,7 @@ export const ReadingPage = () => {
   var chapter = new URLSearchParams(search).get("chapter");
   const chapterList = translatedVolume[volume].chapter;
   const [fileContent, setFileContent] = useState(
-    '<br/><br/><br/><br/><br/><br/><br/><div style="text-align:center"> Loading...<div><br/><br/><br/><br/><br/><br/><br/><br/>'
+    'Loading...'
   );
   const [prevIndex, setPrevIndex] = useState(getIndex(chapter) - 1);
   const [nextIndex, setNextIndex] = useState(getIndex(chapter) + 1);
@@ -33,7 +33,6 @@ export const ReadingPage = () => {
     fetchFileContent();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currIndex]);
-  console.log("currIndex", currIndex);
 
   function getIndex(chapterName) {
     let count = 0;
@@ -51,24 +50,30 @@ export const ReadingPage = () => {
 
   const fetchFileContent = async () => {
     if(translatedVolume[volume].chapter[currIndex].parts === undefined){
-      console.log("condition 1", currIndex);
       try {
         const response = await axios.get(
           `../../assets/${volumeIndex}/${chapter}.html`
         );
-        setFileContent(response.data);
+        const component=<div
+        dangerouslySetInnerHTML={{ __html: response.data }}
+        style={{ userSelect: "none" }}
+        />
+        setFileContent(component);
       } catch (error) {
         setFileContent("Error loading file");
       }
     }else{
-      console.log("condition 2", currIndex);
       try {
         let arr=[];
         for(let i = 0; i <= translatedVolume[volume].chapter[currIndex].parts; i++){
         const response = await axios.get(
           `../../assets/${volumeIndex}/${chapter+"_"+i}.html`
         );
-        arr.push(response.data);
+        const component=<div key={i}>
+        <div dangerouslySetInnerHTML={{ __html: response.data }} style={{ userSelect: "none" }}/>
+        <Ad />
+      </div>
+        arr.push(component);
       }
       setFileContent(arr);
       } catch (error) {
@@ -90,10 +95,9 @@ export const ReadingPage = () => {
         ></script>
       </Helmet>
       <Header />
-          <div
-            dangerouslySetInnerHTML={{ __html: fileContent }}
-            style={{ userSelect: "none" }}
-          />
+    
+          {fileContent}      
+
       <div className="chapNav">
         {currIndex == 0 ? (
           <>
@@ -104,10 +108,7 @@ export const ReadingPage = () => {
             <Link
               to={`/read?volume=${volume}&chapter=${getChapterName(prevIndex)}`}
             >
-              <div
-                className="prevChap"
-                
-              >
+              <div className="prevChap">
                 Previous
               </div>
             </Link>

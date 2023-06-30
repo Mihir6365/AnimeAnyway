@@ -415,8 +415,6 @@ export const translatedVolume = [
 <p>And even a discussion about Ayanokoji!?<p/>
 </div>
 
-    <br>
-    <strong>Year 2 Volume 9.5 will be updated on the website on 17th February!</strong>
   `,
     status: "Ongoing",
     chapter: [
@@ -432,6 +430,7 @@ export const translatedVolume = [
       },
       {
         name: "Chapter 2",
+        parts: 3
       },
       {
         name: "Chapter 3",
