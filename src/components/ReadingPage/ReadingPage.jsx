@@ -16,9 +16,7 @@ export const ReadingPage = () => {
   const volume = new URLSearchParams(search).get("volume");
   var chapter = new URLSearchParams(search).get("chapter");
   const chapterList = translatedVolume[volume].chapter;
-  const [fileContent, setFileContent] = useState(
-    'Loading...'
-  );
+  const [fileContent, setFileContent] = useState("Loading...");
   const [prevIndex, setPrevIndex] = useState(getIndex(chapter) - 1);
   const [nextIndex, setNextIndex] = useState(getIndex(chapter) + 1);
   const [currIndex, setCurrIndex] = useState(getIndex(chapter));
@@ -50,33 +48,46 @@ export const ReadingPage = () => {
   }
 
   const fetchFileContent = async () => {
-    if(translatedVolume[volume].chapter[currIndex].parts === undefined){
+    if (translatedVolume[volume].chapter[currIndex].parts === undefined) {
       try {
         const response = await axios.get(
           `../../assets/${volumeIndex}/${chapter}.html`
         );
-        const component=<div
-        dangerouslySetInnerHTML={{ __html: response.data }}
-        style={{ userSelect: "none" }}
-        />
+        const component = (
+          <div
+            dangerouslySetInnerHTML={{ __html: response.data }}
+            style={{ userSelect: "none" }}
+          />
+        );
         setFileContent(component);
       } catch (error) {
         setFileContent("Error loading file");
       }
-    }else{
+    } else {
       try {
-        let arr=[];
-        for(let i = 0; i <= translatedVolume[volume].chapter[currIndex].parts; i++){
-        const response = await axios.get(
-          `../../assets/${volumeIndex}/${chapter+"_"+i}.html`
-        );
-        const component=<div key={i}>
-        <div dangerouslySetInnerHTML={{ __html: response.data }} style={{ userSelect: "none" }}/>
-        <Ad />
-      </div>
-        arr.push(component);
-      }
-      setFileContent(arr);
+        let arr = [];
+        for (
+          let i = 0;
+          i <= translatedVolume[volume].chapter[currIndex].parts;
+          i++
+        ) {
+          const response = await axios.get(
+            `../../assets/${volumeIndex}/${chapter + "_" + i}.html`
+          );
+          const component = (
+            <div key={i}>
+              <div
+                dangerouslySetInnerHTML={{ __html: response.data }}
+                style={{ userSelect: "none" }}
+              />
+              <div className="ad1">
+                <Ad />
+              </div>
+            </div>
+          );
+          arr.push(component);
+        }
+        setFileContent(arr);
       } catch (error) {
         setFileContent("Error loading file");
       }
@@ -96,9 +107,21 @@ export const ReadingPage = () => {
         ></script>
       </Helmet>
       <Header />
-    
-          {fileContent}      
-
+      <div className="read-content">
+        {window.innerWidth > 900 ? (
+          <>
+          <Ad2 />
+          <div className="main-part">
+            {fileContent}
+          </div>
+          <Ad2 />
+          </>) : (
+            <div className="main-part">
+            {fileContent}
+          </div>
+          )
+          }
+      </div>
       <div className="chapNav">
         {currIndex == 0 ? (
           <>
@@ -109,9 +132,7 @@ export const ReadingPage = () => {
             <Link
               to={`/read?volume=${volume}&chapter=${getChapterName(prevIndex)}`}
             >
-              <div className="prevChap">
-                Previous
-              </div>
+              <div className="prevChap">Previous</div>
             </Link>
           </>
         )}
@@ -125,11 +146,7 @@ export const ReadingPage = () => {
             <Link
               to={`/read?volume=${volume}&chapter=${getChapterName(nextIndex)}`}
             >
-              <div
-                className="nextChap"
-              >
-                Next
-              </div>
+              <div className="nextChap">Next</div>
             </Link>
           </>
         )}

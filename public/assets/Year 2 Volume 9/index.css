@@ -461,7 +461,7 @@
   text-align: center;
 }
 
-.c49 > p {
+.c49>p {
   margin: 0;
   color: #000000;
   font-size: 11pt;
@@ -495,7 +495,7 @@
   text-align: center;
 }
 
-c16 > h3 {
+c16>h3 {
   padding-top: 0pt;
   color: #000000;
   font-size: 14pt;
@@ -508,7 +508,7 @@ c16 > h3 {
   text-align: center;
 }
 
-c16 > h4 {
+c16>h4 {
   padding-top: 14pt;
   color: #666666;
   font-size: 12pt;
@@ -521,7 +521,7 @@ c16 > h4 {
   text-align: left;
 }
 
-c16 > h5 {
+c16>h5 {
   padding-top: 12pt;
   color: #666666;
   font-size: 11pt;
@@ -534,7 +534,7 @@ c16 > h5 {
   text-align: left;
 }
 
-c16 > h6 {
+c16>h6 {
   padding-top: 12pt;
   color: #666666;
   font-size: 11pt;
@@ -549,19 +549,9 @@ c16 > h6 {
 }
 
 .c49 {
-  margin: auto;
-  width: 58%;
   padding: 0px;
 }
 
 img {
   width: 100%;
-}
-
-@media only screen and (max-width: 900px) {
-  .c49 {
-    margin: auto;
-    width: 90% !important;
-    min-width: 250;
-  }
 }

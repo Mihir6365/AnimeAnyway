@@ -389,14 +389,14 @@ li {
   font-family: "Arial";
 }
 
-.c52 > p {
+.c52>p {
   margin: 0;
   color: #000000;
   font-size: 11pt;
   font-family: "Arial";
 }
 
-.c52 > h1 {
+.c52>h1 {
   padding-top: 20pt;
   color: #000000;
   font-size: 20pt;
@@ -409,7 +409,7 @@ li {
   text-align: center;
 }
 
-.c52 > h2 {
+.c52>h2 {
   padding-top: 18pt;
   color: #000000;
   font-size: 16pt;
@@ -422,7 +422,7 @@ li {
   text-align: center;
 }
 
-.c52 > h3 {
+.c52>h3 {
   padding-top: 16pt;
   color: #434343;
   font-size: 14pt;
@@ -435,7 +435,7 @@ li {
   text-align: center;
 }
 
-.c52 > h4 {
+.c52>h4 {
   padding-top: 14pt;
   color: #666666;
   font-size: 12pt;
@@ -448,7 +448,7 @@ li {
   text-align: center;
 }
 
-.c52 > h5 {
+.c52>h5 {
   padding-top: 12pt;
   color: #666666;
   font-size: 11pt;
@@ -461,7 +461,7 @@ li {
   text-align: center;
 }
 
-.c52 > h6 {
+.c52>h6 {
   padding-top: 12pt;
   color: #666666;
   font-size: 11pt;
@@ -474,18 +474,7 @@ li {
   widows: 2;
   text-align: center;
 }
-.c52 {
-  width: 58%;
-  margin: auto;
-  padding: 0px;
-}
+
 img {
   width: 100%;
-}
-@media only screen and (max-width: 900px) {
-  .c52 {
-    margin: auto;
-    width: 90%;
-    min-width: 250;
-  }
 }

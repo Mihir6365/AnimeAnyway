@@ -21,7 +21,7 @@ export default function Footer() {
               >
                 <div className="links">
                   <p>Instagram</p>
-                  <img src="./icons8-instagram.svg" alt="insta icon" style={{ width: "30px", height: "30px" }} />
+                  <img src="./icons8-instagram.svg" style={{ width: "30px", height: "30px" }} />
                 </div>
               </a>
               <a
@@ -31,13 +31,13 @@ export default function Footer() {
               >
                 <div className="links">
                   <p>Youtube</p>
-                  <img src="./icons8-youtube.svg" style={{ height: "38px", width: "38px" }} alt="youtube icon" />
+                  <img src="./icons8-youtube.svg" style={{ height: "38px", width: "38px" }} />
                 </div>
               </a>
               <a href="https://t.me/animeanyway" target="_blank" rel="noreferrer">
                 <div className="links">
                   <p>Telegram</p>
-                  <img src="./icons8-telegram.svg" style={{ height: "28px", width: "28px", "paddingTop": "3px" }} alt="telegram icon" />
+                  <img src="./icons8-telegram.svg" style={{ height: "28px", width: "28px", "paddingTop": "3px" }} />
                 </div>
               </a>
             </div>
@@ -64,13 +64,13 @@ export default function Footer() {
               >
                 <div className="developer-insta-links">
                   <h4>_evoliq_</h4>
-                  <img src="./icons8-instagram.svg" style={{ marginTop: "-28px", height: "75px", width: "30px" }} alt="instagram icon" />
+                  <img src="./icons8-instagram.svg" style={{ marginTop: "-28px", height: "75px", width: "30px" }} />
                 </div>
               </a>
             </div>
           </div>
         </div>
-        <img src={banner} alt="banner" style={{ height: "48%", width: "100%" }} />
+        <img src={banner} style={{ height: "48%", width: "100%" }} />
       </div>
     </>
   );
