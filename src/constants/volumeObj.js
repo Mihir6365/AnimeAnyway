@@ -434,9 +434,9 @@ export const translatedVolume = [
         name: "Chapter 3",
         parts: 6
       },
-      // {
-      //   name: "Chapter 4",
-      // },
+      {
+        name: "Chapter 4",
+      },
       // {
       //   name: "Chapter 5",
       // },
