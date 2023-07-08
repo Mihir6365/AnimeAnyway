@@ -13,7 +13,7 @@ img {
 .main-body>h5,
 .main-body>h6 {
   text-align: center;
-  margin: 20px 0px;
+  margin: 40px 0px;
 }
 
 .main-body>h2 {
@@ -27,7 +27,6 @@ img {
   font-weight: 500;
   padding-top: 30px;
   border-top: 5px solid black;
-  margin-top: 100px;
 }
 
 ul {
@@ -43,7 +42,8 @@ li {
 
 .center {
   display: block;
-  padding: 10px 0px;
+  padding: 0px 0px;
+  margin: 3px 0px;
   width: 100%;
   text-align: center;
 }

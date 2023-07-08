@@ -4,15 +4,18 @@
   font-weight: 500;
   color: #181717;
 }
+
 .property-description p {
   font-size: 12px;
 }
+
 h2 {
   font-size: 17px;
   font-weight: 500;
   margin: 0px;
   padding: 0px;
 }
+
 .center {
   height: fit-content;
   margin: 30px;
@@ -20,6 +23,7 @@ h2 {
   align-items: center;
   border-radius: 22px;
 }
+
 .property-card {
   height: 18em;
   width: 14em;
@@ -32,12 +36,14 @@ h2 {
   overflow: hidden;
   box-shadow: 0 2px 7px #505050;
 }
+
 .property-image {
   height: 18em;
   width: 14em;
   position: Absolute;
   top: 0;
 }
+
 .property-description {
   height: 3.5em;
   width: 86%;
@@ -49,9 +55,11 @@ h2 {
   backdrop-filter: blur(4px);
   color: white;
 }
-.property-description > h5 {
+
+.property-description>h5 {
   color: white;
 }
+
 .property-social-icons {
   display: flex;
   flex-direction: row;
@@ -62,6 +70,7 @@ h2 {
   -o-transition: 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
+
 .read-button {
   border-radius: 10px;
   height: 25px;
@@ -72,21 +81,34 @@ h2 {
   color: #202020;
   font-weight: 600;
 }
+
 .read-button:hover {
   transform: translateX(2px);
 }
+
 .nextPageBtn {
   color: #ffffff;
 }
+
 .nextPageBtn:hover {
   color: #d4d4d4;
 }
+
 .downloadbutton {
   color: #2c2c2c;
 }
+
 .property-card:hover .property-social-icons:hover {
   cursor: pointer;
 }
+
+.bookmark {
+  width: 30px;
+  height: 30px;
+  margin-top: -32px;
+  margin-left: 170px;
+}
+
 @media screen and (max-width: 526px) {
   .center {
     margin: 30px auto;

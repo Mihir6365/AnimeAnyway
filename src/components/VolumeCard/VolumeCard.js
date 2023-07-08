@@ -26,6 +26,11 @@ export default function VolumeCard({ card, index }) {
           >
             <div className="property-description">
               <h2> {card.e.name} </h2>
+              {/* {localStorage.getItem("index") == index ? (
+                <div className="bookmark">
+                  <img src="./icons8-bookmark.svg" alt="bookmark" />
+                </div>
+              ) : (<></>)} */}
             </div>
             <div className="property-social-icons">
               <div className="read-button">

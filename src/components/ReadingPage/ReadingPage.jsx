@@ -29,6 +29,8 @@ export const ReadingPage = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chapter]);
   useEffect(() => {
+    localStorage.setItem("volume", volume);
+    localStorage.setItem("index", currIndex);
     fetchFileContent();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currIndex]);
@@ -54,14 +56,31 @@ export const ReadingPage = () => {
           `../../assets/${volumeIndex}/${chapter}.html`
         );
         const component = (
-          <div
-            dangerouslySetInnerHTML={{ __html: response.data }}
-            style={{ userSelect: "none" }}
-          />
+          <div className="read-content">
+            {window.innerWidth > 900 ? (
+              <>
+                <Ad2 />
+                <div className="main-part">
+                  <div
+                    dangerouslySetInnerHTML={{ __html: response.data }}
+                    style={{ userSelect: "none" }}
+                  />
+                </div>
+                <Ad2 />
+              </>
+            ) : (
+              <div className="main-part">
+                <div
+                  dangerouslySetInnerHTML={{ __html: response.data }}
+                  style={{ userSelect: "none" }}
+                />
+              </div>
+            )}
+          </div>
         );
         setFileContent(component);
       } catch (error) {
-        setFileContent("Error loading file");
+        setFileContent("Error loading file, please refresh the page");
       }
     } else {
       try {
@@ -75,14 +94,32 @@ export const ReadingPage = () => {
             `../../assets/${volumeIndex}/${chapter + "_" + i}.html`
           );
           const component = (
-            <div key={i}>
-              <div
-                dangerouslySetInnerHTML={{ __html: response.data }}
-                style={{ userSelect: "none" }}
-              />
-              <div className="ad1">
-                <Ad />
-              </div>
+            <div className="read-content" key={i}>
+              {window.innerWidth > 900 ? (
+                <>
+                  <Ad2 />
+                  <div className="main-part">
+                    <div
+                      dangerouslySetInnerHTML={{ __html: response.data }}
+                      style={{ userSelect: "none" }}
+                    />
+                    <div className="ad1">
+                      <Ad />
+                    </div>
+                  </div>
+                  <Ad2 />
+                </>
+              ) : (
+                <div className="main-part">
+                  <div
+                    dangerouslySetInnerHTML={{ __html: response.data }}
+                    style={{ userSelect: "none" }}
+                  />
+                  <div className="ad1">
+                    <Ad />
+                  </div>
+                </div>
+              )}
             </div>
           );
           arr.push(component);
@@ -107,21 +144,7 @@ export const ReadingPage = () => {
         ></script>
       </Helmet>
       <Header />
-      <div className="read-content">
-        {window.innerWidth > 900 ? (
-          <>
-          <Ad2 />
-          <div className="main-part">
-            {fileContent}
-          </div>
-          <Ad2 />
-          </>) : (
-            <div className="main-part">
-            {fileContent}
-          </div>
-          )
-          }
-      </div>
+      {fileContent}
       <div className="chapNav">
         {currIndex == 0 ? (
           <>
