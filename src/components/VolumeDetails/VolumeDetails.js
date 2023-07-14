@@ -23,6 +23,9 @@ export const VolumeDetails = () => {
   volume_index = new URLSearchParams(search).get("volume");
 
   useEffect(() => {
+    if (volume_index == localStorage.getItem("volume")) {
+      console.log(true)
+    }
     setChapters(translatedVolume[volume_index].chapter);
     setVolumeName(translatedVolume[volume_index].namehtml);
     setVolumeImg(translatedVolume[volume_index].image);
@@ -145,7 +148,16 @@ export const VolumeDetails = () => {
               >
                 <div className="chapCard">
                   <div className="chapTitle">{e.name}</div>
-                  <div className="transType">AnimeAnyway <br /> Fan translation</div>
+                  {volume_index == localStorage.getItem("volume") && localStorage.getItem("index") == index ? (
+                    <div className="details_transtype">
+                      <img src="./icons8-bookmark.svg" alt="bookmark" className="bookmark_details" />
+                      <div className="transType">AnimeAnyway <br /> Fan translation</div>
+                    </div>
+                  ) : (<div className="details_transtype">
+                    <img src="./icons8-bookmark.svg" alt="bookmark" className="bookmark_details" style={{ opacity: 0 }} />
+                    <div className="transType">AnimeAnyway <br /> Fan translation</div>
+                  </div>)}
+
                 </div>
               </Link>
             </div>

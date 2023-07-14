@@ -185,8 +185,19 @@
 }
 
 .transType {
-  margin-left: calc(48% - 80px);
+  margin-top: -30px;
   font-size: 10pt;
+}
+
+.details_transtype {
+  margin-left: calc(48% - 100px);
+  display: inline;
+  margin-top: -10px;
+}
+
+.bookmark_details {
+  color: red;
+  margin-left: 100px;
 }
 
 .expand-btn {
@@ -259,7 +270,7 @@
   }
 
   .transType {
-    margin-left: calc(48% - 90px);
+    margin-left: calc(48% - 60px);
   }
 
   .expand-btn {
@@ -311,8 +322,13 @@
   }
 
   .transType {
-    margin-left: calc(48% - 70px);
-    font-size: 8pt;
+    margin-left: calc(48% - 50px);
+    margin-top: -28px;
+    font-size: 9pt;
+  }
+
+  .details_transtype {
+    margin-top: -12px;
   }
 
   .chapCard {
