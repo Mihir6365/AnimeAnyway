@@ -4,7 +4,6 @@ import '../VolumeCard/VolumeCardStyle.css';
 
 
 export default function VolumeCard({ card, index }) {
-  console.log(localStorage.getItem("volume"))
   return (
     <>
       <div className="center">

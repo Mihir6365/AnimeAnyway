@@ -23,9 +23,6 @@ export const VolumeDetails = () => {
   volume_index = new URLSearchParams(search).get("volume");
 
   useEffect(() => {
-    if (volume_index == localStorage.getItem("volume")) {
-      console.log(true)
-    }
     setChapters(translatedVolume[volume_index].chapter);
     setVolumeName(translatedVolume[volume_index].namehtml);
     setVolumeImg(translatedVolume[volume_index].image);
