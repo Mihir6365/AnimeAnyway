@@ -1,80 +1,55 @@
 var inputString = `
-Sakayanagi smiled quietly by herself after Ayanokouji left. 
+When I got home after that, I picked up the books I had brought home with my cold hands.
 
-“The other day, on the closing ceremony of the second term, we chatted with the three of us with Ichinose-san, didn’t we?” 
+What to read first..? 
 
-A few muttered words, drowned out by the wind.
+I thought about it for a while, but I knew that the book I would be talking about tomorrow in the library would be the one I received. 
 
-“I’m in a position to teach her. That’s what I always thought, but I learned that it wasn’t so.” 
+So, I decided to start with Hiyori’s present.
 
-It’s the moment Sakayanagi completely woke up to her own love.
+The book itself wasn’t old, and seemed to have been released about 15 years ago.
 
-Sakayanagi continued talking to herself in the lonely, snowy night.
+I was curious why Hiyori liked it, so I looked up the author’s history and found that he was just one of many unknown authors. 
 
-“I recognize you as a foe that I must defeat.” 
+He seems to write some interesting works that have a small fan base, but his reputation isn’t very high. 
 
-This is the real, undeniable truth.
+Perhaps Hiyori managed to find a hidden masterpiece because she is a book lover. 
 
-“Someone like me, a proud genius from birth, isn’t going to lose to a genius that was manufactured.” 
+She even bought the same book again just to keep it with her. 
 
-This is her ideology.
+He still releases a new book every three years or so, it seems. 
 
-“However, aside from my perception that I should defeat you, another one was born. You noticed it, didn’t you?” 
+I’ll read another one next time if this suits my tastes. 
 
-Ayanokouji’s back, now disappeared from her sight.
+“Hm..?” 
 
-Delivering with a voice that won’t be delivered.
+I noticed there was a piece of paper inside when I was just about to start reading the book.
 
-She put it into words once again.
+That in itself is not a big deal, but what caught my attention was the design.
 
-“I love you.”
+You can sometimes get a free piece of paper as part of a campaign when you shop at Keyaki Mall, and the illustrations or patterns on it change depending on the time of the year. 
 
-Ichinose, who was like a piece of trash lying on the side of the road to Sakayanagi, made her realize this.
+The one I picked up had a Christmas image with fir trees and snow. 
 
-“If I conveyed my thoughts more clearly, I probably couldn’t make you change your expression a little.” 
+It was the one that came with the books I bought at the bookstore before Christmas. 
 
-This is the only reason she did not use stronger words face-to-face.
+The fact that it changed right after Christmas suggests this was bought before then. 
 
-Be that as it may, she is not afraid of acceptance or nonacceptance.
+It would be a shame if she had to carry it with her everyday since then. 
 
-“Yes. That is the kind of person you are, Ayanokouji-kun. You are not the kind of person who would be disturbed by something this trivial.”
+She said it was only a few days ago out of consideration, but it’s more likely that she purchased it at a date a little further back. 
 
-Normally, a young lady would be hurt and distressed by something like this.
+“I feel like I might have gotten something very heavy.”
 
-However, Sakayanagi is the opposite.
+Of course, I can’t be too quick to judge. 
 
-In fact, she strongly realizes that this is precisely why she is drawn to Ayanokouji.
+She may have simply given it to me as a gift from a book lover.
 
-“You treat everyone in this school, including me, like children. You think everything is going to go as you wish, and I’m sure you’ve made it so that it has.”
+I’m not going to think too much about it now, but it’s only natural as a human being to feel good if someone approaches you in a sincere manner. 
 
-She took a step on the snowy road.
+What can I do for Hiyori, I wonder?
 
-She understands Ayanokouji’s plans in concrete terms.
-
-The composition he will envision in Year Three.
-
-It wouldn’t be interesting to let things progress as he wants. 
-
-In which case, she already knows the answer as to how to disrupt his plans. 
-
-She wants to hinder him.
-
-She wants to see worry on his face.
-
-She wants to confront him with the fact that some things are beyond his control.
-
-“It’s a shame. Your plan has already started deviating from its course back at the Uninhabited Island Test that summer.” 
-
-She really wanted to let him know that, but it’s still a secret.
-
-It’s the not knowing, not being able to tell what’s going to happen, that makes the future interesting.
-
-“I promise that this fact will be the first step in changing you in a direction you never thought possible.” 
-
-Sakayanagi is looking forward to seeing what decisions he will make in the future.
-
-“I’m really looking forward to the third semester…”
-
+I decided to sit and think about it before reading the book.
 `;
 var fs = require("fs");
 function appendParagraphTags(str) {
@@ -91,7 +66,7 @@ function appendParagraphTags(str) {
 
 var modifiedString = `<p>` + appendParagraphTags(inputString) + "</p> \n </div>";
 // var modifiedString = `<p class="center italic">` + appendParagraphTags(inputString) + "</p> \n </div>";
-const filename = './public/assets/Year 2 Volume 9.5/Chapter 3_6.html';
+const filename = './public/assets/Year 2 Volume 9.5/Chapter 5_6.html';
 
 fs.readFile(filename, 'utf8', (err, data) => {
     if (err) {
