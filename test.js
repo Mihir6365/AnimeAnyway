@@ -1,55 +1,41 @@
 var inputString = `
-When I got home after that, I picked up the books I had brought home with my cold hands.
+It’s really warm right now, isn’t it? This is Kinugasa, of course.
 
-What to read first..? 
+I believe that people sometimes randomly awaken to various hobbies and interests. 
 
-I thought about it for a while, but I knew that the book I would be talking about tomorrow in the library would be the one I received. 
+I started cooking a little while ago, and I’ve been increasing my repertoire while making many trial-and-error attempts to cook delicious dishes, and even getting carried away and buying my own kitchen knife, even though my only hobby used to be watching baseball games.
 
-So, I decided to start with Hiyori’s present.
+I was impressed that I could get new hobbies even at my age, but then I noticed another change in my hobbies… 
 
-The book itself wasn’t old, and seemed to have been released about 15 years ago.
+I started buying my child large blocks and stuffed animals as they started growing up, which of course led to more trips to the toy store, and I ended up picking up a pla-rail after getting interested in it. 
 
-I was curious why Hiyori liked it, so I looked up the author’s history and found that he was just one of many unknown authors. 
+I knew nothing about trains, but I thought, ‘Huh? It’s so fun just moving it around’, and ended up buying the toys, buying rails and making original courses, and buying radio-controlled trains… 
 
-He seems to write some interesting works that have a small fan base, but his reputation isn’t very high. 
+I also became interested in mini 4-wheelers, nerf, board games, etc… 
 
-Perhaps Hiyori managed to find a hidden masterpiece because she is a book lover. 
+This is bad. 
 
-She even bought the same book again just to keep it with her. 
+There’s way too much stuff I like. 
 
-He still releases a new book every three years or so, it seems. 
+I used to buy toys only for my kid, but before I knew it, I started buying them for myself to play with. 
 
-I’ll read another one next time if this suits my tastes. 
+My favourite toy recently is a toy named Bottle-Man that shoots bottle-caps. I remembered that I used to love a toy called B-Daman, (Bottle-Man’s predecessor?) and started collecting them. 
 
-“Hm..?” 
+I used to be a minimalist and never had a habit of collecting things, so I never thought I’d end up like this… I think B-Daman was a lot more interesting, but that’s probably because I’m now an adult.
 
-I noticed there was a piece of paper inside when I was just about to start reading the book.
+Personally, I want to get my hands on some LEGO, which is something I really wanted as a kid, but I’m afraid that I’m going to get obsessed with it if I do.
 
-That in itself is not a big deal, but what caught my attention was the design.
+Someone stop me! (Give me a push!)
 
-You can sometimes get a free piece of paper as part of a campaign when you shop at Keyaki Mall, and the illustrations or patterns on it change depending on the time of the year. 
+Okay. I’ll end my personal report with that, and talk a little about my work.
 
-The one I picked up had a Christmas image with fir trees and snow. 
+The second term and the winter vacation are finally over, and we’ll be starting the third semester arc from the next volume.
 
-It was the one that came with the books I bought at the bookstore before Christmas. 
+Unlike the second term, which was rather long, the third term will end with the same or just a little fewer number of volumes as the first term arc.
 
-The fact that it changed right after Christmas suggests this was bought before then. 
+Well then, everyone, take care in the coming hot season not to get heat stroke.
 
-It would be a shame if she had to carry it with her everyday since then. 
-
-She said it was only a few days ago out of consideration, but it’s more likely that she purchased it at a date a little further back. 
-
-“I feel like I might have gotten something very heavy.”
-
-Of course, I can’t be too quick to judge. 
-
-She may have simply given it to me as a gift from a book lover.
-
-I’m not going to think too much about it now, but it’s only natural as a human being to feel good if someone approaches you in a sincere manner. 
-
-What can I do for Hiyori, I wonder?
-
-I decided to sit and think about it before reading the book.
+Let’s see each other again when it gets cooler.
 `;
 var fs = require("fs");
 function appendParagraphTags(str) {
@@ -66,7 +52,7 @@ function appendParagraphTags(str) {
 
 var modifiedString = `<p>` + appendParagraphTags(inputString) + "</p> \n </div>";
 // var modifiedString = `<p class="center italic">` + appendParagraphTags(inputString) + "</p> \n </div>";
-const filename = './public/assets/Year 2 Volume 9.5/Chapter 5_6.html';
+const filename = './public/assets/Year 2 Volume 9.5/Afterword.html';
 
 fs.readFile(filename, 'utf8', (err, data) => {
     if (err) {
