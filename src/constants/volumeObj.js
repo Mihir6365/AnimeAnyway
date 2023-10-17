@@ -327,7 +327,7 @@ export const translatedVolume = [
 </div>
 
   `,
-    status: "Ongoing",
+    status: "Completed",
     chapter: [
       {
         name: "Index",
@@ -362,6 +362,79 @@ export const translatedVolume = [
       {
         name: "Afterword"
       },
+    ],
+  },
+  {
+    volumeNumber: 24,
+    image: require("../assets/images/Year_Two_Volume_10.webp"),
+    name: "Year 2 Volume 10",
+    namehtml: "COTE Year 2 <br/> Volume 10",
+    synopsis: `<p>“Merry Christmas, Santa’s here.”<p/>
+<p>The second winter break at the Advanced Nurturing High school had come. <p/>
+<div class="expand infinity" id="expand">
+<p>Ayanokoji’s promise to go shopping for Christmas presents with Karuizawa was ruined by Karuizawa’s flu, and Ayanokoji had to spend the days after Christmas Eve alone.<p/>
+
+
+<p>Meanwhile, <p/>
+
+<p>“Umm, can I ask what your plans during the day are, Ayanokoji-kun?” <p/>
+
+<p>“Let’s enjoy that after we meet, then. May I visit your room?”<p/>
+
+
+<p>“Hang with me for a bit after this. Keyaki mall, north gate.” <p/>
+
+<p>The phone calls from each class leader would not cease.<p/>
+
+<p>At the same time, <p/>
+
+<p>“Ayanokoji-kun isn’t just a gloomy classmate, right? It’s like there’s something he’s hiding.” <p/>
+
+<p>His classmates are beginning to discuss Ayanokoji!?<p/>
+
+<p>The second winter break!<p/>
+
+<p>What’s the purpose behind the leaders’ phone calls..!?<p/>
+
+<p>And even a discussion about Ayanokoji!?<p/>
+</div>
+
+  `,
+    status: "Ongoing",
+    chapter: [
+      {
+        name: "Index",
+      },
+      {
+        name: "Prologue",
+      },
+      // {
+      //   name: "Chapter 1",
+      //   parts: 3
+      // },
+      // {
+      //   name: "Chapter 2",
+      //   parts: 3
+      // },
+      // {
+      //   name: "Chapter 3",
+      //   parts: 6
+      // },
+      // {
+      //   name: "Chapter 4",
+      //   parts: 5
+      // },
+      // {
+      //   name: "Chapter 5",
+      //   parts: 6
+      // },
+      // {
+      //   name: "Epilogue",
+      //   parts: 5
+      // },
+      // {
+      //   name: "Afterword"
+      // },
     ],
   },
 ];
