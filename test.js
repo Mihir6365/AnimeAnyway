@@ -1,41 +1,63 @@
 var inputString = `
-It’s really warm right now, isn’t it? This is Kinugasa, of course.
+To put it simply, I don’t trust people.
 
-I believe that people sometimes randomly awaken to various hobbies and interests. 
+I have an extremely strong dislike of blindly trusting someone with all my heart.
 
-I started cooking a little while ago, and I’ve been increasing my repertoire while making many trial-and-error attempts to cook delicious dishes, and even getting carried away and buying my own kitchen knife, even though my only hobby used to be watching baseball games.
+I never truly trust anyone.
 
-I was impressed that I could get new hobbies even at my age, but then I noticed another change in my hobbies… 
+Isn't that right, after all?
 
-I started buying my child large blocks and stuffed animals as they started growing up, which of course led to more trips to the toy store, and I ended up picking up a pla-rail after getting interested in it. 
+People can easily betray.
 
-I knew nothing about trains, but I thought, ‘Huh? It’s so fun just moving it around’, and ended up buying the toys, buying rails and making original courses, and buying radio-controlled trains… 
+They plead for your trust, saying ‘It's all okay’, only to betray you. 
 
-I also became interested in mini 4-wheelers, nerf, board games, etc… 
+The more you believe in them, the greater the shock you feel when they betray you.
 
-This is bad. 
+Since that’s the case, Isn't it better to betray first before getting betrayed? 
 
-There’s way too much stuff I like. 
+It's more advantageous to live dishonestly and gain than to live honestly and struggle.
 
-I used to buy toys only for my kid, but before I knew it, I started buying them for myself to play with. 
+This is my ——— “Hashimoto Masayoshi” ’s absolute policy. 
 
-My favourite toy recently is a toy named Bottle-Man that shoots bottle-caps. I remembered that I used to love a toy called B-Daman, (Bottle-Man’s predecessor?) and started collecting them. 
+Justice……
 
-I used to be a minimalist and never had a habit of collecting things, so I never thought I’d end up like this… I think B-Daman was a lot more interesting, but that’s probably because I’m now an adult.
+Justice, huh…
 
-Personally, I want to get my hands on some LEGO, which is something I really wanted as a kid, but I’m afraid that I’m going to get obsessed with it if I do.
+{TL Note 1 - Hashimoto’s given name - ‘Masayoshi’ can be written using different kanji characters and it means - ‘Justice’}
 
-Someone stop me! (Give me a push!)
+Every time I say that, I feel disgust for my own name.
 
-Okay. I’ll end my personal report with that, and talk a little about my work.
+That feeling… it doesn't seem to be uncommon these days.
 
-The second term and the winter vacation are finally over, and we’ll be starting the third semester arc from the next volume.
+Compared to the people who genuinely hate their own names, my hatred is, well, pretty cute.
 
-Unlike the second term, which was rather long, the third term will end with the same or just a little fewer number of volumes as the first term arc.
+I just hate it because of the mismatch between my own thoughts and the name.
 
-Well then, everyone, take care in the coming hot season not to get heat stroke.
+My name Masayoshi and ‘Justice’ are completely unrelated.
 
-Let’s see each other again when it gets cooler.
+I understand it logically.
+
+Even so, when people see my name, they tend to associate my personality with something different at first. 
+
+They judge what's in a person by his or her name.
+
+Sorry, but I won't become a Supporter of justice anymore.
+
+From the moment I entered this school, I had already made up my mind.
+
+I'll definitely graduate from ‘Class A’ and will get back at those who betrayed me.
+
+I'll do whatever it takes, no matter how awful, to make that happen.
+
+I'll bring anyone down.
+
+I’ll make anyone resent me.
+
+Even if it's Ryuen or Sakayanagi, and yes, even Ayanokoji.
+
+I won't change no matter who the opponent is.
+
+I act for my sake and for mine alone.
 `;
 var fs = require("fs");
 function appendParagraphTags(str) {

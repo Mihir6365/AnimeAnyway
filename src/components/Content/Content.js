@@ -35,9 +35,9 @@ export default function Content() {
           </div>
           <div className="info-container">
             <strong>
-              Year 2 Volume 9 is is translated completely.
+              Year 2 Volume 9.5 is is translated completely.
               <br /><br />
-              Year 2 Volume 9.5 is translated upto chapter 2. Chapter 3 will be out on July 4th.
+              Year 2 Volume 10 is being translated.
               <br /><br />
               <a href="https://www.youtube.com/@ANIMEANYWAY" target="_blank" rel="noreferrer">Subscribe to my youtube channel to stay updated to the latest Classroom of the Elite news.</a>
             </strong>

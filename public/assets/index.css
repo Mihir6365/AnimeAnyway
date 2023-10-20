@@ -61,6 +61,12 @@ li {
   font-size: large;
 }
 
+.main-body>label {
+  color: blue;
+  margin: 20px;
+  font-size: large;
+}
+
 .tooltip {
   color: blue;
   position: relative;
@@ -100,4 +106,16 @@ li {
     font-size: medium;
     margin: 20px 0px;
   }
+}
+
+.note {
+  display: none;
+}
+
+#toggle:checked+.note {
+  display: block;
+  background-color: blanchedalmond;
+  padding: 10px;
+  border-radius: 4px;
+
 }
