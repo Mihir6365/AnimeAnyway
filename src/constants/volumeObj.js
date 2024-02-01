@@ -369,34 +369,35 @@ export const translatedVolume = [
     image: require("../assets/images/Year_Two_Volume_10.webp"),
     name: "Year 2 Volume 10",
     namehtml: "COTE Year 2 <br/> Volume 10",
-    synopsis: `<p>“Merry Christmas, Santa’s here.”<p/>
-<p>The second winter break at the Advanced Nurturing High school had come. <p/>
+    synopsis:
+      `<p>“Good grief… You really are quite peculiar, aren’t you?”<p/>
+<p>The winter vacation came to an end, and the Advanced Nurturing High School’s 3rd term began. <p/>
 <div class="expand infinity" id="expand">
-<p>Ayanokoji’s promise to go shopping for Christmas presents with Karuizawa was ruined by Karuizawa’s flu, and Ayanokoji had to spend the days after Christmas Eve alone.<p/>
+
+<p>A special test was announced immediately after : <p/>
 
 
-<p>Meanwhile, <p/>
+<p>‘The Special Test of Survival and Expulsion'<p/>
 
-<p>“Umm, can I ask what your plans during the day are, Ayanokoji-kun?” <p/>
+<p class="note" id="example-note">
+TL Note 0 : The word 'Death' can also be used instead of Expulsion in the TL. This is also similar how the theme is portrayed in the series.
+</p>
 
-<p>“Let’s enjoy that after we meet, then. May I visit your room?”<p/>
+<p>A true fight for survival, where the 4 classes will attack their opponent with genre-specific challenges, and moreover, where every class except first place will lose class points. <p/>
+
+<p>“Yeah, it’s not going to be easy to get them on board either…”<p/>
 
 
-<p>“Hang with me for a bit after this. Keyaki mall, north gate.” <p/>
+<p>“What are you trying to do? Let me hear it if you have an explanation.” <p/>
 
-<p>The phone calls from each class leader would not cease.<p/>
+<p>“You’re the one who watches him from behind more closely than anyone else, so please at least grow up a little.”<p/>
 
-<p>At the same time, <p/>
+<p>“Gambling is a fine thing, isn’t it? All you do is randomly throw the dice.”
+<p/>
 
-<p>“Ayanokoji-kun isn’t just a gloomy classmate, right? It’s like there’s something he’s hiding.” <p/>
+<p>“No… That’s a bad way to do it…”   <p/>
 
-<p>His classmates are beginning to discuss Ayanokoji!?<p/>
-
-<p>The second winter break!<p/>
-
-<p>What’s the purpose behind the leaders’ phone calls..!?<p/>
-
-<p>And even a discussion about Ayanokoji!?<p/>
+<p>The popular school apocalypse opens the curtains with its cruel 3rd term!<p/>
 </div>
 
   `,

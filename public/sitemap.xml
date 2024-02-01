@@ -322,4 +322,50 @@
         <priority>0.7</priority>
     </url>
 
+    <url>
+        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Index</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Prologue</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Chapter%201</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Chapter%202</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Chapter%203</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Chapter%204</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Chapter%205</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Chapter%206</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Epilogue</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+
 </urlset>

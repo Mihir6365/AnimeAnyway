@@ -61,9 +61,8 @@ li {
   font-size: large;
 }
 
+
 .main-body>label {
-  color: blue;
-  margin: 20px;
   font-size: large;
 }
 
@@ -106,9 +105,20 @@ li {
     font-size: medium;
     margin: 20px 0px;
   }
+
+  .main-body>label {
+    font-size: medium;
+    margin: 20px 0px;
+  }
 }
 
 .note {
+  display: none;
+}
+.note2 {
+  display: none;
+}
+.note3 {
   display: none;
 }
 
@@ -118,4 +128,16 @@ li {
   padding: 10px;
   border-radius: 4px;
 
+}
+#toggle2:checked+.note2 {
+  display: block;
+  background-color: blanchedalmond;
+  padding: 10px;
+  border-radius: 4px;
+}
+#toggle3:checked+.note3 {
+  display: block;
+  background-color: blanchedalmond;
+  padding: 10px;
+  border-radius: 4px;
 }
