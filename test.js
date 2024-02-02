@@ -1,63 +1,54 @@
 var inputString = `
-To put it simply, I don’t trust people.
+Kei left at 9 p.m after we hung out during the night, and I started preparing for tomorrow. 
 
-I have an extremely strong dislike of blindly trusting someone with all my heart.
+The television was left open and playing a variety program, and I stopped for a moment to send a glance towards it.
 
-I never truly trust anyone.
+A man who appears to be around 40 years old is hosting the program while making jokes at the guests and making people laugh.
 
-Isn't that right, after all?
+They showed a remote location with people walking through town. 
 
-People can easily betray.
+The host then walked around the studio while imitating the video, and talked about his impressions for a while.
 
-They plead for your trust, saying ‘It's all okay’, only to betray you. 
+Then, 5 different pictures were shown on the screen and the crowd started showing surprised reactions while trying to choose which one was a real picture.
 
-The more you believe in them, the greater the shock you feel when they betray you.
+“Number 4.”
 
-Since that’s the case, Isn't it better to betray first before getting betrayed? 
+I said the answer out loud and pointed the remote towards the TV to shut it off without waiting for the reveal. Silence immediately filled the once loud room
+Kei loves TV, so she mostly turns it on when we’re together.
 
-It's more advantageous to live dishonestly and gain than to live honestly and struggle.
+I don’t have a strong opposition to television, but after trying out a few genres to check if I could learn anything from them, I found out that variety programs are the genre I like the least. 
 
-This is my ——— “Hashimoto Masayoshi” ’s absolute policy. 
+I walked to my drawer, and took out my sketchbook and colored pencil set from the second tier.
 
-Justice……
+I purchased it with private points shortly after I first enrolled here, but I never touched it until now. 
 
-Justice, huh…
+Kei looked inside after finding it inside the drawer before, and I remember her strange expression when she found it to be completely empty. 
 
-{TL Note 1 - Hashimoto’s given name - ‘Masayoshi’ can be written using different kanji characters and it means - ‘Justice’}
+I spread the sketchbook on the table and opened the silver case of colored pencils.
 
-Every time I say that, I feel disgust for my own name.
+I reached out to the fresh coloring pencil set, and—
 
-That feeling… it doesn't seem to be uncommon these days.
+I stopped.
 
-Compared to the people who genuinely hate their own names, my hatred is, well, pretty cute.
+What do I draw? This is as far as it goes when you don’t already have an idea in mind. 
 
-I just hate it because of the mismatch between my own thoughts and the name.
+I thought I could just come up with something, but I’m having a difficult time. 
 
-My name Masayoshi and ‘Justice’ are completely unrelated.
+I learned many different skills in the White Room to increase my general knowledge. 
 
-I understand it logically.
+Tracing was one of these skills, and I certainly wasn’t bad at it. 
 
-Even so, when people see my name, they tend to associate my personality with something different at first. 
+However, coming up with things to create on your own wasn’t part of the training. 
 
-They judge what's in a person by his or her name.
+An empty sketchbook.
 
-Sorry, but I won't become a Supporter of justice anymore.
+I closed the silver case after looking at the sketchbook for a while.
 
-From the moment I entered this school, I had already made up my mind.
+“I guess today is over already.”
 
-I'll definitely graduate from ‘Class A’ and will get back at those who betrayed me.
+I returned the sketchbook and the coloring pencil set to my drawer while muttering to myself. 
 
-I'll do whatever it takes, no matter how awful, to make that happen.
-
-I'll bring anyone down.
-
-I’ll make anyone resent me.
-
-Even if it's Ryuen or Sakayanagi, and yes, even Ayanokoji.
-
-I won't change no matter who the opponent is.
-
-I act for my sake and for mine alone.
+Maybe Chabashira-sensei was right when she said the 3rd semester would pass by quickly.
 `;
 var fs = require("fs");
 function appendParagraphTags(str) {
@@ -74,7 +65,7 @@ function appendParagraphTags(str) {
 
 var modifiedString = `<p>` + appendParagraphTags(inputString) + "</p> \n </div>";
 // var modifiedString = `<p class="center italic">` + appendParagraphTags(inputString) + "</p> \n </div>";
-const filename = './public/assets/Year 2 Volume 10/Prologue.html';
+const filename = './public/assets/Year 2 Volume 10/Chapter 1_4.html';
 
 fs.readFile(filename, 'utf8', (err, data) => {
     if (err) {

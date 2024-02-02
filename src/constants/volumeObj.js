@@ -380,7 +380,7 @@ export const translatedVolume = [
 <p>‘The Special Test of Survival and Expulsion'<p/>
 
 <p class="note" id="example-note">
-TL Note 0 : The word 'Death' can also be used instead of Expulsion in the TL. This is also similar how the theme is portrayed in the series.
+TL Note 0 : The word 'Death' can also be used instead of Expulsion in the TL. This is also similar to how the theme is portrayed in the series.
 </p>
 
 <p>A true fight for survival, where the 4 classes will attack their opponent with genre-specific challenges, and moreover, where every class except first place will lose class points. <p/>
@@ -409,10 +409,10 @@ TL Note 0 : The word 'Death' can also be used instead of Expulsion in the TL. Th
       {
         name: "Prologue",
       },
-      // {
-      //   name: "Chapter 1",
-      //   parts: 3
-      // },
+      {
+        name: "Chapter 1",
+        parts: 4
+      },
       // {
       //   name: "Chapter 2",
       //   parts: 3
