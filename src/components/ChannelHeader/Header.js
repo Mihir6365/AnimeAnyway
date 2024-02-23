@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import './HeaderStyle.css';
 
 export default function Header() {
@@ -7,7 +6,7 @@ export default function Header() {
 
   return (
     <>
-      <Link to="/"
+      <a href="https://animeanyway.me"
         className="channelHeader"
         style={{
           backgroundSize: "cover"
@@ -22,7 +21,7 @@ export default function Header() {
           {/* <KeyboardBackspaceIcon className="backBtn"/> Back to home */}
           <img src="./icons8-home.svg" alt="homebtn" />
         </div>
-      </Link>
+      </a>
       <br />
       <br />
       <br />
