@@ -7,8 +7,8 @@ export default function Ad() {
   return (
     <ins
       className="adsbygoogle"
-      style={{ display: "block", textAlign: "center" }}
-      // data-ad-layout="in-article"
+      style={{ display: "block" }}
+      // style={{ display: "block", textAlign: "center" }}
       data-ad-format="autorelaxed"
       data-ad-client="ca-pub-7107200228987000"
       data-ad-slot="9330333177"
