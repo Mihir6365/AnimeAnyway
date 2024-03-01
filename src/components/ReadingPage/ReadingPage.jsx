@@ -31,6 +31,17 @@ export const ReadingPage = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chapter]);
   useEffect(() => {
+    const script = document.createElement("script");
+    script.async = true;
+    script.src =
+      "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7107200228987000";
+    script.crossOrigin = "anonymous";
+    document.head.appendChild(script);
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
+  useEffect(() => {
     const fetchData = async () => {
       await fetchFileContent();
       setTimeout(() => {
@@ -170,11 +181,6 @@ export const ReadingPage = () => {
         <title>
           {volumeIndex} | {chapter}
         </title>
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7107200228987000"
-          crossorigin="anonymous"
-        ></script>
       </Helmet>
       <Header />
       {fileContent}

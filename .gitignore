@@ -1,5 +1,2 @@
 node_modules
-build_n
-build_
-buildn
-build
+build*
