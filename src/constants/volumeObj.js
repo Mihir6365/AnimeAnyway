@@ -440,7 +440,7 @@ TL Note 0 : The word 'Death' can also be used instead of Expulsion in the TL. Th
   },
   {
     volumeNumber: 25,
-    image: require("../assets/images/Year_Two_Volume_11.jpg"),
+    image: require("../assets/images/Year_Two_Volume_11.webp"),
     name: "Year 2 Volume 11",
     namehtml: "COTE Year 2 <br/> Volume 11",
     synopsis:
