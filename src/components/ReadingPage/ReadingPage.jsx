@@ -21,6 +21,8 @@ export const ReadingPage = () => {
   const [nextIndex, setNextIndex] = useState(getIndex(chapter) + 1);
   const [currIndex, setCurrIndex] = useState(getIndex(chapter));
   let volumeIndex = translatedVolume[volume].name;
+  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen2, setIsOpen2] = useState(false);
 
   useEffect(() => {
     document.getElementById("bookmark_read").style.display = "none";
@@ -28,6 +30,8 @@ export const ReadingPage = () => {
     setNextIndex(getIndex(chapter) + 1);
     setCurrIndex(getIndex(chapter));
     window.scrollTo(0, 0);
+    setIsOpen(false);
+    setIsOpen2(false);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chapter]);
   useEffect(() => {
@@ -174,6 +178,8 @@ export const ReadingPage = () => {
       }
     }
   };
+  const toggleOpen = () => setIsOpen(!isOpen);
+  const toggleOpen2 = () => setIsOpen2(!isOpen2);
 
   return (
     <>
@@ -183,6 +189,27 @@ export const ReadingPage = () => {
         </title>
       </Helmet>
       <Header />
+      <br />
+      <br />
+      <br />
+      <div className="dropdown">
+        <button onClick={toggleOpen} className="dropbtn">
+          Select a chapter
+        </button>
+        {isOpen && (
+          <div className="dropdown-content">
+            {chapterList.map((chapter) => (
+              <Link
+                to={`/read?volume=${volume}&chapter=${chapter.name}`}
+                className="options"
+                key={chapter.name}
+              >
+                {chapter.name}
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
       {fileContent}
       <div id="info">
         Bookmarked <br /> successfully
@@ -217,6 +244,26 @@ export const ReadingPage = () => {
               <div className="nextChap">Next</div>
             </Link>
           </>
+        )}
+      </div>
+      <br />
+      <br />
+      <div className="dropdown">
+        <button onClick={toggleOpen2} className="dropbtn">
+          Select a chapter
+        </button>
+        {isOpen2 && (
+          <div className="dropdown-content">
+            {chapterList.map((chapter) => (
+              <Link
+                to={`/read?volume=${volume}&chapter=${chapter.name}`}
+                className="options"
+                key={chapter.name}
+              >
+                {chapter.name}
+              </Link>
+            ))}
+          </div>
         )}
       </div>
       <BuyMeCoffee />
