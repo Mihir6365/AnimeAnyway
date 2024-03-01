@@ -438,4 +438,67 @@ TL Note 0 : The word 'Death' can also be used instead of Expulsion in the TL. Th
       // },
     ],
   },
+  {
+    volumeNumber: 25,
+    image: require("../assets/images/Year_Two_Volume_11.jpg"),
+    name: "Year 2 Volume 11",
+    namehtml: "COTE Year 2 <br/> Volume 11",
+    synopsis:
+      `<p>"Love? I am a betrayer... no, I was just old enough to become just a little interested in Hashimoto Masayoshi."<p/>
+<p>
+The mixer, a training camp where year-3 students will take on the leadership roles, and the year-1 and year-2 classes will participate as mixed groups, was announced. <p/>
+<div class="expand infinity" id="expand">
+
+<p>However, this year's training camp is a lax event with a focus on allowing the students to interact with the other grades with no expulsion penalties or changes in class points.<p/>
+
+<p>Ayanokoji will be under the leadership of kiryuuin in the same group as Hashimoto, Morishita, Yamamura, and Shiina, and he will participate in hands-on training games such as making pressed flowers, playing cards and archery.<p/>
+
+
+<p>On the other hand, taking advantage of the relaxed atmosphere of this social gathering, where winning isn't required, Horikita plans a revenge match against Amasawa. <p/>
+
+<p>“Huh? I'm serious about asking for your advice, y'know? I'm desperately trying to find a way to save myself.”<p/>
+
+<p>Other than Hashimoto, who is trying to get closer to Ayanokoji, Each class is also making moves towards the end of the school year!<p/>
+<p/>
+
+</div>
+
+  `,
+    status: "Upcoming",
+    chapter: [
+      // {
+      //   name: "Index",
+      // },
+      // {
+      //   name: "Prologue",
+      // },
+      // {
+      //   name: "Chapter 1",
+      //   parts: 4
+      // },
+      // {
+      //   name: "Chapter 2",
+      //   parts: 4
+      // },
+      // {
+      //   name: "Chapter 3",
+      //   parts: 2
+      // },
+      // {
+      //   name: "Chapter 4",
+      //   parts: 0
+      // },
+      // {
+      //   name: "Chapter 5",
+      //   parts: 0
+      // },
+      // {
+      //   name: "Epilogue",
+      //   parts: 5
+      // },
+      // {
+      //   name: "Afterword"
+      // },
+    ],
+  },
 ];
