@@ -427,7 +427,7 @@ TL Note 0 : The word 'Death' can also be used instead of Expulsion in the TL. Th
       },
       {
         name: "Chapter 5",
-        parts: 0
+        parts: 3
       },
       // {
       //   name: "Epilogue",
