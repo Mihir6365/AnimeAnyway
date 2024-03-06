@@ -466,39 +466,47 @@ The mixer, a training camp where year-3 students will take on the leadership rol
   `,
     status: "Upcoming",
     chapter: [
-      // {
-      //   name: "Index",
-      // },
-      // {
-      //   name: "Prologue",
-      // },
-      // {
-      //   name: "Chapter 1",
-      //   parts: 4
-      // },
-      // {
-      //   name: "Chapter 2",
-      //   parts: 4
-      // },
-      // {
-      //   name: "Chapter 3",
-      //   parts: 2
-      // },
-      // {
-      //   name: "Chapter 4",
-      //   parts: 0
-      // },
-      // {
-      //   name: "Chapter 5",
-      //   parts: 0
-      // },
-      // {
-      //   name: "Epilogue",
-      //   parts: 5
-      // },
-      // {
-      //   name: "Afterword"
-      // },
+      {
+        name: "Index",
+      },
+      {
+        name: "Prologue",
+      },
+      {
+        name: "Chapter 1",
+        parts: 0
+      },
+      {
+        name: "Chapter 2",
+        parts: 0
+      },
+      {
+        name: "Chapter 3",
+        parts: 0
+      },
+      {
+        name: "Chapter 4",
+        parts: 0
+      },
+      {
+        name: "Chapter 5",
+        parts: 0
+      },
+      {
+        name: "Chapter 6",
+        parts: 0
+      },
+      {
+        name: "Chapter 7",
+        parts: 0
+      },
+      {
+        name: "Epilogue",
+        parts: 0
+      },
+      {
+        name: "Afterword"
+      },
     ],
   },
 ];
