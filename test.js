@@ -1,163 +1,246 @@
 var inputString = `
-It was approximately 8 o'clock in the evening. 
+Directly after Sakayanagi conveyed her 5 picks as the attacker against Horikita in her second attack, Hashimoto stood up and approached Sakayanagi.
 
-Seated alone in my room, I, Hashimoto, released a heavy sigh. 
+Instead of the usual faint smile, he had a stern expression on his face.
 
-“As expected, no communication. She's likely opting to unwind and await the exam.”
+It’s an act that really stands out, since everyone except Hashimoto are sitting in their seats.
 
-I mused to myself. 
+“Is something wrong, Hashimoto-kun?”
 
-Given her track record, the likelihood of her emerging victorious without taking any action wasn't insignificant. 
+“I thought I warned you last night. Does this mean you don’t find the information I gave you useful?”
 
-I estimated it to be around seventy or eighty percent. 
 
-Such odds suggested Sakayanagi would secure first place, or at worst, second. 
 
-However, this alone wouldn't suffice. 
+Genre: Gourmet, difficulty 1.
 
-There was a crucial task at hand to ensure our Class A status remained intact.
+Attacker Targets: Koenji Rokusuke, Hasabe Haruka, Hirata Yosuke, Yukimura Teruhiko, Onodera Kayano.
 
-I mentally prepared myself and dialled Sakayanagi's number. 
 
-It was a battle of wits that awaited, a test of how I would approach the situation.
 
-“It's unusual for you to call at this hour, Hashimoto-kun.” 
+He pointed at the names on the monitor behind him and showed his dissatisfaction.
 
-Sakayanagi's voice floated through the phone, accompanied by the gentle strains of classical music in the background.
+“Is that what it looks like to you?”
 
-“My apologies for the late call, Hime-san.”
+“Yeah, it is.”
 
-“Don't worry. Please share what's on your mind.”
+“Well, your phone call yesterday was a little meddlesome. However, information is information. Of course I will not pointlessly ignore it after inscribing it in my hippocampus.”
 
-Her composed demeanour hinted at ample time for conversation.
+“Then… Why are you targeting Koenji?” 
 
-“Today's tea gathering was enjoyable, but there are matters I must address. Based on my inquiries, it appears the potential risk has been mitigated. I wished to reassure you by providing this report.”
+“You told me the one target we must avoid in Class-B is Koenji, right?”
 
-It was a subtle probe, laying the groundwork to gauge her reaction. I opted for a deliberate and measured approach. 
+“He has a contract with Horikita. So he’s always going to be protected and earn an unconditional point each time. I thought you would put my information to use here.” 
 
-This was precisely why I had rehearsed this scenario numerous times in my mind upon returning home.
+He wanted to be useful, but could not take it when that was quickly taken away from him. 
 
-“What risk are you referring to?”
+Kitou, sensing a difference in Hashimoto’s attitude compared to his usual cheerful demeanour, pulled a chair. 
 
-This woman consistently feigned ignorance, even when fully aware of the situation. 
+“You don’t need to worry about anything, Kitou-kun. Hashimoto-kun is just very dry.”
 
-While such behaviour might be acceptable when dealing with adversaries, it was disconcerting when directed at allies. 
+After quietly laughing, Sakayanagi explained why she targeted Koenji despite the high possibility of him being protected. 
 
-She preferred to keep potentially uncontrollable information at bay, maintaining control over every aspect on her own terms.
+“I’m sure it’s true that there is a contract between him and Horikita-san. However, it’s only based on not expelling him, and the second point is that he is free to do as he likes, yes?”
 
-“It should be evident, shouldn't it? The possibility of the three classes uniting to launch an attack on Class A. If they were to collaborate, they could manipulate the majority of points, leaving no chance of victory if fairness were maintained.”
+“Yeah…”
 
-“You appear overly concerned about such a minor matter.”
+“It’s a waste of a valuable protection to continue to protect him. It would be best to keep watching until he is targeted once and gets the problem wrong. That’s the least one can do in order to win, don’t you think?” 
 
-Was it truly a minor matter to confront all three classes as adversaries? I anxiously attempted to ascertain if such a possibility loomed.
+“Horikita has a law-abiding personality, though. The class will be shaken if they see that she isn’t protecting him.”
 
-“I am concerned. While it may not trouble you, Hime-san, the prospect of alliances poses a significant threat. It enables them to unleash concentrated attacks on Class A.”
+“If that’s enough to shake them, then they should be shaken anyway. Keeping the contract intact is important too, but I would rather doubt her character as a leader if she continued wasting a protection on Koenji-kun.”
 
-“These three classes are fiercely competing to ascend to Class A. Their primary goal is to amass as many class points as possible in the special exam. It would not be simple for them to unite solely to dismantle Class A.”
+The Horikita class decided their protections during the explanation, so the monitor’s screen changed.
 
-I comprehended her perspective. Even if Class A were to rank last, it would merely entail a descent from the top. Ichinose and Ryuen's classes would not reap substantial benefits. Conversely, Ayanokoji and Horikita's class stood to lose if they didn’t secure first place.
+There were no successful protections, and the 5 names Sakayanagi picked would all take on the assignment.
 
-“However, if a capable individual lurks in the shadows, poised to orchestrate such a scheme, then the situation changes.”
+“How about that? As expected, she did not use a protection on Koenji-kun.”
 
-If Ayanokoji embodied the qualities I believed him to possess, he could undoubtedly execute such a plan.
+Hashimoto can’t keep hounding Sakayanagi about this after seeing the results.
 
-“I cannot wholly dismiss that possibility. But is that the sole reason for your call?”
+“...Yeah, you’re right. What’s the point in going so far to take a point from Koenji, though? He’s weirdly smart, so there’s a higher chance for him to answer correctly than the other small fish, isn’t there?” 
 
-She seemed to imply that I was wasting her time.
+“I suppose so. He is a completely free person. As such, as long as he is promised this freedom by Horikita-san, he has no obligation to take the questions seriously. He might even get them wrong on purpose.”
 
-“No, there's more. In fact, this is the crux of the matter. I aim to contribute to the advancement of our class.”
+Sakayanagi spoke with conviction as if she could see the future.
 
-In the interest of the special exam, I relayed all the intelligence I had amassed thus far to Sakayanagi. 
+No way, Hashimoto thought, and he waited for the screen to change.
 
-This included Koenji's agreement with Horikita, which she intended to uphold. 
+As a result, Koenji got the question wrong as expected. One step closer to elimination.
 
-While I couldn't divulge the specifics, it appeared that Ryuen had established communication with his classmates and was devising some form of strategy. 
+“It was a little risky, but we took 1 point. Impressive, Hime-san.” 
 
-I also discussed the prioritization of which students from other classes should be targeted for expulsion, among other details, including obscure ones that might seem trivial to the average person.
+Hashimoto was put at ease for the moment, but that quickly went even in the next turn. Because immediately after their next turn as the attacker began, Sakayanagi named Koenji right away.
 
-“So... this encompasses all the information I've gathered regarding Horikita's class.”
+She also picked the same genre, seemingly trying to show that she is targeting him on purpose.
 
-My aim was to convey my enthusiasm, demonstrating my dedication to fortifying Class A.
+After that, the students who heard the conversation also started making a commotion instead of just Hashimoto.
 
-“You've certainly put in considerable effort to gather this information, Hashimoto-kun.”
+“Hey, what are you doing? Aren’t they going to protect Koenji if you pick the same genre too?”
 
-My efforts seemed to have been acknowledged, and my passion appeared to resonate through the phone line.
+Kamuro spoke up, confused by what Sakayanagi was doing.
 
-“Naturally. With a rival class amassing a remarkable number of Class Points, my objective is to collect every nugget of information and share it with you, Hime-san. Ideally, I would have done so during the tea gathering.”
+“You’re not going to tell me he won’t be protected this time either, right..?”
 
-“You're quite diligent. Are you pursuing a relationship with Maezono-san for information rather than affection?”
+“That’s how I see it. It’s the reason I named Koenji-kun again.”
 
-So it had come to this. 
+Despite feeling that this was a foolish conjecture, the students stayed in their seats and waited as they looked at the screen.
 
-Sakayanagi may not have physical legs, but she possessed numerous metaphorical eyes. 
 
-My open outings with Maezono had been observed on multiple occasions. 
 
-Panicking was not an option; I had to handle this situation with composure.
+Defender Successful Protections: None
 
-“Well, that's also part of the plan. When did you become aware?”
 
-“I've noticed an increase in your communication with her recently. The audio data concerning the Ayanokoji 'threat discussion' that you shared with Masumi-san, that was prepared by her, correct?”
 
-“Oh dear. Did Masumi-chan disclose that to you?” 
+“Seriously..? What the hell is Horikita thinking?”
 
-My heart pounded with anxiety. Had I not prepared for the worst, I would have been petrified.
+Hashimoto grumbled in the face of the reality that Koenji was not protected this time either.
 
-Even if I were to ask Kamuro, she would likely respond, 
+Then, the unthinkable act of Koenji answering incorrectly again.
 
-'I was not instructed to keep this from Sakayanagi. However, whether or not I choose to disclose it is my decision.'
+“I’m not on Hashimoto’s side here, but why did you think they wouldn’t protect him this time either?”
 
-“Regardless, I trust you'll find the information beneficial, Hime-san.”
+“Because of the same logic as the first time. He can answer incorrectly two times, so there is no need to protect him anyway. If she has to protect him, then she wants to wait until the final moment she has to do so. I’m sure Horikita-san did want him to answer correctly, though.”
 
-“I appreciate your sincerity. Although I'm uncertain of its utility, I will certainly make use of it.”
+“...I see. So now, Horikita has to protect Koenji even if she doesn’t want to.”
 
-“If I heard correctly, it sounds like you're not entirely keen on leveraging this information.”
+Kitou muttered after being convinced by Sakayanagi’s words. 
 
-“I already have a preliminary strategy in place. While I won't rely solely on the information you've gathered, there are aspects of it that I will inevitably incorporate now that I'm aware of it.”
+Horikita would not waste a protection on Koenji, as long as he still had the leeway for failure.
 
-Her demeanour suggested she was less enthusiastic about the information now that it was in her possession.
+In other words, Sakayanagi took a risk and continued targeting Koenji in order to waste her opponent’s protection in the later turns.
 
-“Is it unnecessary?”
+That’s the analysis.
 
-“Indeed. During the special exam, unexpected developments can add excitement. In a way, you've inadvertently deprived me of some of that excitement.”
+The fact that the two gourmet questions in a row were simple just couldn’t be helped.
 
-She remarked, never failing to amuse me with her unconventional statements. 
+This is still the stage where each class is trying to determine how difficult every genre is.
 
-She treated the classes as if they were her own domain and showed no inclination to fight for Class A privileges.
+“I’m sorry I doubted you, Princess. You had a plan, after all. But in that case, why not target Koenji from turn 1? That would destroy their protection slot for the remaining 8 turns. We lost 1 turn.”
 
-‘It's merely a pastime. Please refrain from involving me in such matters’
+“I was 99% sure she would not protect Koenji-kun, but the reason I waited until turn 2 is that I wanted to be completely sure. It was also an important move to lure them into making a mistake on turn 2. What if I attacked on turn 1 and Horikita-san decided to protect him after that? That would make things a lot more difficult for us.”
 
-“So, can you assure me of victory this time?”
+There is a risk of being led around by a deceptive protection slot. 
 
-“I won't be defeated. You'll see for yourself if you observe from the sidelines.”
+She thought that Horikita would feel like there is some leeway if she continuously succeeded in protecting him, and that Horikita would gain control of the pace.
 
-Given her assurance and track record, I might have been less anxious. 
+“So, thanks to him answering incorrectly on the first easy question, I was able to calculate that he would answer incorrectly the second time as well, and the results are great. It’s all thanks to the information you gave me.”
 
-However, I had amassed a wealth of information, and Ayanokoji's presence had necessitated significant adjustments to my plans.
+Hashimoto felt relieved after it was confirmed he was useful, and he returned to his seat after nodding.
 
-“Fine, you're quite confident... I understand. Forget what I mentioned earlier. I'll simply observe, provided no issues arise.”
+“Now, let’s finish things up with Koenji-kun.” 
 
-At that juncture, pressing further seems futile. 
+On turn 4, Sakayanagi surprised everyone by naming Koenji as her first target.
 
-For me, I had expressed all I could during this phone conversation.
+“We can’t be too careful. I’m threatening that we can target him again any time if they show a gap in their defense. Thanks to your information, Hashimoto-kun, we know the inner circumstances of the Horikita class. However, she doesn’t believe that her contract with Koenji-kun has been leaked.” 
 
-“Please do.”
+“I see… This will make her feel that she has to use a protection slot of Koenji no matter what now.” 
 
-Throughout the call, her voice remained composed, but it seemed she was suppressing her unease. 
+Sakayanagi chose Gourmet again, but she also raised the difficulty up to 2.
 
-Sakayanagi detested assistance; she preferred to rely solely on the information she collected and her own intellect. 
+Hashimoto felt that it would be a loss if Koenji is protected, but he did not point it out.
 
-This explained her annoyance at the unexpected provision of information. 
+However, things developed in a mostly unexpected direction from there. 
 
-Despite not being the ideal scenario, it felt somewhat refreshing.
 
-“Serves you right.”
 
-While I had taken a few blows, my battle was far from over. 
+Defender Successful Protections: Shinohara Satsuki, Sudou Ken.
 
-This was where the true challenge began. 
 
-Compared to the resolve it took to call Sakayanagi, I wasn't sure how much more I would need, but I was determined to execute my winning strategy.
+
+
+Horikita made the unthinkable choice of not protecting Koenji.
+
+“Why isn’t she protecting him?”
+
+“Maybe the information you gave me was fake?”
+
+“No way..! Horikita definitely made a promise to protect Koenji!”
+
+In the end, Koenji answered correctly and escaped elimination, but it was still very confusing.
+
+On one hand, Sakayanagi did not consume a protection slot, and Koenji answered correctly to avoid an elimination this time, which let her have a full grasp of the situation.
+
+“Does this mean Horikita abandoned Koenji..?”
+
+“This is our chance, then. We’ll crush him right now.”
+
+Kitou’s remark showed that he did not see this as a bad thing, but instead as a reason to keep targeting Koenji.
+
+“Yeah, that might be the way to go. It’ll lower their trust in Horikita and demoralize them.”
+
+Hashimoto saw the fact that Horikita chose not to use a protection slot as proof that the opponent class was in disarray.
+
+On the other hand, Sakayanagi reached a different conclusion.
+
+“I thought she would unconditionally protect him, or that he would be eliminated, but… It looks like Horikita-san has a different aim in her mind. We’re just going to make her happy if we keep targeting Koenji-kun now.”
+
+Sakayanagi chuckled and opened her cellphone
+
+“Still, I’m impressed that she’s thinking about ways to fight against me.”
+
+Sakayanagi started thinking. 
+
+Perhaps Ayanokoji was hiding behind Horikita.
+
+Was everything that happened so far a strategy built up under the guidance of someone?
+
+“For now, I’m pretty sure he’s not involved in this.” 
+
+If Ayanokoji was pulling the strings from behind the scene, such information would have made it to the other classes.
+
+Sakayanagi felt a strange, unusual and imperceptible presence.
+
+There was a hint of Ayanokoji’s thinking in Horikita’s actions.
+
+“She’s watching his back from more close up than anyone else, so I’d expect her to have grown this much, at least.”
+
+Sakayanagi can see where this is going. She won’t be overtaken by Horikita in this battle.
+
+“The problem is…”
+
+For Sakayanagi, who is in charge of Class-A, there is not one specific class to be wary of.
+
+The real problem is the possibility of 2, or even 3 classes joining hands in secret against her.
+
+That is the only concerning matter for Sakayanagi.
+
+She continued her spying and observations after the Special Test was announced, and did not detect any signs of such activities, nor did she receive any reports about them. 
+
+However, it’s very possible that the classes have joined hands in secret. 
+
+That’s precisely why the only way for her to determine whether there is cooperation or not is during the test, and she decided that the possibility of an alliance between the other classes is currently almost zero. 
+
+There is nothing unnatural about the other classes’ offense and defense.
+
+“Let us go for 1st place.”
+
+Sakayanagi had earned 29 points in total when the first half came to an end.
+
+It is a joyous thing to be in 1st place, but the shadow of Class-B chasing after her with a 1 point difference directly after still lingers.
+
+Hashimoto, without standing up, looked at the results shown on the monitor, and the remaining break time.
+
+“Masumi-san, shall we go for lunch? You were eliminated, so it won’t be an issue, right?” 
+
+“Fine by me, but you’re really inconsiderate when talking to people, you know.”
+
+It wasn’t a compliment, but Sakayanagi happily smiled and started walking while using her cane.
+
+Kitou quietly looked at the two and followed after them when they entered the corridor.
+
+“When did you invite him?”
+
+“I invited him over the phone.”
+
+“Hmm. So, are you sure you shouldn’t invite Hashimoto?”
+
+Hashimoto is often together with them when Kamuro and Kitou are seated at the same table. 
+
+It seems this caught Masumi’s attention.
+
+“I did invite him, but he refused. He also answered 2 problems incorrectly after being targeted by Ryuen-kun. It’s only natural he doesn’t want to be eliminated.”
+
+Kamuro imagined Hashimoto frantically looking things up on his phone, and a very faint smile appeared on her face.
 `;
 var fs = require("fs");
 function appendParagraphTags(str) {
@@ -174,7 +257,7 @@ function appendParagraphTags(str) {
 
 var modifiedString = `<p>` + appendParagraphTags(inputString) + "</p> \n </div>";
 // var modifiedString = `<p class="center italic">` + appendParagraphTags(inputString) + "</p> \n </div>";
-const filename = './public/assets/Year 2 Volume 10/Chapter 5_3.html';
+const filename = './public/assets/Year 2 Volume 10/Chapter 6_3.html';
 
 fs.readFile(filename, 'utf8', (err, data) => {
     if (err) {
