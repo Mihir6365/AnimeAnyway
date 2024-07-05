@@ -6,7 +6,7 @@ export default function Header() {
 
   return (
     <>
-      {/* <a href="https://animeanyway.me"
+      <a href="https://animeanyway.com"
         className="channelHeader"
         style={{
           backgroundSize: "cover"
@@ -23,7 +23,7 @@ export default function Header() {
       </a>
       <br />
       <br />
-      <br /> */}
+      <br />
     </>
   );
 } 

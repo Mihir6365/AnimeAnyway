@@ -41,7 +41,7 @@ export default function Footer() {
                 </div>
               </a>
             </div>
-            <div
+            {/* <div
               className="developer-link"
               style={{ display: "flex", flexDirection: "column" }}
             >
@@ -67,7 +67,7 @@ export default function Footer() {
                   <img src="./icons8-instagram.svg" style={{ marginTop: "-28px", height: "75px", width: "30px" }} />
                 </div>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <img src={banner} style={{ height: "48%", width: "100%" }} />
