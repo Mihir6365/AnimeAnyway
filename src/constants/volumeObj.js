@@ -482,11 +482,11 @@ The mixer, a training camp where year-3 students will take on the leadership rol
       },
       {
         name: "Chapter 1",
-        parts: 0
+        parts: 2
       },
       {
         name: "Chapter 2",
-        parts: 0
+        parts: 4
       },
       {
         name: "Chapter 3",

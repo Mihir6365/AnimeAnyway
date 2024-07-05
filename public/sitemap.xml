@@ -372,7 +372,7 @@
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
-    
+
     <url>
         <loc>https://animeanyway.me/read?volume=7&amp;chapter=Index</loc>
         <changefreq>daily</changefreq>
@@ -414,7 +414,7 @@
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Epilogue</loc>
+        <loc>https://animeanyway.me/read?volume=7&amp;chapter=Epilogue</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
