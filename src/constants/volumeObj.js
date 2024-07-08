@@ -337,30 +337,30 @@ export const translatedVolume = [
       },
       {
         name: "Chapter 1",
-        parts: 3
+        parts: 3,
       },
       {
         name: "Chapter 2",
-        parts: 3
+        parts: 3,
       },
       {
         name: "Chapter 3",
-        parts: 6
+        parts: 6,
       },
       {
         name: "Chapter 4",
-        parts: 5
+        parts: 5,
       },
       {
         name: "Chapter 5",
-        parts: 6
+        parts: 6,
       },
       {
         name: "Epilogue",
-        parts: 5
+        parts: 5,
       },
       {
-        name: "Afterword"
+        name: "Afterword",
       },
     ],
   },
@@ -369,8 +369,7 @@ export const translatedVolume = [
     image: require("../assets/images/Year_Two_Volume_10.webp"),
     name: "Year 2 Volume 10",
     namehtml: "COTE Year 2 <br/> Volume 10",
-    synopsis:
-      `<p>“Good grief… You really are quite peculiar, aren’t you?”<p/>
+    synopsis: `<p>“Good grief… You really are quite peculiar, aren’t you?”<p/>
 <p>The winter vacation came to an end, and the Advanced Nurturing High School’s 3rd term began. <p/>
 <div class="expand infinity" id="expand">
 
@@ -401,7 +400,7 @@ TL Note 0 : The word 'Death' can also be used instead of Expulsion in the TL. Th
 </div>
 
   `,
-    status: "Ongoing",
+    status: "Completed",
     chapter: [
       {
         name: "Index",
@@ -411,38 +410,38 @@ TL Note 0 : The word 'Death' can also be used instead of Expulsion in the TL. Th
       },
       {
         name: "Chapter 1",
-        parts: 4
+        parts: 4,
       },
       {
         name: "Chapter 2",
-        parts: 4
+        parts: 4,
       },
       {
         name: "Chapter 3",
-        parts: 2
+        parts: 2,
       },
       {
         name: "Chapter 4",
-        parts: 1
+        parts: 1,
       },
       {
         name: "Chapter 5",
-        parts: 3
+        parts: 3,
       },
       {
         name: "Chapter 6",
-        parts: 8
+        parts: 8,
       },
       {
         name: "Chapter 7",
-        parts: 3
+        parts: 3,
       },
       {
         name: "Epilogue",
-        parts: 1
+        parts: 1,
       },
       {
-        name: "Afterword"
+        name: "Afterword",
       },
     ],
   },
@@ -451,8 +450,7 @@ TL Note 0 : The word 'Death' can also be used instead of Expulsion in the TL. Th
     image: require("../assets/images/Year_Two_Volume_11.webp"),
     name: "Year 2 Volume 11",
     namehtml: "COTE Year 2 <br/> Volume 11",
-    synopsis:
-      `<p>"Love? I am a betrayer... no, I was just old enough to become just a little interested in Hashimoto Masayoshi."<p/>
+    synopsis: `<p>"Love? I am a betrayer... no, I was just old enough to become just a little interested in Hashimoto Masayoshi."<p/>
 <p>
 The mixer, a training camp where year-3 students will take on the leadership roles, and the year-1 and year-2 classes will participate as mixed groups, was announced. <p/>
 <div class="expand infinity" id="expand">
@@ -472,7 +470,7 @@ The mixer, a training camp where year-3 students will take on the leadership rol
 </div>
 
   `,
-    status: "Upcoming",
+    status: "Ongoing",
     chapter: [
       {
         name: "Index",
@@ -482,39 +480,115 @@ The mixer, a training camp where year-3 students will take on the leadership rol
       },
       {
         name: "Chapter 1",
-        parts: 2
+        parts: 2,
       },
       {
         name: "Chapter 2",
-        parts: 4
+        parts: 4,
       },
       {
         name: "Chapter 3",
-        parts: 0
+        parts: 0,
       },
       {
         name: "Chapter 4",
-        parts: 0
+        parts: 0,
       },
       {
         name: "Chapter 5",
-        parts: 0
+        parts: 0,
       },
       {
         name: "Chapter 6",
-        parts: 0
+        parts: 0,
       },
       {
         name: "Chapter 7",
-        parts: 0
+        parts: 0,
       },
       {
         name: "Epilogue",
-        parts: 0
+        parts: 0,
       },
       {
-        name: "Afterword"
+        name: "Afterword",
       },
+    ],
+  },
+  {
+    volumeNumber: 26,
+    image: require("../assets/images/Year_Two_Volume_12.jpg"),
+    name: "Year 2 Volume 12",
+    namehtml: "COTE Year 2 <br/> Volume 12",
+    synopsis: `<p>As the long second year finally reaches it's end, the final special exam, the 'Year-End Special Exam,' is about to take place.<p/>
+<p>
+Each class selects 3 representatives in advance: The Frontliner, The Central Member, and The Captain - who will compete in an elimination match against representatives from other classes... <p/>
+<div class="expand infinity" id="expand">
+
+<p>However, the content of the exam remains unknown until the day of the test.<p/>
+
+<p>"I'll show my true strength to Sakayanagi, and to you as well."<p/>
+<p>"It might not suit me, but I'll defeat you fair and square."<p/>
+
+
+<p>"Once the Year-End Special Exam is over, let's relax and have some tea." <p/>
+
+<p>“After winning in it, the match against Ayanokouji-kun awaits in the third year.”<p/>
+
+<p>Only one of Ryuuen or Sakayanagi will survive-<p/>
+<p>The highly popular school apocalyptic tale reaches its second-year climax!<p/>
+
+<p>"If we both manage to avoid expulsion in the special exam, then let's make some time."<p/>
+<p>Ryuuen or Sakayanagi?<p/>
+<p>One of them will be defeated and leave the school tomorrow.<p/>
+
+
+</div>
+
+  `,
+    status: "Upcoming",
+    chapter: [
+      // {
+      //   name: "Index",
+      // },
+      // {
+      //   name: "Prologue",
+      // },
+      // {
+      //   name: "Chapter 1",
+      //   parts: 2,
+      // },
+      // {
+      //   name: "Chapter 2",
+      //   parts: 4,
+      // },
+      // {
+      //   name: "Chapter 3",
+      //   parts: 0,
+      // },
+      // {
+      //   name: "Chapter 4",
+      //   parts: 0,
+      // },
+      // {
+      //   name: "Chapter 5",
+      //   parts: 0,
+      // },
+      // {
+      //   name: "Chapter 6",
+      //   parts: 0,
+      // },
+      // {
+      //   name: "Chapter 7",
+      //   parts: 0,
+      // },
+      // {
+      //   name: "Epilogue",
+      //   parts: 0,
+      // },
+      // {
+      //   name: "Afterword",
+      // },
     ],
   },
 ];
