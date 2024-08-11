@@ -39,6 +39,7 @@ export default function Header() {
         <a href="https://www.instagram.com/anime_anyway_/" target="_blank" className="header_links_mobile">Instagram</a>
         <a href="https://t.me/animeanyway" target="_blank" className="header_links_mobile">Telegram</a>
       </div>
+      
     </>
   );
 }
