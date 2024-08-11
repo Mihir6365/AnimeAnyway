@@ -102,7 +102,7 @@ export const ReadingPage = () => {
             {window.innerWidth > 1260 ? (
               <>
                 <Ad2 />
-                <div className="main-part">
+                <div className="main-part" >
                   <div
                     dangerouslySetInnerHTML={{ __html: response.data }}
                     style={{ userSelect: "none" }}

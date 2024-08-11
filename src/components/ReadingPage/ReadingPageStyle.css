@@ -1,3 +1,14 @@
+:root {
+  --bgcolor: rgb(255, 255, 255);
+  --textcolor: black;
+}
+
+[theme="dark"] {
+  --bgcolor: rgb(33, 33, 33);
+  --textcolor: #F2F2F2;
+}
+
+
 .read-content {
   display: flex;
 }
@@ -7,6 +18,7 @@
   left: 0;
   max-width: 56vw;
   min-height: 10px;
+
 }
 
 .multi-ads {
@@ -20,6 +32,8 @@
   text-align: center;
   width: 500px;
   margin-left: calc(50vw - 250px);
+  background-color: var(--bgcolor);
+  color: var(--textcolor);
 }
 
 
