@@ -5,7 +5,11 @@ import VolumeCard from "../VolumeCard/VolumeCard.js";
 import Header from "../ChannelHeader/Header.js";
 import './ContentStyle.css';
 import BuyMeCoffee from "../BuyMeCoffee/BuyMeCoffee.js";
+
+
 export default function Content() {
+  document.querySelector("body").setAttribute("data-theme", "light");
+
   const transVolumes = translatedVolume.slice(0).reverse();
 
   useEffect(() => {

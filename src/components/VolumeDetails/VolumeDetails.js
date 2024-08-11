@@ -7,6 +7,7 @@ import "./VolumeDetailsStyles.css";
 import { Helmet } from "react-helmet";
 
 export const VolumeDetails = () => {
+  document.querySelector("body").setAttribute("data-theme", "light");
   const [chapters, setChapters] = useState([]);
   const [volumeName, setVolumeName] = useState();
   const [prevVolumeIndex, setPrevVolumeIndex] = useState();
