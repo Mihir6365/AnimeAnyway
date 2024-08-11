@@ -6,7 +6,6 @@ import { translatedVolume } from "../../constants/volumeObj.js";
 import "../ReadingPage/ReadingPageStyle.css";
 import Header from "../ChannelHeader/Header.js";
 import { Helmet } from "react-helmet";
-import Footer from "../Footer/Footer.js";
 import BuyMeCoffee from "../BuyMeCoffee/BuyMeCoffee.js";
 import Ad from "../Ads/Ad.jsx";
 import Ad2 from "../Ads/Ad2.jsx";
@@ -167,11 +166,7 @@ export const ReadingPage = () => {
           );
           arr.push(component);
         }
-        // arr.push(
-        //   <button id="bookmark_read" key="10000" onClick={() => save()}>
-        //     <img src="./icons8-bookmark.svg" alt="bookmark" />
-        //   </button>
-        // );
+
         setFileContent(arr);
       } catch (error) {
         setFileContent("Error loading file");
@@ -267,7 +262,6 @@ export const ReadingPage = () => {
         )}
       </div>
       <BuyMeCoffee />
-      <Footer />
     </>
   );
 };
