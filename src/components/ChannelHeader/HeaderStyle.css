@@ -1,145 +1,89 @@
-.newStyles {
-  display: none;
-  height: 0;
-  margin: 0;
-  padding: 0;
+:root {
+  --bgcolor: rgb(255, 255, 255);
+  --textcolor: black;
 }
-.homebtn {
-  background-color: rgba(219, 219, 219, 0.3);
-  height: 22px;
-  left: 45%;
-  margin-top: 610px;
-  border-radius: 10px;
-  padding: 8px;
-  min-width: 40px;
-  color: #000;
-  border: 2px solid #000;
+
+[theme="dark"] {
+  --bgcolor: rgb(33, 33, 33);
+  --textcolor: #F2F2F2;
+}
+
+.header {
+  top: 0px;
+  height: 60px;
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: var(--bgcolor);
+  color: var(--textcolor);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 5px 5px;
+}
+
+.header_links {
+  font-weight: bold;
+  font-size: large;
+  padding: 0 30px;
+  text-align: center;
+  margin: auto 0;
+  color: var(--textcolor);
+}
+
+.header>.dropdown {
+  display: none;
+  position: absolute;
+  background-color: var(--bgcolor);
+  max-width: 60px;
+  padding: auto;
+  height: 100%;
+  margin: auto 20px;
   text-align: center;
 }
-.homebtn:hover {
-  background-color: #bcbcbc;
+
+.Hamburger {
+  height: 40px;
+  width: 40px;
+  margin: 10% auto;
 }
-@media (min-width: 1441px) {
-  .channelHeader {
-    border-radius: 20px;
-    height: 600px;
-    width: 85%;
+
+.mobile_header {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  background-color: var(--bgcolor);
+  display: none;
+  top: 50px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 50px;
+  }
+
+  .header_links {
+    display: none;
+  }
+
+  .header_links_mobile {
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    margin: 20px 30px;
+    color: var(--textcolor);
+  }
+
+  .header>.dropdown {
+    display: block
+  }
+
+  .mobile_header {
     display: flex;
-    justify-content: center;
-    background: linear-gradient(
-          to bottom,
-          rgba(255, 255, 255, 0) 0,
-          rgba(0, 0, 0, 0.2) 60%,
-          rgba(0, 0, 0, 0.5) 85%,
-          rgba(0, 0, 0, 0.2) 97%,
-          rgba(255, 255, 255, 0) 100%
-        )
-        10% 3% / cover no-repeat,
-      url("../../cl2-header.webp") 10% 3% / cover no-repeat;
-    margin: 20px auto auto;
-    top: 20px;
+    flex-direction: column;
+    background-color: var(--bgcolor);
   }
-  .channelName {
-    text-align: center;
-    top: 470px;
-    /* font-family: Merriweather, serif; */
-    font-size: 48px;
-    color: #fff;
-    text-shadow: 2px 2px 8px #000;
-    position: absolute;
-    padding: 0 20px;
-  }
-}
-.channelName > h1 {
-  font-size: inherit;
-  font-weight: 650;
-  padding: 0 20px;
-}
-@media screen and (max-width: 1440px) {
-  .homebtn {
-    margin-top: 637px;
-  }
-  .channelHeader {
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-left: 5%;
-    height: 632px;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(
-          to bottom,
-          rgba(255, 255, 255, 0) 0,
-          rgba(0, 0, 0, 0.2) 400px,
-          rgba(0, 0, 0, 0.5) 550px,
-          rgba(0, 0, 0, 0.2) 97%,
-          rgba(255, 255, 255, 0) 100%
-        )
-        10% 0 / auto 100%,
-      url("../../cl2-header.webp") 10% 0 / auto 100%;
-  }
-  .channelName {
-    text-align: center;
-    margin-top: 500px;
-    margin-left: 5%;
-    margin-right: 5%;
-    /* font-family: Merriweather, serif; */
-    font-size: 40px;
-    color: #fff;
-    text-shadow: 2px 2px 8px #000;
-    position: absolute;
-  }
-}
-@media screen and (max-width: 1010px) {
-  .channelName {
-    text-align: center;
-    margin-top: 400px;
-    margin-left: 5%;
-    margin-right: 5%;
-    /* font-family: Merriweather, serif; */
-    font-size: 38px;
-    color: #fff;
-    text-shadow: 2px 2px 8px #000;
-    position: absolute;
-  }
-  .channelHeader {
-    height: 550px;
-    background-position: 10% 10%;
-  }
-  .homebtn {
-    margin-top: 555px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .channelName {
-    text-align: center;
-    margin-top: 280px;
-    margin-left: 5%;
-    margin-right: 5%;
-    /* font-family: Merriweather, serif; */
-    font-size: 35px;
-    color: #fff;
-    text-shadow: 2px 2px 8px #000;
-    position: absolute;
-    padding: 0 18px;
-  }
-  .channelHeader {
-    height: 480px;
-    background: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0) 0,
-        rgba(0, 0, 0, 0.2) 50%,
-        rgba(0, 0, 0, 0.5) 70%,
-        rgba(0, 0, 0, 0.2) 97%,
-        rgba(255, 255, 255, 0) 100%
-      ),
-      url("../../cl2-header.webp");
-  }
-  .homebtn {
-    margin-top: 484px;
-  }
-}
-.homebtn > img {
-  height: 24px;
-  width: 24px;
+
+
 }

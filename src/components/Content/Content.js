@@ -4,9 +4,12 @@ import { translatedVolume } from '../../constants/volumeObj.js';
 import VolumeCard from "../VolumeCard/VolumeCard.js";
 import Header from "../ChannelHeader/Header.js";
 import './ContentStyle.css';
-import Footer from "../Footer/Footer.js";
 import BuyMeCoffee from "../BuyMeCoffee/BuyMeCoffee.js";
+
+
 export default function Content() {
+  document.querySelector("body").setAttribute("data-theme", "light");
+
   const transVolumes = translatedVolume.slice(0).reverse();
 
   useEffect(() => {
@@ -53,7 +56,6 @@ export default function Content() {
         </a>
       </div>
       <BuyMeCoffee />
-      <Footer />
     </>
   );
 }

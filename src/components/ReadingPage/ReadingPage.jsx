@@ -6,10 +6,11 @@ import { translatedVolume } from "../../constants/volumeObj.js";
 import "../ReadingPage/ReadingPageStyle.css";
 import Header from "../ChannelHeader/Header.js";
 import { Helmet } from "react-helmet";
-import Footer from "../Footer/Footer.js";
 import BuyMeCoffee from "../BuyMeCoffee/BuyMeCoffee.js";
 import Ad from "../Ads/Ad.jsx";
 import Ad2 from "../Ads/Ad2.jsx";
+import { ReactComponent as Sun } from "./Sun.svg";
+import { ReactComponent as Moon } from "./Moon.svg";
 
 export const ReadingPage = () => {
   const search = useLocation().search;
@@ -61,6 +62,25 @@ export const ReadingPage = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currIndex]);
 
+  const setDarkMode = () => {
+    document.querySelector("body").setAttribute("data-theme", "dark");
+    localStorage.setItem("selectedTheme", "dark");
+  };
+  const setLightMode = () => {
+    document.querySelector("body").setAttribute("data-theme", "light");
+    localStorage.setItem("selectedTheme", "light");
+  };
+  const selectedTheme = localStorage.getItem("selectedTheme");
+  if (selectedTheme === "dark") {
+    setDarkMode();
+  }
+  const toggleTheme = (e) => {
+    if (e.target.checked) {
+      setDarkMode();
+    } else {
+      setLightMode();
+    }
+  };
   function getIndex(chapterName) {
     let count = 0;
     for (let i = 0; i < chapterList.length; i++) {
@@ -167,11 +187,7 @@ export const ReadingPage = () => {
           );
           arr.push(component);
         }
-        // arr.push(
-        //   <button id="bookmark_read" key="10000" onClick={() => save()}>
-        //     <img src="./icons8-bookmark.svg" alt="bookmark" />
-        //   </button>
-        // );
+
         setFileContent(arr);
       } catch (error) {
         setFileContent("Error loading file");
@@ -189,8 +205,19 @@ export const ReadingPage = () => {
         </title>
       </Helmet>
       <Header />
-      <br />
-      <br />
+      <div className="dark_mode">
+        <input
+          className="dark_mode_input"
+          type="checkbox"
+          id="darkmode-toggle"
+          onChange={toggleTheme}
+          defaultChecked={selectedTheme === "dark"}
+        />
+        <label className="dark_mode_label" htmlFor="darkmode-toggle">
+          <Sun />
+          <Moon />
+        </label>
+      </div>
       <br />
       <div className="dropdown">
         <button onClick={toggleOpen} className="dropbtn">
@@ -267,7 +294,6 @@ export const ReadingPage = () => {
         )}
       </div>
       <BuyMeCoffee />
-      <Footer />
     </>
   );
 };

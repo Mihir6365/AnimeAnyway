@@ -3,49 +3,49 @@
 
     <!-- Main page -->
     <url>
-        <loc>https://animeanyway.me</loc>
+        <loc>https://animeanyway.com</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
 
     <!-- Details pages -->
     <url>
-        <loc>https://animeanyway.me/details?volume=0</loc>
+        <loc>https://animeanyway.com/details?volume=0</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/details?volume=1</loc>
+        <loc>https://animeanyway.com/details?volume=1</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/details?volume=2</loc>
+        <loc>https://animeanyway.com/details?volume=2</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/details?volume=3</loc>
+        <loc>https://animeanyway.com/details?volume=3</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/details?volume=4</loc>
+        <loc>https://animeanyway.com/details?volume=4</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/details?volume=5</loc>
+        <loc>https://animeanyway.com/details?volume=5</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/details?volume=6</loc>
+        <loc>https://animeanyway.com/details?volume=6</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/details?volume=7</loc>
+        <loc>https://animeanyway.com/details?volume=7</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -53,368 +53,368 @@
 
     <!-- Reading pages -->
     <url>
-        <loc>https://animeanyway.me/read?volume=0&amp;chapter=Index</loc>
+        <loc>https://animeanyway.com/read?volume=0&amp;chapter=Index</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=0&amp;chapter=Prologue</loc>
+        <loc>https://animeanyway.com/read?volume=0&amp;chapter=Prologue</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=0&amp;chapter=Chapter%201</loc>
+        <loc>https://animeanyway.com/read?volume=0&amp;chapter=Chapter%201</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=0&amp;chapter=Chapter%202</loc>
+        <loc>https://animeanyway.com/read?volume=0&amp;chapter=Chapter%202</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=0&amp;chapter=Chapter%203</loc>
+        <loc>https://animeanyway.com/read?volume=0&amp;chapter=Chapter%203</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=0&amp;chapter=Chapter%204</loc>
+        <loc>https://animeanyway.com/read?volume=0&amp;chapter=Chapter%204</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=0&amp;chapter=Chapter%205</loc>
+        <loc>https://animeanyway.com/read?volume=0&amp;chapter=Chapter%205</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=0&amp;chapter=Chapter%206</loc>
+        <loc>https://animeanyway.com/read?volume=0&amp;chapter=Chapter%206</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=0&amp;chapter=Epilogue</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <url>
-        <loc>https://animeanyway.me/read?volume=1&amp;chapter=Index</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=1&amp;chapter=Prologue</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=1&amp;chapter=Chapter%201</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=1&amp;chapter=Chapter%202</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=1&amp;chapter=Chapter%203</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=1&amp;chapter=Chapter%204</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=1&amp;chapter=Chapter%205</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=1&amp;chapter=Chapter%206</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=1&amp;chapter=Epilogue</loc>
+        <loc>https://animeanyway.com/read?volume=0&amp;chapter=Epilogue</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
 
-
     <url>
-        <loc>https://animeanyway.me/read?volume=2&amp;chapter=Index</loc>
+        <loc>https://animeanyway.com/read?volume=1&amp;chapter=Index</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=2&amp;chapter=Prologue</loc>
+        <loc>https://animeanyway.com/read?volume=1&amp;chapter=Prologue</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=2&amp;chapter=Chapter%201</loc>
+        <loc>https://animeanyway.com/read?volume=1&amp;chapter=Chapter%201</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=2&amp;chapter=Chapter%202</loc>
+        <loc>https://animeanyway.com/read?volume=1&amp;chapter=Chapter%202</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=2&amp;chapter=Chapter%203</loc>
+        <loc>https://animeanyway.com/read?volume=1&amp;chapter=Chapter%203</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=2&amp;chapter=Chapter%204</loc>
+        <loc>https://animeanyway.com/read?volume=1&amp;chapter=Chapter%204</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=2&amp;chapter=Chapter%205</loc>
+        <loc>https://animeanyway.com/read?volume=1&amp;chapter=Chapter%205</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=2&amp;chapter=Chapter%206</loc>
+        <loc>https://animeanyway.com/read?volume=1&amp;chapter=Chapter%206</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=2&amp;chapter=Epilogue</loc>
+        <loc>https://animeanyway.com/read?volume=1&amp;chapter=Epilogue</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
 
 
     <url>
-        <loc>https://animeanyway.me/read?volume=3&amp;chapter=Index</loc>
+        <loc>https://animeanyway.com/read?volume=2&amp;chapter=Index</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=3&amp;chapter=Prologue</loc>
+        <loc>https://animeanyway.com/read?volume=2&amp;chapter=Prologue</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=3&amp;chapter=Chapter%201</loc>
+        <loc>https://animeanyway.com/read?volume=2&amp;chapter=Chapter%201</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=3&amp;chapter=Chapter%202</loc>
+        <loc>https://animeanyway.com/read?volume=2&amp;chapter=Chapter%202</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=3&amp;chapter=Chapter%203</loc>
+        <loc>https://animeanyway.com/read?volume=2&amp;chapter=Chapter%203</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=3&amp;chapter=Chapter%204</loc>
+        <loc>https://animeanyway.com/read?volume=2&amp;chapter=Chapter%204</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=3&amp;chapter=Chapter%205</loc>
+        <loc>https://animeanyway.com/read?volume=2&amp;chapter=Chapter%205</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=3&amp;chapter=Chapter%206</loc>
+        <loc>https://animeanyway.com/read?volume=2&amp;chapter=Chapter%206</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=3&amp;chapter=Epilogue</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-
-    <url>
-        <loc>https://animeanyway.me/read?volume=4&amp;chapter=Index</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=4&amp;chapter=Prologue</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=4&amp;chapter=Chapter%201</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=4&amp;chapter=Chapter%202</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=4&amp;chapter=Chapter%203</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=4&amp;chapter=Chapter%204</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=4&amp;chapter=Chapter%205</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=4&amp;chapter=Chapter%206</loc>
-        <changefreq>daily</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://animeanyway.me/read?volume=4&amp;chapter=Epilogue</loc>
+        <loc>https://animeanyway.com/read?volume=2&amp;chapter=Epilogue</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
 
 
     <url>
-        <loc>https://animeanyway.me/read?volume=5&amp;chapter=Index</loc>
+        <loc>https://animeanyway.com/read?volume=3&amp;chapter=Index</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=5&amp;chapter=Prologue</loc>
+        <loc>https://animeanyway.com/read?volume=3&amp;chapter=Prologue</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=5&amp;chapter=Chapter%201</loc>
+        <loc>https://animeanyway.com/read?volume=3&amp;chapter=Chapter%201</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=5&amp;chapter=Chapter%202</loc>
+        <loc>https://animeanyway.com/read?volume=3&amp;chapter=Chapter%202</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=5&amp;chapter=Chapter%203</loc>
+        <loc>https://animeanyway.com/read?volume=3&amp;chapter=Chapter%203</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=5&amp;chapter=Chapter%204</loc>
+        <loc>https://animeanyway.com/read?volume=3&amp;chapter=Chapter%204</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=5&amp;chapter=Chapter%205</loc>
+        <loc>https://animeanyway.com/read?volume=3&amp;chapter=Chapter%205</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=5&amp;chapter=Chapter%206</loc>
+        <loc>https://animeanyway.com/read?volume=3&amp;chapter=Chapter%206</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=5&amp;chapter=Epilogue</loc>
+        <loc>https://animeanyway.com/read?volume=3&amp;chapter=Epilogue</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+
+    <url>
+        <loc>https://animeanyway.com/read?volume=4&amp;chapter=Index</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=4&amp;chapter=Prologue</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=4&amp;chapter=Chapter%201</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=4&amp;chapter=Chapter%202</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=4&amp;chapter=Chapter%203</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=4&amp;chapter=Chapter%204</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=4&amp;chapter=Chapter%205</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=4&amp;chapter=Chapter%206</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=4&amp;chapter=Epilogue</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+
+    <url>
+        <loc>https://animeanyway.com/read?volume=5&amp;chapter=Index</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=5&amp;chapter=Prologue</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=5&amp;chapter=Chapter%201</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=5&amp;chapter=Chapter%202</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=5&amp;chapter=Chapter%203</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=5&amp;chapter=Chapter%204</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=5&amp;chapter=Chapter%205</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=5&amp;chapter=Chapter%206</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://animeanyway.com/read?volume=5&amp;chapter=Epilogue</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Index</loc>
+        <loc>https://animeanyway.com/read?volume=6&amp;chapter=Index</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Prologue</loc>
+        <loc>https://animeanyway.com/read?volume=6&amp;chapter=Prologue</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Chapter%201</loc>
+        <loc>https://animeanyway.com/read?volume=6&amp;chapter=Chapter%201</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Chapter%202</loc>
+        <loc>https://animeanyway.com/read?volume=6&amp;chapter=Chapter%202</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Chapter%203</loc>
+        <loc>https://animeanyway.com/read?volume=6&amp;chapter=Chapter%203</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Chapter%204</loc>
+        <loc>https://animeanyway.com/read?volume=6&amp;chapter=Chapter%204</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Chapter%205</loc>
+        <loc>https://animeanyway.com/read?volume=6&amp;chapter=Chapter%205</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=6&amp;chapter=Epilogue</loc>
+        <loc>https://animeanyway.com/read?volume=6&amp;chapter=Epilogue</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
 
     <url>
-        <loc>https://animeanyway.me/read?volume=7&amp;chapter=Index</loc>
+        <loc>https://animeanyway.com/read?volume=7&amp;chapter=Index</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=7&amp;chapter=Prologue</loc>
+        <loc>https://animeanyway.com/read?volume=7&amp;chapter=Prologue</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=7&amp;chapter=Chapter%201</loc>
+        <loc>https://animeanyway.com/read?volume=7&amp;chapter=Chapter%201</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=7&amp;chapter=Chapter%202</loc>
+        <loc>https://animeanyway.com/read?volume=7&amp;chapter=Chapter%202</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=7&amp;chapter=Chapter%203</loc>
+        <loc>https://animeanyway.com/read?volume=7&amp;chapter=Chapter%203</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=7&amp;chapter=Chapter%204</loc>
+        <loc>https://animeanyway.com/read?volume=7&amp;chapter=Chapter%204</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=7&amp;chapter=Chapter%205</loc>
+        <loc>https://animeanyway.com/read?volume=7&amp;chapter=Chapter%205</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=7&amp;chapter=Chapter%206</loc>
+        <loc>https://animeanyway.com/read?volume=7&amp;chapter=Chapter%206</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://animeanyway.me/read?volume=7&amp;chapter=Epilogue</loc>
+        <loc>https://animeanyway.com/read?volume=7&amp;chapter=Epilogue</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
